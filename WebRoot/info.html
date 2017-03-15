@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en">  <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+	================================================== -->
+	<meta charset="utf-8">
+	<title>Blitz | Contacts v2</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- CSS
+	================================================== -->
+	<!-- Normalize default styles -->
+	<link rel="stylesheet" href="css/normalize.css" media="screen" />
+	<!-- Skeleton grid system -->
+	<link rel="stylesheet" href="css/skeleton.css" media="screen" />
+	<!-- FontAwesome (Icon Fonts) -->
+	<link rel="stylesheet" href="css/font-awesome.min.css" media="screen" />
+	<!-- Base Template Styles-->
+	<link rel="stylesheet" href="css/base.css" media="screen" />
+	<!-- Template Styles-->
+	<link rel="stylesheet" href="css/style.css" media="screen" />
+
+	<!-- Flexslider -->
+
+	<!-- Styles for Mobile devices -->
+	<link rel="stylesheet" href="css/responsive.css" media="screen" />
+	
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="css/ie/ie8.css" media="screen" />
+	<![endif]-->
+	
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!-- Favicons
+	================================================== -->
+		 <style>	
+     body, html {
+		margin:0;
+		padding:0;
+		font-family:"微软雅黑"; 
+			}	
+	  
+    </style> 
+</head>
+
+<body>
+	
+	<!-- BEGIN WRAPPER -->
+	<div id="wrapper">
+	
+			
+		<div class="main-box">
+
+
+
+			
+			<!-- BEGIN CONTENT WRAPPER -->
+			<div id="content-wrapper" class="content-wrapper">
+				<div class="container">
+					<div class="clearfix">
+				
+						<div class="grid_6" >
+							<!-- Contact Form -->
+							<div class="box">
+								<form method="post" action="sendEmail.php" id="contact-form" class="contact-form input-blocks">
+									<div class="field">
+										<label for="name"><strong>您的姓名</strong> (必填)</label>
+										<input type="text" name="name" id="name" value="您的姓名" onfocus="if(this.value=='您的姓名')this.value='';">
+									</div>
+									<div class="field">
+										<label for="email"><strong>您的邮箱</strong> (必填)</label>
+										<input type="email" name="email" id="email" value="您的邮箱" onfocus="if(this.value=='您的邮箱')this.value='';">
+									</div>
+									<div class="field">
+										<label for="subject"><strong>您的公司名称</strong></label>
+										<input type="text" name="subject" id="subject" value="您的公司名称" onfocus="if(this.value=='您的公司名称')this.value='';">
+									</div>
+									<div class="field" style="height:200px">
+										<label for="contact-message"><strong>您的留言</strong> (您可以填写您的意见或者任何好的想法)</label>
+										<textarea name="comments" id="comments" cols="30" rows="10" ></textarea>
+									</div>
+									<div class="button-wrapper">
+										<input type="button" name="submit" id="submit" value="发送">
+									</div>
+									<div id="response"></div>
+								</form>
+							</div>
+							<!-- Contact Form / End -->
+						</div>
+						<div class="grid_6">
+							<!-- Google Map -->
+							<h3>扫描二维码关注我们</h3>
+							<div style="margin:50px 0 30px 100px;width:270px;height:270px;">
+								 <img src="/images/wicloud.png">
+							</div>
+							<!-- Google Map / End -->
+
+							<!-- Contact Information -->
+							</br><h3>或者直接联系我们</h3>
+							
+							<ul class="contact-info">
+								
+								<li>
+									<i class="icon-phone"></i> <strong>Phone:</strong> +86 185 1159 9022
+								</li>
+								<li>
+									<i class="icon-envelope"></i> <strong>Email:</strong> <a href="mailto:service@wicloud.cc">service@wicloud.cc</a>
+								</li>
+								
+							</ul>
+							<!-- Contact Information / End -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- END CONTENT WRAPPER -->
+			
+
+		</div>
+			
+		
+	</div>
+	<!-- END WRAPPER -->
+	
+	
+</body>
+</html>

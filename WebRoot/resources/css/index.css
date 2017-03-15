@@ -1,0 +1,38 @@
+.circliful {
+	position: relative;
+}
+
+.circle-text, .circle-info, .circle-text-half, .circle-info-half {
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	display: inline-block;
+}
+
+.circle-info, .circle-info-half {
+	color: #999;
+}
+
+.circliful .fa {
+	margin: -10px 3px 0 3px;
+	position: relative;
+	bottom: 4px;
+}
+
+body {
+	font-family: "微软雅黑";
+	background: url(../../wibupt/img/blue-background-6.jpg)
+}
+
+@media ( max-width :980px) {
+	.navbar-text.pull-right {
+		float: none;
+		padding-left: 5px;
+	}
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	background-color: #3e5bb7;
+	border: none;
+	padding-bottom: 22px
+}

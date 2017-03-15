@@ -1,0 +1,251 @@
+#legend{
+	background:#fff;
+	padding:7px;
+	z-index:100
+}
+
+.legend-text{
+	float:left;
+	line-height:21px
+}
+
+.legend-item{
+	border:1px solid #21bb0c;
+	background:#46b035;
+	float:left;
+	margin-left:1px;
+	padding:2px 12px;
+	color:#fff;
+	position:relative;
+	overflow:hidden;
+	text-decoration:none
+}
+
+.legend-1{
+	border-color:#21bb0c;
+	background:#46b035
+}
+
+.legend-2{
+	border-color:#93bd02;
+	background:#9bc702
+}
+
+.legend-3{
+	border-color:#f5a700;
+	background:#ffae00
+}
+
+.legend-4{
+	border-color:#f46e01;
+	background:#ff7200
+}
+
+.legend-5{
+	border-color:#f52a1d;
+	background:#fd3023
+}
+
+.legend-item-wrapper{
+	position:absolute;
+	height:45px;
+	top:-46px;
+	left:-84px
+}
+
+.legend-item-tip{
+	position:relative;
+	border:1px solid #acb2bb;
+	color:#333;
+	white-space:nowrap;
+	background-repeat:no-repeat;
+	background-position:14px 50%;
+	padding:6px 14px 6px 99px;
+	height:26px;
+	width:145px;
+	line-height:26px;
+	text-align:center
+}
+
+.legend-1 .legend-item-tip{
+	background:url(http://webmap0.map.bdimg.com/newheatmap/static/index/images/bg_level_1_334d47d.png?__sprite) no-repeat 14px 50% #fff
+}
+
+.legend-2 .legend-item-wrapper{
+	left:-94px
+}
+
+.legend-2 .legend-item-tip{
+	background:url(http://webmap0.map.bdimg.com/newheatmap/static/index/images/bg_level_2_d9f377d.png?__sprite) no-repeat 14px 50% #fff
+}
+
+.legend-3 .legend-item-wrapper{
+	left:-94px
+}
+
+.legend-3 .legend-item-tip{
+	background:url(http://webmap0.map.bdimg.com/newheatmap/static/index/images/bg_level_3_485941c.png?__sprite) no-repeat 14px 50% #fff
+}
+
+.legend-4 .legend-item-wrapper{
+	left:-94px
+}
+
+.legend-4 .legend-item-tip{
+	background:url(http://webmap0.map.bdimg.com/newheatmap/static/index/images/bg_level_4_44190f0.png?__sprite) no-repeat 14px 50% #fff
+}
+
+.legend-5 .legend-item-wrapper{
+	left:-173px
+}
+
+.legend-5 .legend-item-tip{
+	width:165px;
+	background:url(http://webmap0.map.bdimg.com/newheatmap/static/index/images/bg_level_5_f28380e.png?__sprite) no-repeat 14px 50% #fff
+}
+
+.legend-item:hover{
+	overflow:visible
+}
+
+.legend-item-tip-arrow{
+	background:url(http://webmap0.map.bdimg.com/newheatmap/static/index/images/tip_arrow_c777bf8.png?__sprite) no-repeat 0 0;
+	width:7px;
+	height:5px;
+	position:absolute;
+	left:50%;
+	margin-left:-3px;
+	top:38px
+}
+
+.legend-5 .legend-item-tip-arrow{
+	left:220px
+}
+
+#time-control-btns{
+	overflow:hidden
+}
+
+.time-control-btn{
+	margin-left:5px;
+	padding:5px 10px;
+	border:1px solid #acb2bb;
+	background:#fff;
+	color:#000;
+	text-decoration:none;
+	float:left
+}
+
+.time-control-btn.active{
+	background:#278df2;
+	color:#fff
+}
+
+#time-panel{
+	background:rgba(255,255,255,.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF);
+	border:1px solid #acb2bb;
+	padding:13px;
+	margin-top:5px;
+	width:295px;
+	overflow:hidden;
+	position:absolute;
+	top:32px;
+	right:0;
+	display:none
+}
+
+.time-panel-title{
+	font-weight:700;
+	font-size:14px
+}
+
+.time-panel-title .time-panel-time{
+	font-size:12px;
+	font-weight:400;
+	margin-left:10px
+}
+
+.time-panel-control{
+	overflow:hidden
+}
+
+.time-panel-progress-container{
+	float:left;
+	width:252px
+}
+
+.time-panel-progress-bar{
+	background:url(http://webmap0.map.bdimg.com/newheatmap/static/index/images/time-progress-bar_3d8a295.png?__sprite) no-repeat right 0;
+	width:252px;
+	height:8px;
+	position:relative;
+	margin-top:10px
+}
+
+.time-panel-progress-text{
+	overflow:hidden;
+	margin-top:-3px;
+	width:270px;
+	position:relative;
+	left:-5px
+}
+
+.time-panel-progress-tick{
+	float:left;
+	background:url(http://webmap0.map.bdimg.com/newheatmap/static/index/images/tick_72211ea.png?__sprite) no-repeat 50% 0;
+	padding-top:7px;
+	width:12.5%;
+	text-align:center;
+	*width:12.4%
+}
+
+.time-panel-week .time-panel-progress-tick{
+	width:14.28%;
+	*width:14.2%
+}
+
+.time-panel-progress{
+	background:url(http://webmap0.map.bdimg.com/newheatmap/static/index/images/time-progress_cb28985.png?__sprite) no-repeat 0 0;
+	width:16px;
+	height:16px;
+	position:absolute;
+	top:-5px;
+	left:0
+}
+
+.time-panel-btn{
+	background:url(http://webmap0.map.bdimg.com/newheatmap/static/index/images/time-btn-pause_8c55183.png?__sprite) no-repeat 0 0;
+	width:33px;
+	height:33px;
+	float:right;
+	cursor:pointer
+}
+
+.time-panel-btn.play{
+	background:url(http://webmap0.map.bdimg.com/newheatmap/static/index/images/time-btn-play_22fead8.png?__sprite) no-repeat 0 0
+}
+
+
+.module, .register{
+	
+	top:30%;
+	z-index:5;
+	padding: 20px;
+	width:auto;
+	height:auto; 
+
+	background-color:rgba(51, 46, 46, 0.6);
+	background:transparent\9\0;  
+	background:transparent\0;  
+	*background:transparent; 
+	_background:transparent; 
+		
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7000101a,endColorstr=#7000101a); 
+	zoom: 1;
+
+
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	}

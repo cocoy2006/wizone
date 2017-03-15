@@ -1,0 +1,82 @@
+/* Image */
+img {
+	max-width: none;
+}
+/* List Elements */
+.list-elements .item.fifth {
+	padding-left: 0;
+	margin-left: 0;
+	border-left: none;
+}
+/* Info Boxes */
+.info-box-num {
+	background: url(../../images/black-opacity-12.png);
+}
+
+
+/* Flexslider
+-------------------------------------------------- */
+/* Direction Nav */
+.flexslider__carousel .flex-direction-nav {
+	visibility: hidden;
+}
+.flexslider__carousel:hover .flex-direction-nav {
+	visibility: visible;
+}
+.flexslider__carousel .slides > li:before {
+	display: none;
+}
+
+/* Flexslider
+-------------------------------------------------- */
+.rs-thumb-wrap > a > img {
+	max-height: 60px;
+}
+
+
+/* Primary Section
+-------------------------------------------------- */
+.video-static .video-holder {
+	background: url(../../images/black-opacity-12.png);
+	border: 1px solid #484442;
+	margin-bottom: 0;
+}
+	.video-static .video-holder img {
+		width: 100%;
+	}
+
+
+/* Project Carousel
+-------------------------------------------------- */
+.carousel__projects .dlink,
+.carousel__projects .zoom {
+	visibility: hidden;
+}
+.carousel__projects .item-inner:hover .dlink,
+.carousel__projects .item-inner:hover .zoom {
+	visibility: visible;
+}
+.carousel__projects .item-inner:hover .overlay {
+	visibility: visible;
+}
+
+
+/* Social Links
+-------------------------------------------------- */
+.social-links li a {
+	background: url(../../images/gray-opacity-40.png);
+}
+
+
+/* Portfolio
+-------------------------------------------------- */
+.project-img:hover .overlay {
+	visibility: visible;
+}
+
+/* Misc
+-------------------------------------------------- */
+.overlay {
+	background: url(../../images/black-opacity-65.png);
+	visibility: hidden;
+}

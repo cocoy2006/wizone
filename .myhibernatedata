@@ -1,0 +1,24 @@
+#MyEclipse Hibernate Properties
+#Wed Nov 05 16:56:04 CST 2014
+sessionFactoryName=com.wicloud.main.java.entity.xml.HibernateSessionFactory
+genBasicCompId=false
+profile=
+daoSFId=
+version=3.3
+jndiPath=
+detectM2M=false
+reStrategyClass=
+detectO2O=false
+springDaoFile=
+useJavaTypes=true
+keyGenerator=
+libInstallFolder=<no jars/zips in selected libraries>
+addLibs2Project=true
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=com.wicloud.main.java.entity.BaseEntity
+genAnnotations=false
+reSettingsFile=/wicloud/hibernate.reveng.xml
+configFile=/wicloud/src/hibernate.cfg.xml
+createConfigFile=false
+addLibs2Classpath=true

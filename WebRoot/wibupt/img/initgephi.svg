@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="595px"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css" viewBox="-382 -362 686 783" height="679px"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path fill="none" stroke-width="0.5"
+              d="M -81.244156,124.952728 L 41.178040,-94.818726"
+              class="8CA9825326C4 科研楼" stroke-opacity="1.0" stroke="#919191"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -81.244156,124.952728 L -171.079666,197.515579"
+              class="8CA9825326C4 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -50.009789,128.483810 L 42.466820,-94.194695"
+              class="00234ED74B51 科研楼" stroke-opacity="1.0" stroke="#919191"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -50.009789,128.483810 L -170.027725,199.035400"
+              class="00234ED74B51 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 50.046402,14.073212 L 47.551510,-93.242165"
+              class="001F3CDF7DE0 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 98.232605,-191.645233 L 53.639450,-116.488907"
+              class="0022431F2C3F 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 284.423462,-56.258961 L 59.497509,-103.185844"
+              class="EC55F9C6D5CD 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -146.634369,68.718773 L 37.968658,-97.378006"
+              class="60D9C746FA23 科研楼" stroke-opacity="1.0" stroke="#919191"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -146.634369,68.718773 L -177.771515,193.243362"
+              class="60D9C746FA23 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -170.109894,14.341022 L 36.319481,-99.694489"
+              class="786A89D90173 科研楼" stroke-opacity="1.0" stroke="#919191"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -170.109894,14.341022 L -180.105103,192.889557"
+              class="786A89D90173 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 209.477020,-181.057632 L 58.598484,-111.002922"
+              class="002376FAAF89 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 126.413467,-340.144531 L 51.260059,-117.581818"
+              class="0008CAA656BE 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -117.554451,-251.085602 L 37.885796,-114.006546"
+              class="18DC5637824F 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -110.391083,-170.237305 L 35.691765,-110.471977"
+              class="F8A45FAB61BB 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 120.475609,-15.673694 L 55.145779,-96.039291"
+              class="C46AB74D57D6 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -58.703007,-287.569092 L 40.967194,-116.538704"
+              class="5CE8EB91DE52 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 217.661392,-2.790422 L 57.959984,-99.274925"
+              class="5C969D2FAB15 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -122.514305,22.275919 L 37.280300,-98.213104"
+              class="4C7F622D2C44 科研楼" stroke-opacity="1.0" stroke="#919191"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -122.514305,22.275919 L -177.011810,193.459045"
+              class="4C7F622D2C44 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 172.446335,-233.798706 L 55.998932,-114.677376"
+              class="38BC1A098547 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -154.327286,-246.879883 L 37.021286,-112.908066"
+              class="98D6BB4351DC 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -72.135696,-322.538391 L 41.230919,-116.688133"
+              class="F8A45F7EE0C0 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 230.653122,-127.595039 L 59.673149,-107.218040"
+              class="38BC1A967E88 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 183.087524,-83.271873 L 59.593418,-103.698891"
+              class="04DB563B5F3D 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 161.597733,-321.455658 L 53.114929,-116.783302"
+              class="C0188525E6A2 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -12.336452,-160.224274 L 38.035347,-114.173096"
+              class="94DBC9C50CC4 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 288.285828,-137.620041 L 59.653049,-107.377930"
+              class="18E7F496F027 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 178.631516,-143.555283 L 59.273201,-109.196640"
+              class="ACF7F31173D8 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 197.753174,-302.432190 L 54.856647,-115.666321"
+              class="581FAA981609 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -70.329720,-254.063034 L 39.495407,-115.533981"
+              class="00186023BE20 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 17.366447,-352.203735 L 45.755852,-118.147835"
+              class="4860BC25214E 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 88.287392,-346.257843 L 49.362808,-118.060814"
+              class="18AF6130AFAF 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 169.014694,93.951744 L 53.768234,-95.066124"
+              class="68967B745A09 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -46.559223,-211.167862 L 38.951221,-115.076759"
+              class="189EFC10F9A6 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 84.808533,59.431728 L 50.031868,-93.549767"
+              class="BC52B74868E4 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -163.341415,-93.578590 L 34.781773,-105.018234"
+              class="5C95AEBD0F2B 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 232.294037,48.004543 L 56.875263,-97.750313"
+              class="4C3C1643DD0F 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -169.128326,-132.346161 L 34.854424,-107.264305"
+              class="1C1AC0181474 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -93.503906,38.847359 L 38.541298,-96.782387"
+              class="C8E0EB708504 科研楼" stroke-opacity="1.0" stroke="#919191"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -93.503906,38.847359 L -174.999832,194.299133"
+              class="C8E0EB708504 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 92.188530,107.611855 L 49.836754,-93.507050"
+              class="68DFDD8BF736 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 161.304520,-188.040390 L 57.397141,-113.053726"
+              class="001E655A70F8 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 281.046906,-186.476852 L 59.076244,-109.819191"
+              class="B0AA365A52DC 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 256.248352,10.449389 L 58.186085,-99.664886"
+              class="8C006D8DF8B0 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 253.189758,-89.983215 L 59.724560,-104.785202"
+              class="A0F4503A3DF8 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -110.047211,-287.562408 L 39.082443,-115.191902"
+              class="40A6D9DDFB3F 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -160.626053,-166.687012 L 35.265877,-109.255508"
+              class="4860BCE5D0EC 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -101.858856,-211.649643 L 37.069855,-112.976936"
+              class="18DC561AF815 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -126.408760,83.201591 L 38.801880,-96.535873"
+              class="98D6BBA919EE 科研楼" stroke-opacity="1.0" stroke="#919191"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -126.408760,83.201591 L -175.719391,193.950760"
+              class="98D6BBA919EE 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 231.736847,-269.159088 L 56.617649,-114.027504"
+              class="001E656F170E 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -26.801571,147.173889 L 43.748032,-93.742569"
+              class="00EB2D198D3A 科研楼" stroke-opacity="1.0" stroke="#919191"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -26.801571,147.173889 L -169.110794,200.951340"
+              class="00EB2D198D3A 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -43.301468,-82.795097 L 35.143806,-102.668938"
+              class="645A0499253A 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -172.464462,44.225021 L 36.936447,-98.692230"
+              class="A4D1D2AFC2DB 科研楼" stroke-opacity="1.0" stroke="#919191"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -172.464462,44.225021 L -180.157745,192.886719"
+              class="A4D1D2AFC2DB 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -142.147430,39.137749 L 37.332394,-98.144508"
+              class="DC9B9CD9977C 科研楼" stroke-opacity="1.0" stroke="#919191"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -142.147430,39.137749 L -177.972504,193.194870"
+              class="DC9B9CD9977C 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 185.945572,-267.748016 L 55.389778,-115.234718"
+              class="C8DDC9D24A05 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 264.484711,-225.672791 L 58.203865,-111.780586"
+              class="D896951D7B46 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 249.323151,-168.186584 L 59.203651,-109.429695"
+              class="D8B3779877DD 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -40.180023,90.882332 L 42.181644,-94.317299"
+              class="145A056865FB 科研楼" stroke-opacity="1.0" stroke="#919191"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -40.180023,90.882332 L -171.110123,197.478012"
+              class="145A056865FB 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -106.226250,-111.827637 L 34.770813,-106.234268"
+              class="F0DCE2ACF6AB 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -62.916161,-146.282364 L 35.530041,-110.055603"
+              class="C8334B723F38 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 124.963570,-292.875153 L 52.054436,-117.283173"
+              class="207D74144C05 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -33.438515,-336.082794 L 43.127998,-117.535751"
+              class="F8A45F1A6B17 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -72.419182,95.961792 L 40.882385,-94.988739"
+              class="ACF7F35C5448 科研楼" stroke-opacity="1.0" stroke="#919191"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -72.419182,95.961792 L -172.006561,196.489731"
+              class="ACF7F35C5448 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 219.607590,-53.263260 L 59.218979,-102.097855"
+              class="2C282DE61A06 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 124.894760,87.167343 L 51.927784,-94.142624"
+              class="4860BCDE4C6F 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 125.705269,36.441105 L 53.299465,-94.794067"
+              class="A8BBCFE1DE00 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 263.085052,-25.914145 L 58.984795,-101.402618"
+              class="949426C23FC5 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 79.839943,-304.860657 L 49.279316,-118.074760"
+              class="400E856AC97C 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 293.792847,-96.107300 L 59.751457,-105.250809"
+              class="7CC3A12E9F23 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 14.516254,-224.446777 L 43.937092,-117.788750"
+              class="90187C7AE08C 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 38.251831,-292.348785 L 46.658215,-118.224243"
+              class="D022BEC279CF 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 224.619644,-228.783890 L 57.531384,-112.864021"
+              class="28E02C975C71 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -95.757591,67.668228 L 39.307594,-96.095467"
+              class="ACF7F344C184 科研楼" stroke-opacity="1.0" stroke="#919191"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -95.757591,67.668228 L -174.235367,194.734863"
+              class="ACF7F344C184 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 196.371964,64.404266 L 55.499672,-96.338036"
+              class="181EB0B0449E 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -17.034264,102.482132 L 43.573006,-93.795219"
+              class="90187CE4EB0F 科研楼" stroke-opacity="1.0" stroke="#919191"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -17.034264,102.482132 L -170.219254,198.720322"
+              class="90187CE4EB0F 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -57.014481,60.896755 L 40.630135,-95.142471"
+              class="D4206D0FB034 科研楼" stroke-opacity="1.0" stroke="#919191"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -57.014481,60.896755 L -172.670563,195.877838"
+              class="D4206D0FB034 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -2.011159,-318.232635 L 44.437454,-117.915718"
+              class="E899C4E734CC 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -5.895858,-265.368073 L 43.311676,-117.598503"
+              class="94DBC9922A26 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 48.044277,-342.039154 L 47.302422,-118.238716"
+              class="E88D28B0F964 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 65.136261,-245.347473 L 48.848507,-118.137566"
+              class="88329BFE27EE 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -105.587517,-74.275040 L 35.017693,-103.218513"
+              class="689C5E620781 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -170.584122,-199.703232 L 35.783195,-110.689568"
+              class="0CDFA4353456 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -4.782435,132.816528 L 44.596642,-93.526031"
+              class="B4527DC25A2A 科研楼" stroke-opacity="1.0" stroke="#919191"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -4.782435,132.816528 L -169.246994,200.606476"
+              class="B4527DC25A2A 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 175.175751,-22.142138 L 57.724602,-98.900459"
+              class="ACE2156E0EC0 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 132.209473,-105.997345 L 59.760929,-105.776833"
+              class="34CDBE072DD1 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 123.554802,-250.142319 L 53.100307,-116.791039"
+              class="D0E1405610C7 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 172.591599,30.894497 L 55.710602,-96.527161"
+              class="E432CBA183DB 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 70.775124,-21.455496 L 50.620075,-93.698578"
+              class="4C8D796BD296 科研楼" stroke-opacity="1.0" stroke="#26fdfd"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -103.378532,101.963959 L 39.922134,-95.619926"
+              class="2002AF0ECFA1 科研楼" stroke-opacity="1.0" stroke="#919191"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -103.378532,101.963959 L -173.311768,195.364014"
+              class="2002AF0ECFA1 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -372.259064,260.114380 L -192.822098,208.806519"
+              class="00234DD4EF4F 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -268.737061,385.793549 L -186.280121,216.606537"
+              class="F8A45F1733F5 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -338.330261,341.623718 L -190.257858,213.547409"
+              class="789ED05360E6 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -320.880402,279.560181 L -191.850067,211.220581"
+              class="68DFDD1E9639 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -189.472763,367.338654 L -181.471832,217.852142"
+              class="C46AB74C9AC1 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -236.093796,410.072205 L -184.063202,217.437576"
+              class="E0F847CF3068 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -190.319199,410.993927 L -181.381592,217.856644"
+              class="D022BE3BA1DC 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -306.211548,374.156769 L -188.258698,215.403641"
+              class="80CF41677CFB 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -246.118164,341.947021 L -186.196609,216.646851"
+              class="2002AFAE3F72 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -292.923096,322.513947 L -189.446808,214.400391"
+              class="0C3021D02892 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -143.017624,391.805328 L -178.320786,217.620926"
+              class="3010E4E6E334 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -361.165558,220.289856 L -193.261200,206.400513"
+              class="24DBACAD7F5D 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+        <path fill="none" stroke-width="0.5"
+              d="M -362.739502,303.240662 L -191.812042,211.291809"
+              class="6CB7F4119D24 主楼" stroke-opacity="1.0" stroke="#fd2626"/>
+    </g>
+    <g id="arrows">
+        <polyline fill="#919191" fill-opacity="1.0" class="8CA9825326C4 科研楼"
+                  points="41.907993,-96.129128 41.833244,-94.453751 40.522835,-95.183701"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="8CA9825326C4 主楼"
+                  points="-172.246567,198.458099 -171.550934,196.932129 -170.608398,198.099030"
+                  stroke="none"/>
+        <polyline fill="#919191" fill-opacity="1.0" class="00234ED74B51 科研楼"
+                  points="43.042118,-95.579987 43.159466,-93.907043 41.774174,-94.482346"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="00234ED74B51 主楼"
+                  points="-171.320847,199.795563 -170.407806,198.388840 -169.647644,199.681961"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="001F3CDF7DE0 科研楼"
+                  points="47.516647,-94.741760 48.301308,-93.259598 46.801712,-93.224731"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="0022431F2C3F 科研楼"
+                  points="52.874035,-115.198898 52.994442,-116.871613 54.284458,-116.106201"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="EC55F9C6D5CD 科研楼"
+                  points="58.029125,-103.492203 59.650684,-103.920036 59.344334,-102.451653"
+                  stroke="none"/>
+        <polyline fill="#919191" fill-opacity="1.0" class="60D9C746FA23 科研楼"
+                  points="39.083740,-98.381294 38.470306,-96.820465 37.467010,-97.935547"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="60D9C746FA23 主楼"
+                  points="-178.135376,194.698563 -178.499115,193.061432 -177.043915,193.425293"
+                  stroke="none"/>
+        <polyline fill="#919191" fill-opacity="1.0" class="786A89D90173 科研楼"
+                  points="37.632462,-100.419807 36.682140,-99.038002 35.956821,-100.350975"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="786A89D90173 主楼"
+                  points="-180.188934,194.387207 -180.853928,192.847641 -179.356277,192.931473"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="002376FAAF89 科研楼"
+                  points="57.237984,-110.371223 58.282635,-111.683174 58.914333,-110.322670"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="0008CAA656BE 科研楼"
+                  points="50.780170,-116.160652 50.549477,-117.821762 51.970642,-117.341873"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="18DC5637824F 科研楼"
+                  points="39.010818,-113.014412 37.389729,-113.444038 38.381863,-114.569054"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="F8A45FAB61BB 科研楼"
+                  points="37.080070,-109.903992 35.407772,-109.777824 35.975758,-111.166130"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="C46AB74D57D6 科研楼"
+                  points="54.199600,-97.203232 55.727749,-96.512383 54.563808,-95.566200"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="5CE8EB91DE52 科研楼"
+                  points="41.722450,-115.242714 40.319199,-116.161079 41.615189,-116.916328"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="5C969D2FAB15 科研楼"
+                  points="56.676102,-100.050591 58.347816,-99.916862 57.572151,-98.632988"
+                  stroke="none"/>
+        <polyline fill="#919191" fill-opacity="1.0" class="4C7F622D2C44 科研楼"
+                  points="38.477982,-99.116188 37.731842,-97.614265 36.828758,-98.811943"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="4C7F622D2C44 主楼"
+                  points="-177.466843,194.888367 -177.726471,193.231522 -176.297150,193.686569"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="38BC1A098547 科研楼"
+                  points="54.950378,-113.604744 55.462616,-115.201653 56.535248,-114.153099"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="98D6BB4351DC 科研楼"
+                  points="38.250050,-112.047752 36.591129,-112.293686 37.451443,-113.522446"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="F8A45F7EE0C0 科研楼"
+                  points="41.954529,-115.374214 40.573959,-116.326332 41.887878,-117.049934"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="38BC1A967E88 科研楼"
+                  points="58.183693,-107.040527 59.584393,-107.962769 59.761906,-106.473312"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="04DB563B5F3D 科研楼"
+                  points="58.113525,-103.943680 59.715813,-104.438835 59.471024,-102.958946"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="C0188525E6A2 科研楼"
+                  points="52.412457,-115.457962 52.452259,-117.134537 53.777599,-116.432068"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="94DBC9C50CC4 科研楼"
+                  points="39.142426,-113.160980 37.529289,-113.619560 38.541405,-114.726631"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="18E7F496F027 科研楼"
+                  points="58.166000,-107.181229 59.554699,-108.121452 59.751400,-106.634407"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="ACF7F31173D8 科研楼"
+                  points="57.831734,-108.781693 59.065731,-109.917374 59.480671,-108.475906"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="581FAA981609 科研楼"
+                  points="53.945168,-114.475014 54.260994,-116.122063 55.452301,-115.210579"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="00186023BE20 科研楼"
+                  points="40.427277,-114.358551 38.907696,-115.068047 40.083118,-115.999916"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="4860BC25214E 科研楼"
+                  points="45.936466,-116.658752 45.011307,-118.057526 46.500397,-118.238144"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="18AF6130AFAF 科研楼"
+                  points="49.110592,-116.582169 48.623486,-118.186920 50.102131,-117.934708"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="68967B745A09 科研楼"
+                  points="52.987366,-96.346840 54.408592,-95.456558 53.127876,-94.675690"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="189EFC10F9A6 科研楼"
+                  points="39.948395,-113.956207 38.390942,-114.578171 39.511501,-115.575348"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="BC52B74868E4 科研楼"
+                  points="49.699360,-95.012444 50.763210,-93.716019 49.300526,-93.383514"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="5C95AEBD0F2B 科研楼"
+                  points="36.279278,-105.104698 34.825005,-104.269478 34.738541,-105.766991"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="4C3C1643DD0F 科研楼"
+                  points="55.721550,-98.708931 57.354572,-98.327171 56.395954,-97.173454"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="1C1AC0181474 科研楼"
+                  points="36.343212,-107.081245 34.762894,-106.519913 34.945953,-108.008698"
+                  stroke="none"/>
+        <polyline fill="#919191" fill-opacity="1.0" class="C8E0EB708504 科研楼"
+                  points="39.587662,-97.857155 39.078682,-96.259209 38.003914,-97.305565"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="C8E0EB708504 主楼"
+                  points="-175.696289,195.627640 -175.664078,193.950897 -174.335587,194.647369"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="68DFDD8BF736 科研楼"
+                  points="49.527664,-94.974854 50.570660,-93.661598 49.102848,-93.352501"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="001E655A70F8 科研楼"
+                  points="56.180801,-112.175934 56.958244,-113.661896 57.836037,-112.445557"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="B0AA365A52DC 科研楼"
+                  points="57.658413,-109.329544 58.831421,-110.528107 59.321068,-109.110275"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="8C006D8DF8B0 科研楼"
+                  points="56.875072,-100.393753 58.550518,-100.320389 57.821651,-99.009384"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="A0F4503A3DF8 科研楼"
+                  points="58.228931,-104.899628 59.781776,-105.533020 59.667343,-104.037384"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="40A6D9DDFB3F 科研楼"
+                  points="40.063866,-114.057526 38.515255,-114.701187 39.649632,-115.682617"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="4860BCE5D0EC 科研楼"
+                  points="36.705288,-108.833496 35.054874,-108.535805 35.476879,-109.975212"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="18DC561AF815 科研楼"
+                  points="38.292789,-112.108353 36.635567,-112.365471 37.504143,-113.588402"
+                  stroke="none"/>
+        <polyline fill="#919191" fill-opacity="1.0" class="98D6BBA919EE 科研楼"
+                  points="39.816971,-97.640228 39.354053,-96.028328 38.249706,-97.043419"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="98D6BBA919EE 主楼"
+                  points="-176.329514,195.321075 -176.404541,193.645691 -175.034241,194.255829"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="001E656F170E 科研楼"
+                  points="55.494850,-113.032860 56.120327,-114.588905 57.114971,-113.466103"
+                  stroke="none"/>
+        <polyline fill="#919191" fill-opacity="1.0" class="00EB2D198D3A 科研楼"
+                  points="44.169586,-95.182114 44.467804,-93.531792 43.028259,-93.953346"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="00EB2D198D3A 主楼"
+                  points="-170.513947,201.481583 -169.375916,200.249756 -168.845673,201.652924"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="645A0499253A 科研楼"
+                  points="36.597870,-103.037323 35.327995,-101.941910 34.959618,-103.395966"
+                  stroke="none"/>
+        <polyline fill="#919191" fill-opacity="1.0" class="A4D1D2AFC2DB 科研楼"
+                  points="38.175392,-99.537819 37.359241,-98.072762 36.513653,-99.311699"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="A4D1D2AFC2DB 主楼"
+                  points="-180.235260,194.384705 -180.906738,192.847961 -179.408752,192.925476"
+                  stroke="none"/>
+        <polyline fill="#919191" fill-opacity="1.0" class="DC9B9CD9977C 科研楼"
+                  points="38.523827,-99.055817 37.788052,-97.548790 36.876736,-98.740227"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="DC9B9CD9977C 主楼"
+                  points="-178.312256,194.655884 -178.703018,193.024994 -177.241989,193.364746"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="C8DDC9D24A05 科研楼"
+                  points="54.414322,-114.095207 54.820023,-115.722443 55.959534,-114.746994"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="D896951D7B46 科研楼"
+                  points="56.890720,-111.055573 57.841358,-112.437157 58.566372,-111.124016"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="D8B3779877DD 科研楼"
+                  points="57.770531,-108.986786 58.982197,-110.146255 59.425106,-108.713135"
+                  stroke="none"/>
+        <polyline fill="#919191" fill-opacity="1.0" class="145A056865FB 科研楼"
+                  points="42.791164,-95.687881 42.866932,-94.012535 41.496357,-94.622063"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="145A056865FB 主楼"
+                  points="-172.273361,198.425064 -171.583649,196.896393 -170.636597,198.059631"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="F0DCE2ACF6AB 科研楼"
+                  points="36.269630,-106.174812 34.741085,-105.484856 34.800541,-106.983681"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="C8334B723F38 科研楼"
+                  points="36.937752,-109.537582 35.271030,-109.351746 35.789051,-110.759460"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="207D74144C05 科研楼"
+                  points="51.479221,-115.897842 51.361774,-117.570778 52.747097,-116.995567"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="F8A45F1A6B17 科研楼"
+                  points="43.623955,-116.120117 42.420181,-117.287773 43.835815,-117.783730"
+                  stroke="none"/>
+        <polyline fill="#919191" fill-opacity="1.0" class="ACF7F35C5448 科研楼"
+                  points="41.647820,-96.278748 41.527390,-94.606026 40.237381,-95.371452"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="ACF7F35C5448 主楼"
+                  points="-173.062225,197.555359 -172.539383,195.961899 -171.473740,197.017563"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="2C282DE61A06 科研楼"
+                  points="57.784019,-102.534767 59.437435,-102.815331 59.000523,-101.380379"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="4860BCDE4C6F 科研楼"
+                  points="51.367767,-95.534164 52.623554,-94.422630 51.232014,-93.862617"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="A8BBCFE1DE00 科研楼"
+                  points="52.574848,-96.107437 53.956146,-95.156380 52.642784,-94.431755"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="949426C23FC5 科研楼"
+                  points="57.577938,-101.922958 59.244965,-102.106049 58.724625,-100.699188"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="400E856AC97C 科研楼"
+                  points="49.037117,-116.594444 48.539158,-118.195862 50.019474,-117.953659"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="7CC3A12E9F23 科研楼"
+                  points="58.252602,-105.309364 59.780735,-106.000237 59.722179,-104.501381"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="90187C7AE08C 科研楼"
+                  points="44.335957,-116.342758 43.214092,-117.589317 44.660091,-117.988182"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="D022BEC279CF 科研楼"
+                  points="46.730545,-116.725990 45.909088,-118.188080 47.407341,-118.260406"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="28E02C975C71 科研楼"
+                  points="56.298935,-112.008987 57.103870,-113.480247 57.958897,-112.247795"
+                  stroke="none"/>
+        <polyline fill="#919191" fill-opacity="1.0" class="ACF7F344C184 科研楼"
+                  points="40.262001,-97.252663 39.886192,-95.618263 38.728996,-96.572670"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="ACF7F344C184 主楼"
+                  points="-175.023575,196.011078 -174.873474,194.340759 -173.597260,195.128967"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="181EB0B0449E 科研楼"
+                  points="54.511028,-97.466125 56.063717,-96.832359 54.935627,-95.843712"
+                  stroke="none"/>
+        <polyline fill="#919191" fill-opacity="1.0" class="90187CE4EB0F 科研楼"
+                  points="44.015564,-95.228447 44.289619,-93.573944 42.856392,-94.016495"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="90187CE4EB0F 主楼"
+                  points="-171.489395,199.518280 -170.618240,198.085251 -169.820267,199.355392"
+                  stroke="none"/>
+        <polyline fill="#919191" fill-opacity="1.0" class="D4206D0FB034 科研楼"
+                  points="41.425838,-96.414032 41.265915,-94.744621 39.994354,-95.540321"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="D4206D0FB034 主楼"
+                  points="-173.646545,197.016907 -173.240097,195.389847 -172.101028,196.365829"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="E899C4E734CC 科研楼"
+                  points="44.776276,-116.454483 43.706837,-117.746307 45.168072,-118.085129"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="94DBC9922A26 科研楼"
+                  points="43.785595,-116.175339 42.600094,-117.361542 44.023258,-117.835464"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="E88D28B0F964 科研楼"
+                  points="47.297447,-116.738724 46.552425,-118.241203 48.052418,-118.236229"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="88329BFE27EE 科研楼"
+                  points="48.658005,-116.649712 48.104580,-118.232819 49.592434,-118.042313"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="689C5E620781 科研楼"
+                  points="36.486889,-103.520943 35.168907,-102.483917 34.866478,-103.953110"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="0CDFA4353456 科研楼"
+                  points="37.160530,-110.095474 35.486149,-110.000900 36.080242,-111.378235"
+                  stroke="none"/>
+        <polyline fill="#919191" fill-opacity="1.0" class="B4527DC25A2A 科研楼"
+                  points="44.916363,-94.991562 45.329407,-93.366173 43.863876,-93.685890"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="B4527DC25A2A 主楼"
+                  points="-170.633804,201.178101 -169.532806,199.913071 -168.961182,201.299881"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="ACE2156E0EC0 科研楼"
+                  points="56.468967,-99.721054 58.134903,-99.528275 57.314301,-98.272644"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="34CDBE072DD1 科研楼"
+                  points="58.260937,-105.772263 59.758648,-106.526833 59.763210,-105.026833"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="D0E1405610C7 科研楼"
+                  points="52.399590,-115.464767 52.437172,-117.141396 53.763443,-116.440681"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="E432CBA183DB 科研楼"
+                  points="54.696648,-97.632553 56.263298,-97.034134 55.157906,-96.020187"
+                  stroke="none"/>
+        <polyline fill="#26fdfd" fill-opacity="1.0" class="4C8D796BD296 科研楼"
+                  points="50.216984,-95.143402 51.342487,-93.900124 49.897663,-93.497032"
+                  stroke="none"/>
+        <polyline fill="#919191" fill-opacity="1.0" class="2002AF0ECFA1 科研楼"
+                  points="40.802795,-96.834190 40.529266,-95.179596 39.315002,-96.060257"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="2002AF0ECFA1 主楼"
+                  points="-174.210800,196.564728 -173.912125,194.914490 -172.711411,195.813538"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="00234DD4EF4F 主楼"
+                  points="-191.379898,208.394135 -192.615906,209.527618 -193.028290,208.085419"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="F8A45F1733F5 主楼"
+                  points="-185.622955,215.258148 -185.605927,216.935120 -186.954315,216.277954"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="789ED05360E6 主楼"
+                  points="-189.123367,212.566116 -189.767212,214.114655 -190.748505,212.980164"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="68DFDD1E9639 主楼"
+                  points="-190.524506,210.518509 -191.499039,211.883362 -192.201096,210.557800"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="C46AB74C9AC1 主楼"
+                  points="-181.391663,216.354294 -180.722900,217.892227 -182.220764,217.812057"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="E0F847CF3068 主楼"
+                  points="-183.672073,215.989456 -183.339142,217.633148 -184.787262,217.242004"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="D022BE3BA1DC 主楼"
+                  points="-181.312241,216.358246 -180.632401,217.891312 -182.130783,217.821976"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="80CF41677CFB 主楼"
+                  points="-187.364105,214.199615 -187.656677,215.850937 -188.860718,214.956345"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="2002AFAE3F72 主楼"
+                  points="-185.549469,215.293625 -185.520004,216.970428 -186.873215,216.323273"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="0C3021D02892 主楼"
+                  points="-188.409637,213.316742 -188.904984,214.918976 -189.988632,213.881805"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="3010E4E6E334 主楼"
+                  points="-178.618744,216.150818 -177.585724,217.471954 -179.055847,217.769897"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="24DBACAD7F5D 主楼"
+                  points="-191.766312,206.276855 -193.199371,207.147964 -193.323029,205.653061"
+                  stroke="none"/>
+        <polyline fill="#fd2626" fill-opacity="1.0" class="6CB7F4119D24 主楼"
+                  points="-190.491043,210.581192 -191.456741,211.952301 -192.167343,210.631317"
+                  stroke="none"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-81.244156"
+                class="8CA9825326C4" cy="124.95273" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="47.260986"
+                class="科研楼" cy="-105.738785" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-50.00979"
+                class="00234ED74B51" cy="128.48381" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="50.046402"
+                class="001F3CDF7DE0" cy="14.073212" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="98.232605"
+                class="0022431F2C3F" cy="-191.64523" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="284.42346"
+                class="EC55F9C6D5CD" cy="-56.25896" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-146.63437"
+                class="60D9C746FA23" cy="68.71877" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-170.1099"
+                class="786A89D90173" cy="14.3410225" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="209.47702"
+                class="002376FAAF89" cy="-181.05763" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="126.41347"
+                class="0008CAA656BE" cy="-340.14453" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="-117.55445"
+                class="18DC5637824F" cy="-251.0856" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="-110.39108"
+                class="F8A45FAB61BB" cy="-170.2373" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="120.47561"
+                class="C46AB74D57D6" cy="-15.673694" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="-58.703007"
+                class="5CE8EB91DE52" cy="-287.5691" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="217.66139"
+                class="5C969D2FAB15" cy="-2.7904217" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-122.514305"
+                class="4C7F622D2C44" cy="22.275919" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="172.44633"
+                class="38BC1A098547" cy="-233.7987" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="-154.32729"
+                class="98D6BB4351DC" cy="-246.87988" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="-72.1357"
+                class="F8A45F7EE0C0" cy="-322.5384" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="230.65312"
+                class="38BC1A967E88" cy="-127.59504" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="183.08752"
+                class="04DB563B5F3D" cy="-83.27187" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="161.59773"
+                class="C0188525E6A2" cy="-321.45566" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="-12.336452"
+                class="94DBC9C50CC4" cy="-160.22427" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="288.28583"
+                class="18E7F496F027" cy="-137.62004" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="178.63152"
+                class="ACF7F31173D8" cy="-143.55528" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="197.75317"
+                class="581FAA981609" cy="-302.4322" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="-70.32972"
+                class="00186023BE20" cy="-254.06303" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="17.366447"
+                class="4860BC25214E" cy="-352.20374" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="88.28739"
+                class="18AF6130AFAF" cy="-346.25784" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="169.0147"
+                class="68967B745A09" cy="93.951744" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="-46.559223"
+                class="189EFC10F9A6" cy="-211.16786" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="84.80853"
+                class="BC52B74868E4" cy="59.43173" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="-163.34142"
+                class="5C95AEBD0F2B" cy="-93.57859" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="232.29404"
+                class="4C3C1643DD0F" cy="48.004543" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="-169.12833"
+                class="1C1AC0181474" cy="-132.34616" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-93.50391"
+                class="C8E0EB708504" cy="38.84736" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="92.18853"
+                class="68DFDD8BF736" cy="107.611855" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="161.30452"
+                class="001E655A70F8" cy="-188.04039" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="281.0469"
+                class="B0AA365A52DC" cy="-186.47685" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="256.24835"
+                class="8C006D8DF8B0" cy="10.4493885" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="253.18976"
+                class="A0F4503A3DF8" cy="-89.983215" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="-110.04721"
+                class="40A6D9DDFB3F" cy="-287.5624" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="-160.62605"
+                class="4860BCE5D0EC" cy="-166.68701" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="-101.85886"
+                class="18DC561AF815" cy="-211.64964" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-126.40876"
+                class="98D6BBA919EE" cy="83.20159" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="231.73685"
+                class="001E656F170E" cy="-269.1591" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-26.80157"
+                class="00EB2D198D3A" cy="147.17389" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="-43.301468"
+                class="645A0499253A" cy="-82.7951" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-172.46446"
+                class="A4D1D2AFC2DB" cy="44.22502" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-142.14743"
+                class="DC9B9CD9977C" cy="39.13775" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="185.94557"
+                class="C8DDC9D24A05" cy="-267.74802" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="264.4847"
+                class="D896951D7B46" cy="-225.67279" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="249.32315"
+                class="D8B3779877DD" cy="-168.18658" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-40.180023"
+                class="145A056865FB" cy="90.88233" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="-106.22625"
+                class="F0DCE2ACF6AB" cy="-111.82764" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="-62.91616"
+                class="C8334B723F38" cy="-146.28236" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="124.96357"
+                class="207D74144C05" cy="-292.87515" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="-33.438515"
+                class="F8A45F1A6B17" cy="-336.0828" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-72.41918"
+                class="ACF7F35C5448" cy="95.96179" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="219.60759"
+                class="2C282DE61A06" cy="-53.26326" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="124.89476"
+                class="4860BCDE4C6F" cy="87.16734" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="125.70527"
+                class="A8BBCFE1DE00" cy="36.441105" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="263.08505"
+                class="949426C23FC5" cy="-25.914145" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="79.83994"
+                class="400E856AC97C" cy="-304.86066" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="293.79285"
+                class="7CC3A12E9F23" cy="-96.1073" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="14.516254"
+                class="90187C7AE08C" cy="-224.44678" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="38.25183"
+                class="D022BEC279CF" cy="-292.3488" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="224.61964"
+                class="28E02C975C71" cy="-228.78389" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-95.75759"
+                class="ACF7F344C184" cy="67.66823" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="196.37196"
+                class="181EB0B0449E" cy="64.40427" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-17.034264"
+                class="90187CE4EB0F" cy="102.48213" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-57.01448"
+                class="D4206D0FB034" cy="60.896755" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="-2.0111587"
+                class="E899C4E734CC" cy="-318.23264" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="-5.895858"
+                class="94DBC9922A26" cy="-265.36807" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="48.044277"
+                class="E88D28B0F964" cy="-342.03915" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="65.13626"
+                class="88329BFE27EE" cy="-245.34747" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="-105.58752"
+                class="689C5E620781" cy="-74.27504" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="-170.58412"
+                class="0CDFA4353456" cy="-199.70323" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-4.782435"
+                class="B4527DC25A2A" cy="132.81653" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="175.17575"
+                class="ACE2156E0EC0" cy="-22.142138" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="132.20947"
+                class="34CDBE072DD1" cy="-105.997345" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="123.5548"
+                class="D0E1405610C7" cy="-250.14232" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="172.5916"
+                class="E432CBA183DB" cy="30.894497" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#26fdfd" r="10.0" cx="70.77512"
+                class="4C8D796BD296" cy="-21.455496" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-103.37853"
+                class="2002AF0ECFA1" cy="101.96396" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-180.80376"
+                class="主楼" cy="205.37001" stroke="#000000" stroke-opacity="1.0"
+                stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-372.25906"
+                class="00234DD4EF4F" cy="260.11438" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-268.73706"
+                class="F8A45F1733F5" cy="385.79355" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-338.33026"
+                class="789ED05360E6" cy="341.62372" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-320.8804"
+                class="68DFDD1E9639" cy="279.56018" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-189.47276"
+                class="C46AB74C9AC1" cy="367.33865" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-236.0938"
+                class="E0F847CF3068" cy="410.0722" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-190.3192"
+                class="D022BE3BA1DC" cy="410.99393" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-306.21155"
+                class="80CF41677CFB" cy="374.15677" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-246.11816"
+                class="2002AFAE3F72" cy="341.94702" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-292.9231"
+                class="0C3021D02892" cy="322.51395" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-143.01762"
+                class="3010E4E6E334" cy="391.80533" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-361.16556"
+                class="24DBACAD7F5D" cy="220.28986" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#fd2626" r="10.0" cx="-362.7395"
+                class="6CB7F4119D24" cy="303.24066" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+    </g>
+    <g id="node-labels">
+        <text font-size="96" x="47.260986" y="-83.520035" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Times New Roman" class="科研楼">
+            科研楼
+        </text>
+        <text font-size="96" x="-180.80376" y="227.49501" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Times New Roman" class="主楼">
+            主楼
+        </text>
+    </g>
+</svg>
