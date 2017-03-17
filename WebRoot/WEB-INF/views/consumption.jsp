@@ -347,11 +347,7 @@
 		                    },
 		                    [jsonObj.brand[3].brand, e], 
 		                    [jsonObj.brand[4].brand, f], 
-		                    [jsonObj.brand[5].brand, g], 
-		                    [jsonObj.brand[6].brand, h],
-		                    [jsonObj.brand[7].brand, i], 
-		                    [jsonObj.brand[8].brand, j], 
-		                    [jsonObj.brand[9].brand, k], 
+		                    [jsonObj.brand[5].brand, g],  
 		                    [jsonObj.brand[10].brand, l]]
 		                }],
 		                tooltip: {
