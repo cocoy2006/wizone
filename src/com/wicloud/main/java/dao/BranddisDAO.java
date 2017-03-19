@@ -79,6 +79,8 @@ public class BranddisDAO extends BaseHibernateDAO {
 	public static final String PHILIPS = "philips";
 	public static final String TCL = "tcl";
 	public static final String OTHER = "other";
+	public static final String VIVO = "vivo";
+	public static final String LETV = "leTv";
 
 	@Autowired
 	private HibernateTemplate hibernateTemplate;
@@ -317,6 +319,14 @@ public class BranddisDAO extends BaseHibernateDAO {
 	public List findByOther(Object other) {
 		return findByProperty(OTHER, other);
 	}
+	
+	public List findByVovo(Object vivo) {
+		return findByProperty(VIVO, vivo);
+	}
+	
+	public List findByLeTv(Object leTv) {
+		return findByProperty(LETV, leTv);
+	}
 
 	public List findAll() {
 		log.debug("finding all Branddis instances");
@@ -357,7 +367,8 @@ public class BranddisDAO extends BaseHibernateDAO {
 				.add(Projections.avg("Simcom")).add(Projections.avg("SHARP"))
 				.add(Projections.avg("Wisol")).add(Projections.avg("Wistron"))
 				.add(Projections.avg("Amoi")).add(Projections.avg("BIRD"))
-				.add(Projections.avg("Philips")).add(Projections.avg("TCL"));
+				.add(Projections.avg("Philips")).add(Projections.avg("TCL"))
+				.add(Projections.avg("vivo")).add(Projections.avg("leTv"));
 			criteria.setProjection(projection);
 			return hibernateTemplate.findByCriteria(criteria);
 		} catch (RuntimeException re) {
@@ -394,7 +405,8 @@ public class BranddisDAO extends BaseHibernateDAO {
 				.add(Projections.sum("Simcom")).add(Projections.sum("SHARP"))
 				.add(Projections.sum("Wisol")).add(Projections.sum("Wistron"))
 				.add(Projections.sum("Amoi")).add(Projections.sum("BIRD"))
-				.add(Projections.sum("Philips")).add(Projections.sum("TCL"));
+				.add(Projections.sum("Philips")).add(Projections.sum("TCL"))
+				.add(Projections.sum("vivo")).add(Projections.sum("leTv"));
 			criteria.setProjection(projection);
 			return hibernateTemplate.findByCriteria(criteria);
 		} catch (RuntimeException re) {

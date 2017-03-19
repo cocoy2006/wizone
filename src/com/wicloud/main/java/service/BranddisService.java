@@ -19,6 +19,17 @@ public class BranddisService {
 
 	@Autowired
 	private BranddisDAO branddisDao;
+	
+	public static final int PRICE_APPLE = 6499;
+	public static final int PRICE_HUAWEI = 2499;
+	public static final int PRICE_XIAOMI = 1799;
+	public static final int PRICE_OPPO = 2799;
+	public static final int PRICE_SAMSUNG = 3199;
+	public static final int PRICE_VIVO = 2798;
+	public static final int PRICE_MEIZU = 1099;
+	public static final int PRICE_LETV = 999;
+	public static final int PRICE_COOLPAD = 899;
+	public static final int PRICE_GIONEE = 3999;
 
 	public String avg(String start, String finish) {
 		// get newer and old from table totalinfo
@@ -73,6 +84,8 @@ public class BranddisService {
 			map.put("BIRD", (int) Wicloud.parseDoubleValue(objs[41]));
 			map.put("Philips", (int) Wicloud.parseDoubleValue(objs[42]));
 			map.put("TCL", (int) Wicloud.parseDoubleValue(objs[43]));
+			map.put("vivo", (int) Wicloud.parseDoubleValue(objs[44]));
+			map.put("leTv", (int) Wicloud.parseDoubleValue(objs[45]));
 			// 通过ArrayList构造函数把map.entrySet()转换成list
 			mappingList = new ArrayList<Map.Entry<String, Integer>>(map.entrySet());
 			// 通过比较器实现比较排序
@@ -135,6 +148,8 @@ public class BranddisService {
 				map1.put("BIRD", Wicloud.parseDoubleValue(objs[41]));
 				map1.put("Philips", Wicloud.parseDoubleValue(objs[42]));
 				map1.put("TCL", Wicloud.parseDoubleValue(objs[43]));
+				map1.put("vivo", Wicloud.parseDoubleValue(objs[44]));
+				map1.put("leTv", Wicloud.parseDoubleValue(objs[45]));
 				//通过ArrayList构造函数把map.entrySet()转换成list
 				mappingList1 = new ArrayList<Map.Entry<String, Double>>(map1.entrySet());
 				//通过比较器实现比较排序
@@ -153,30 +168,33 @@ public class BranddisService {
 			if(counter != 0) {
 				int price = 0;
 				Map<String, Integer> priceMap = new HashMap<String, Integer>(); 
-				priceMap.put("Samsung", 3265);
-				priceMap.put("Apple", 4780);
-				priceMap.put("Lenove", 852);
-				priceMap.put("Nokia", 2784);
-				priceMap.put("HUAWEI", 1459);
-				priceMap.put("Sony", 3256);
-				priceMap.put("HTC", 2364);
-				priceMap.put("Xiaomi", 1865);
-				priceMap.put("Meizu", 2296);
-				priceMap.put("Coolpad", 820);
+				priceMap.put("Apple", PRICE_APPLE);
+				priceMap.put("HUAWEI", PRICE_HUAWEI);
+				priceMap.put("Xiaomi", PRICE_XIAOMI);
+				priceMap.put("OPPO", PRICE_OPPO);
+				priceMap.put("Samsung", PRICE_SAMSUNG);
+				priceMap.put("vivo", PRICE_VIVO);
+				priceMap.put("Meizu", PRICE_MEIZU);
+				priceMap.put("leTv", PRICE_LETV);
+				priceMap.put("Coolpad", PRICE_COOLPAD);
+				priceMap.put("gionee", PRICE_GIONEE);
 				for(Map.Entry<String, Double> mapping : mappingList1) {
 					String brand1 = mapping.getKey();
 					if(priceMap.containsKey(brand1)) {
-						if(brand1.equals("HUAWEI")||brand1.equals("Xiaomi")){
-							c12=c12+mapping.getValue();
-						}else if(brand1.equals("Nokia")||brand1.equals("HTC")||brand1.equals("Meizu")){
-							c23=c23+mapping.getValue();
-						}else if(brand1.equals("Samsung")||brand1.equals("Apple")||brand1.equals("Sony")){
-							c35=c35+mapping.getValue();
+						if (brand1.equals("Apple")) {
+							c5 += mapping.getValue();
+						} else if (brand1.equals("Samsung") || brand1.equals("gionee")) {
+							c35 += mapping.getValue();
+						} else if (brand1.equals("HUAWEI") || brand1.equals("OPPO") || brand1.equals("vivo")) {
+							c23 += mapping.getValue();
+						} else if (brand1.equals("Xiaomi") || brand1.equals("Meizu")) {
+							c12 += mapping.getValue();
+						} else if (brand1.equals("Coolpad") || brand1.equals("leTv")) {
+							c1 = c1 + mapping.getValue();
 						}
 					}
 					
 				}
-				c1=counter-(c12+c23+c35+c5);
 				c12=(double)(Math.round(c12/counter*100)/100.0);
 				c23=(double)(Math.round(c23/counter*100)/100.0);
 				c35=(double)(Math.round(c35/counter*100)/100.0);

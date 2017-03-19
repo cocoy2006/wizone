@@ -57,6 +57,8 @@ public class Branddis extends com.wicloud.main.java.entity.BaseEntity implements
 	private Double Philips;
 	private Double TCL;
 	private Double other;
+	private Double vivo;
+	private Double leTv;
 
 	// Constructors
 
@@ -81,7 +83,7 @@ public class Branddis extends com.wicloud.main.java.entity.BaseEntity implements
 			Double chiMei, Double foxconn, Double garmin, Double gemtek,
 			Double mediaTek, Double qualcomm, Double hisense, Double roving,
 			Double simcom, Double sharp, Double wisol, Double wistron,
-			Double amoi, Double bird, Double philips, Double tcl, Double other) {
+			Double amoi, Double bird, Double philips, Double tcl, Double other, Double vivo, Double leTv) {
 		this.id = id;
 		this.counter = counter;
 		this.cKnown = cknown;
@@ -130,6 +132,8 @@ public class Branddis extends com.wicloud.main.java.entity.BaseEntity implements
 		this.Philips = philips;
 		this.TCL = tcl;
 		this.other = other;
+		this.vivo = vivo;
+		this.leTv = leTv;
 	}
 
 	// Property accessors
@@ -793,5 +797,23 @@ public class Branddis extends com.wicloud.main.java.entity.BaseEntity implements
 	public void setOther(Double other) {
 		this.other = other;
 	}
+
+	public Double getVivo() {
+		return vivo;
+	}
+
+	public void setVivo(Double vivo) {
+		this.vivo = vivo;
+	}
+
+	public Double getLeTv() {
+		return leTv;
+	}
+
+	public void setLeTv(Double leTv) {
+		this.leTv = leTv;
+	}
+	
+	
 
 }

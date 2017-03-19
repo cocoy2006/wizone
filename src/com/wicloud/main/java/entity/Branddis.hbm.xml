@@ -152,5 +152,11 @@
         <property name="other" type="java.lang.Double">
             <column name="other" precision="22" scale="0" />
         </property>
+        <property name="vivo" type="java.lang.Double">
+        	<column name="vivo" precision="22" scale="0" />
+        </property>
+        <property name="leTv" type="java.lang.Double">
+        	<column name="leTv" precision="22" scale="0" />
+        </property>
     </class>
 </hibernate-mapping>
