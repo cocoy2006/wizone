@@ -232,8 +232,8 @@
    	
 
         	function showoverlay(){
-				heatmapOverlay = new BMapLib.HeatmapOverlay({"radius":60,
-    					"gradient":{.3:'rgb(70,176,53)',.5:'rgb(155,199,2)',.7:'rgb(255,174,0)',.8:'rgb(255,114,0)',.9:'rgb(253,48,35)'}
+				heatmapOverlay = new BMapLib.HeatmapOverlay({"radius":64,
+    					"gradient":{".3":'rgb(70,176,53)',".5":'rgb(155,199,2)',".7":'rgb(255,174,0)',".8":'rgb(255,114,0)',".9":'rgb(253,48,35)'}
     				});
 				map.clearOverlays();
         		$.ajax({
@@ -250,7 +250,13 @@
     						};
     						points[i]=point;
     					}
-    					var max=data?data.heat[0].cnt:100;
+    					//var max=data?data.heat[0].cnt:100;
+    					var max = 100;
+    					for (var j = 0; j < data.heat.length; j++) {
+    						if (data.heat[j].cnt > max) {
+    							max = data.heat[j].cnt / 3;
+    						}
+    					}
     					map.addOverlay(heatmapOverlay);
             			heatmapOverlay.setDataSet({data:points,max:max});
                 		var myIcon1 =new BMap.Icon("<%=basePath%>wibupt/img/049.png", new BMap.Size(90, 90), {imageOffset: new BMap.Size(0, 0)});
