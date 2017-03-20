@@ -232,7 +232,7 @@
    	
 
         	function showoverlay(){
-				heatmapOverlay = new BMapLib.HeatmapOverlay({"radius":64,
+				heatmapOverlay = new BMapLib.HeatmapOverlay({"radius":60,
     					"gradient":{".3":'rgb(70,176,53)',".5":'rgb(155,199,2)',".7":'rgb(255,174,0)',".8":'rgb(255,114,0)',".9":'rgb(253,48,35)'}
     				});
 				map.clearOverlays();
