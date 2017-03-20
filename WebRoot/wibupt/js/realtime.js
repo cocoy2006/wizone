@@ -170,7 +170,7 @@ function createPageNav(opt) {
     function _createCommonPage(startNum, activeNum) {
         var initStr = [];
         for (var i = 1,pageNum=startNum; i <= pageCount && i <= maxCommonLen; i++ , pageNum++) {
-            initStr.push('<li class="commonPage" value="' + pageNum + '"><a href="javascript:">' + pageNum + '</a></li>');
+            initStr.push('<li class="commonPage" value="' + pageNum + '"><img width="80" height="80" src="../../wibupt/wibupt/img/main-building.jpg"></li>');
         }
         
         $parent.hide();

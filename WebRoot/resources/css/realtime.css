@@ -1,5 +1,5 @@
 body {
-	font-family: "������������";
+	font-family: "������������������������������������";
 	background: url(../../wibupt/img/blue-background-6.jpg) no-repeat
 		top left;
 }
@@ -14,7 +14,7 @@ body {
 .navbar-inverse .navbar-nav>li>a:hover {
 	background-color: #3e5bb7;
 	border: none;
-	padding-bottom: 22px
+	padding-bottom: 22px;
 }
 
 .circliful {
@@ -64,5 +64,19 @@ ul.pagination>li>span, ul.pagination>li>a, ul.pagination>li.active>a, ul.pager>l
 }
 
 .pagination {
-	margin-left:23%;
+	margin-left:1%;
+}
+
+.pagination li{
+	float:left;
+}
+
+.commonPage img {
+	cursor: pointer;
+	display: inline;
+	margin: 0 6px;
+}
+
+li.first-page,li.pre-page,li.next-page,li.last-page,.input-page-div {
+	margin-top:30px;
 }

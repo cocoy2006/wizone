@@ -705,7 +705,7 @@
    		window.onload =getGroup();
    		   		
    		function getGroup(){
-   		waitingDialog.show();
+   		//waitingDialog.show();
    				$.ajax({
 					url:"<%=basePath%>overview/getAllGroup/",
 					dataType:"json",
