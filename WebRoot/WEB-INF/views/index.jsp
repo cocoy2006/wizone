@@ -254,7 +254,7 @@
     					var max = 100;
     					for (var j = 0; j < data.heat.length; j++) {
     						if (data.heat[j].cnt > max) {
-    							max = data.heat[j].cnt / 3;
+    							max = data.heat[j].cnt;
     						}
     					}
     					map.addOverlay(heatmapOverlay);
