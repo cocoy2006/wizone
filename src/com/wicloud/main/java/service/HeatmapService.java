@@ -19,7 +19,7 @@ public class HeatmapService {
 	@Autowired
 	private MonindexDAO monindexDao;
 	
-	public static final int LIMIT = 90;
+	public static final int LIMIT = 57;
 
 	public String getAllHeat(){
 		Heatmap lastRecord = heatmapDao.findById(heatmapDao.maxId().get(0));
