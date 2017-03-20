@@ -251,7 +251,7 @@
     						points[i]=point;
     					}
     					//var max=data?data.heat[0].cnt:100;
-    					var max = 100;
+    					var max = 200; // 以200作为人多的标志
     					for (var j = 0; j < data.heat.length; j++) {
     						if (data.heat[j].cnt > max) {
     							max = data.heat[j].cnt;
