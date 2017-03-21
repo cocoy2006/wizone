@@ -7,11 +7,13 @@
 <%@ page import="com.wicloud.main.java.util.DB"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%
-	response.setContentType("text/html;charset=UTF-8"); 
+	response.setContentType("text/html;charset=UTF-8");
 	response.setCharacterEncoding("UTF-8");
-	String path=request.getContextPath();
-	String basePath=request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
-	
+	String path = request.getContextPath();
+	String basePath = request.getScheme() + "://"
+			+ request.getServerName() + ":" + request.getServerPort()
+			+ path + "/";
+
 	String bb3 = Wicloud.Getoldtime(86400);
 	String bb2 = Wicloud.Getrealtime();
 	String time = bb2.substring(0, 10);
@@ -26,7 +28,7 @@
 	String kaishi7 = Wicloud.change(time, 7);
 	String kaishi30 = Wicloud.change(time, 30);
 	String kaishi90 = Wicloud.change(time, 90);
- %>
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -95,36 +97,145 @@
 				</button>
 				<a href="<%=basePath%>index"> <img alt="Wibupt"
 					src="<%=basePath%>wibupt/img/logo_wibupt-m.png"
-					style="width:150px;height:60px;">
-				</a>
+					style="width:150px;height:60px;"> </a>
 			</div>
 			<div class="navbar-collapse collapse" role="navigation">
 				<ul class="nav navbar-nav navbar-right hidden-sm nav-tabs">
 					<li><a href="<%=basePath%>index" style="font-size: 18px"><i
-							class="icon-home"></i>&nbsp实时校园</a></li>
+							class="icon-home"></i>&nbsp实时校园</a>
+					</li>
 					<li class="active"><a href="<%=basePath%>realtime"
-						style="font-size: 18px"><i class="icon-repeat"></i>&nbsp实时流量分析</a></li>
+						style="font-size: 18px"><i class="icon-repeat"></i>&nbsp实时流量分析</a>
+					</li>
 					<li><a href="<%=basePath%>activity" style="font-size: 18px"><i
-							class="icon-group"></i>&nbsp活跃分析</a></li>
+							class="icon-group"></i>&nbsp活跃分析</a>
+					</li>
 					<li><a href="<%=basePath%>consumption" style="font-size: 18px"><i
-							class="icon-camera"></i>&nbsp消费能力分析</a></li>
+							class="icon-camera"></i>&nbsp消费能力分析</a>
+					</li>
 					<li><a href="<%=basePath%>goandcome" style="font-size: 18px"><i
-							class="icon-resize-full"></i>&nbsp出入校园分析</a></li>
+							class="icon-resize-full"></i>&nbsp出入校园分析</a>
+					</li>
 					<li><a href="<%=basePath%>gephi" style="font-size: 18px"><i
-							class="icon-magnet"></i>&nbsp关联分析</a></li>
+							class="icon-magnet"></i>&nbsp关联分析</a>
+					</li>
 					<li><a href="<%=basePath%>login" style="font-size: 18px"><i
-							class="icon-cog"></i>&nbsp设置</a></li>
+							class="icon-cog"></i>&nbsp设置</a>
+					</li>
 				</ul>
 			</div>
 		</div>
 	</div>
-	<div id='page-nav'></div>
+	<div id="page-nav" style="display: block;">
+		<nav>
+			<ul class="pagination" onselectstart="return false"
+				style="display: inline-block;">
+				<li class="commonPage active" value="1"
+					style="width:80px;height:193px;background:url(wibupt/img/building1.jpg);background-repeat: no-repeat;
+    background-position: center;"><p
+						class="buildingName">教一</p>
+				</li>
+				<li class="commonPage" value="2"
+					style="width:80px;height:193px;background:url(wibupt/img/building2.jpg);background-repeat: no-repeat;
+    background-position: center;"><p
+						class="buildingName">教二</p>
+				</li>
+				<li class="commonPage" value="3"
+					style="width:80px;height:193px;background:url(wibupt/img/building3.jpg);background-repeat: no-repeat;
+    background-position: center;"><p
+						class="buildingName">教三</p>
+				</li>
+				<li class="commonPage" value="4"
+					style="width:80px;height:193px;background:url(wibupt/img/building4.jpg);background-repeat: no-repeat;
+    background-position: center;"><p
+						class="buildingName">教四</p>
+				</li>
+				<li class="commonPage" value="5"
+					style="width:80px;height:193px;background:url(wibupt/img/building5.jpg);background-repeat: no-repeat;
+    background-position: center;"><p
+						class="buildingName">新科研楼</p>
+				</li>
+				<li class="commonPage" value="6"
+					style="width:80px;height:193px;background:url(wibupt/img/building6.jpg);background-repeat: no-repeat;
+    background-position: center;"><p
+						class="buildingName">主楼</p>
+				</li>
+				<li class="commonPage" value="7"
+					style="width:80px;height:193px;background:url(wibupt/img/building7.jpg);background-repeat: no-repeat;
+    background-position: center;"><p
+						class="buildingName">综合餐厅</p>
+				</li>
+				<li class="commonPage" value="8"
+					style="width:80px;height:193px;background:url(wibupt/img/building8.jpg);background-repeat: no-repeat;
+    background-position: center;"><p
+						class="buildingName">学生食堂</p>
+				</li>
+				<li class="commonPage" value="9"
+					style="width:80px;height:193px;background:url(wibupt/img/building9.jpg);background-repeat: no-repeat;
+    background-position: center;"><p
+						class="buildingName">学生公寓1</p>
+				</li>
+				<li class="commonPage" value="10"
+					style="width:80px;height:193px;background:url(wibupt/img/building10.jpg);background-repeat: no-repeat;
+    background-position: center;"><p
+						class="buildingName">学生公寓2</p>
+				</li>
+				<li class="commonPage" value="11"
+					style="width:80px;height:193px;background:url(wibupt/img/building11.jpg);background-repeat: no-repeat;
+    background-position: center;"><p
+						class="buildingName">学生公寓4</p>
+				</li>
+				<li class="commonPage" value="12"
+					style="width:80px;height:193px;background:url(wibupt/img/building12.jpg);background-repeat: no-repeat;
+    background-position: center;"><p
+						class="buildingName">学生公寓5</p>
+				</li>
+				<li class="commonPage" value="13"
+					style="width:80px;height:193px;background:url(wibupt/img/building13.jpg);background-repeat: no-repeat;
+    background-position: center;"><p
+						class="buildingName">学生公寓6</p>
+				</li>
+				<li class="commonPage" value="14"
+					style="width:80px;height:193px;background:url(wibupt/img/building14.jpg);background-repeat: no-repeat;
+    background-position: center;"><p
+						class="buildingName">学生公寓8</p>
+				</li>
+				<li class="commonPage" value="15"
+					style="width:80px;height:193px;background:url(wibupt/img/building15.jpg);background-repeat: no-repeat;
+    background-position: center;"><p
+						class="buildingName">学生公寓9</p>
+				</li>
+				<li class="commonPage" value="16"
+					style="width:80px;height:193px;background:url(wibupt/img/building16.jpg);background-repeat: no-repeat;
+    background-position: center;"><p
+						class="buildingName">学生公寓10</p>
+				</li>
+				<li class="commonPage" value="17"
+					style="width:80px;height:193px;background:url(wibupt/img/building17.jpg);background-repeat: no-repeat;
+    background-position: center;"><p
+						class="buildingName">学生公寓11</p>
+				</li>
+				<li class="commonPage" value="18"
+					style="width:80px;height:193px;background:url(wibupt/img/building18.jpg);background-repeat: no-repeat;
+    background-position: center;"><p
+						class="buildingName">学生公寓29</p>
+				</li>
+				<li class="commonPage" value="19"
+					style="width:80px;height:193px;background:url(wibupt/img/building19.jpg);background-repeat: no-repeat;
+    background-position: center;"><p
+						class="buildingName">学生公寓3</p>
+				</li>
+			</ul>
+		</nav>
+	</div>
 	<div class="container" style="width:93%;">
 		<div class="row clearfix">
 			<div class="col-md-12 column">
 				<hr style="opacity:0.4">
 				<div class="row clearfix">
-					<div id="container-line1" class="col-md-12 col-xs-12 column show-line" style="padding-right: 0px">
+					<div id="container-line1"
+						class="col-md-12 col-xs-12 column show-line"
+						style="padding-right: 0px">
 						<div class="module"
 							style="margin-right: 0px;padding-top:10px;padding-bottom:10px;border-radius:0px;background-color:rgba(51,46,46,0.6)">
 							<div class="row clearfix">
@@ -148,7 +259,8 @@
 							<div id="container6-1" style="height:320px"></div>
 						</div>
 					</div>
-					<div id="container-line2" class="col-md-12 col-xs-12 column hidden" style="padding-left: 0px">
+					<div id="container-line2" class="col-md-12 col-xs-12 column hidden"
+						style="padding-left: 0px">
 						<div class="module"
 							style="margin-left: 0px;padding-top:10px;padding-bottom:10px;border-radius:0px;background-color:rgba(255,255,255,0.3)">
 							<div class="row clearfix">
@@ -174,7 +286,8 @@
 					</div>
 				</div>
 				<div class="row clearfix">
-					<div id="container-line3" class="col-md-12 col-xs-12 column hidden" style="padding-right: 0px">
+					<div id="container-line3" class="col-md-12 col-xs-12 column hidden"
+						style="padding-right: 0px">
 						<div class="module"
 							style="margin-right: 0px;padding-top:10px;padding-bottom:10px;border-radius:0px;;background-color:rgba(255,255,255,0.3)">
 							<div class="row clearfix">
@@ -198,7 +311,8 @@
 							<div id="container6-3" style="height:320px"></div>
 						</div>
 					</div>
-					<div id="container-line4" class="col-md-12 col-xs-12 column hidden" style="padding-left: 0px">
+					<div id="container-line4" class="col-md-12 col-xs-12 column hidden"
+						style="padding-left: 0px">
 						<div class="module"
 							style="margin-left: 0px;padding-top:10px;padding-bottom:10px;border-radius:0px;background-color:rgba(51,46,46,0.6)">
 							<div class="row clearfix">
@@ -226,7 +340,8 @@
 					</div>
 				</div>
 				<div class="row clearfix">
-					<div id="container-line5" class="col-md-12 col-xs-12 column hidden" style="padding-right: 0px">
+					<div id="container-line5" class="col-md-12 col-xs-12 column hidden"
+						style="padding-right: 0px">
 						<div class="module"
 							style="margin-right: 0px;padding-top:10px;padding-bottom:10px;border-radius:0px;background-color:rgba(51,46,46,0.6)">
 							<div class="row clearfix">
@@ -252,7 +367,8 @@
 							<div id="container6-5" style="height:320px"></div>
 						</div>
 					</div>
-					<div id="container-line6" class="col-md-12 col-xs-12 column hidden" style="padding-left: 0px">
+					<div id="container-line6" class="col-md-12 col-xs-12 column hidden"
+						style="padding-left: 0px">
 						<div class="module"
 							style="margin-left: 0px;padding-top:10px;padding-bottom:10px;border-radius:0px;;background-color:rgba(255,255,255,0.3)">
 							<div class="row clearfix">
@@ -280,7 +396,8 @@
 					</div>
 				</div>
 				<div class="row clearfix">
-					<div id="container-line7" class="col-md-12 col-xs-12 column hidden" style="padding-right: 0px">
+					<div id="container-line7" class="col-md-12 col-xs-12 column hidden"
+						style="padding-right: 0px">
 						<div class="module"
 							style="margin-right: 0px;padding-top:10px;padding-bottom:10px;border-radius:0px;;background-color:rgba(255,255,255,0.3)">
 							<div class="row clearfix">
@@ -306,7 +423,8 @@
 							<div id="container6-7" style="height:320px"></div>
 						</div>
 					</div>
-					<div id="container-line8" class="col-md-12 col-xs-12 column hidden" style="padding-left: 0px">
+					<div id="container-line8" class="col-md-12 col-xs-12 column hidden"
+						style="padding-left: 0px">
 						<div class="module"
 							style="margin-left: 0px;padding-top:10px;padding-bottom:10px;border-radius:0px;background-color:rgba(51,46,46,0.6)">
 							<div class="row clearfix">
@@ -338,7 +456,8 @@
 
 				<!-- 学1 、学2 -->
 				<div class="row clearfix">
-					<div id="container-line9" class="col-md-12 col-xs-12 column hidden" style="padding-right: 0px">
+					<div id="container-line9" class="col-md-12 col-xs-12 column hidden"
+						style="padding-right: 0px">
 						<div class="module"
 							style="margin-right: 0px;padding-top:10px;padding-bottom:10px;border-radius:0px;background-color:rgba(51,46,46,0.6)">
 							<div class="row clearfix">
@@ -364,7 +483,9 @@
 							<div id="container6-9" style="height:320px"></div>
 						</div>
 					</div>
-					<div id="container-line10" class="col-md-12 col-xs-12 column hidden" style="padding-left: 0px">
+					<div id="container-line10"
+						class="col-md-12 col-xs-12 column hidden"
+						style="padding-left: 0px">
 						<div class="module"
 							style="margin-left: 0px;padding-top:10px;padding-bottom:10px;border-radius:0px;background-color:rgba(255,255,255,0.3)">
 							<div class="row clearfix">
@@ -394,7 +515,9 @@
 
 				<!-- 学3、学4 -->
 				<div class="row clearfix">
-					<div id="container-line11" class="col-md-12 col-xs-12 column hidden" style="padding-right: 0px">
+					<div id="container-line11"
+						class="col-md-12 col-xs-12 column hidden"
+						style="padding-right: 0px">
 						<div class="module"
 							style="margin-right: 0px;padding-top:10px;padding-bottom:10px;border-radius:0px;;background-color:rgba(255,255,255,0.3)">
 							<div class="row clearfix">
@@ -420,7 +543,9 @@
 							<div id="container6-11" style="height:320px"></div>
 						</div>
 					</div>
-					<div id="container-line12" class="col-md-12 col-xs-12 column hidden" style="padding-left: 0px">
+					<div id="container-line12"
+						class="col-md-12 col-xs-12 column hidden"
+						style="padding-left: 0px">
 						<div class="module"
 							style="margin-left: 0px;padding-top:10px;padding-bottom:10px;border-radius:0px;background-color:rgba(51,46,46,0.6)">
 							<div class="row clearfix">
@@ -450,7 +575,9 @@
 
 				<!--学5、学6  -->
 				<div class="row clearfix">
-					<div id="container-line13" class="col-md-12 col-xs-12 column hidden" style="padding-right: 0px">
+					<div id="container-line13"
+						class="col-md-12 col-xs-12 column hidden"
+						style="padding-right: 0px">
 						<div class="module"
 							style="margin-right: 0px;padding-top:10px;padding-bottom:10px;border-radius:0px;background-color:rgba(51,46,46,0.6)">
 							<div class="row clearfix">
@@ -476,7 +603,9 @@
 							<div id="container6-13" style="height:320px"></div>
 						</div>
 					</div>
-					<div id="container-line14" class="col-md-12 col-xs-12 column hidden" style="padding-left: 0px">
+					<div id="container-line14"
+						class="col-md-12 col-xs-12 column hidden"
+						style="padding-left: 0px">
 						<div class="module"
 							style="margin-left: 0px;padding-top:10px;padding-bottom:10px;border-radius:0px;background-color:rgba(255,255,255,0.3)">
 							<div class="row clearfix">
@@ -506,7 +635,9 @@
 
 				<!-- 学8、学9 -->
 				<div class="row clearfix">
-					<div id="container-line15" class="col-md-12 col-xs-12 column hidden" style="padding-right: 0px">
+					<div id="container-line15"
+						class="col-md-12 col-xs-12 column hidden"
+						style="padding-right: 0px">
 						<div class="module"
 							style="margin-right: 0px;padding-top:10px;padding-bottom:10px;border-radius:0px;;background-color:rgba(255,255,255,0.3)">
 							<div class="row clearfix">
@@ -532,7 +663,9 @@
 							<div id="container6-15" style="height:320px"></div>
 						</div>
 					</div>
-					<div id="container-line16" class="col-md-12 col-xs-12 column hidden" style="padding-left: 0px">
+					<div id="container-line16"
+						class="col-md-12 col-xs-12 column hidden"
+						style="padding-left: 0px">
 						<div class="module"
 							style="margin-left: 0px;padding-top:10px;padding-bottom:10px;border-radius:0px;background-color:rgba(51,46,46,0.6)">
 							<div class="row clearfix">
@@ -562,7 +695,9 @@
 
 				<!-- 学10、学11 -->
 				<div class="row clearfix">
-					<div id="container-line17" class="col-md-12 col-xs-12 column hidden" style="padding-right: 0px">
+					<div id="container-line17"
+						class="col-md-12 col-xs-12 column hidden"
+						style="padding-right: 0px">
 						<div class="module"
 							style="margin-right: 0px;padding-top:10px;padding-bottom:10px;border-radius:0px;background-color:rgba(51,46,46,0.6)">
 							<div class="row clearfix">
@@ -588,7 +723,9 @@
 							<div id="container6-17" style="height:320px"></div>
 						</div>
 					</div>
-					<div id="container-line18" class="col-md-12 col-xs-12 column hidden" style="padding-left: 0px">
+					<div id="container-line18"
+						class="col-md-12 col-xs-12 column hidden"
+						style="padding-left: 0px">
 						<div class="module"
 							style="margin-left: 0px;padding-top:10px;padding-bottom:10px;border-radius:0px;background-color:rgba(255,255,255,0.3)">
 							<div class="row clearfix">
@@ -618,7 +755,9 @@
 
 				<!-- 学29 -->
 				<div class="row clearfix">
-					<div id="container-line19" class="col-md-12 col-xs-12 column hidden" style="padding-right: 0px">
+					<div id="container-line19"
+						class="col-md-12 col-xs-12 column hidden"
+						style="padding-right: 0px">
 						<div class="module"
 							style="margin-right: 0px;padding-top:10px;padding-bottom:10px;border-radius:0px;;background-color:rgba(255,255,255,0.3)">
 							<div class="row clearfix">
@@ -696,9 +835,11 @@
 <script type="text/javascript" src="<%=basePath%>wibupt/js/Function.js"></script>
 <script type="text/javascript" src="<%=basePath%>wibupt/js/index.js"></script>
 <script type="text/javascript" src="<%=basePath%>wibupt/js/realtime.js"></script>
-
+<script type="text/javascript"
+	src="<%=basePath%>wibupt/js/unslider-min.js"></script>
 <script>
-	 createPageNav({$container:$("#page-nav"),pageCount:19});
+	 //createPageNav({$container:$("#page-nav"),pageCount:19});
+	 $('#page-nav').unslider();
 		var groups=new Array();     		
    		window.onload =getGroup();
    		   		
@@ -5157,161 +5298,170 @@
 	                            var series = this.series[0];
 	                            setInterval(function() {
 	                                $.ajax({
-	                                    url: "<%=basePath%>realtimedataIn/realdata/",
-	                                    data:"place=" + place + "&time=" + xxxx,
-	                                    dataType: "json",
-	                                    type: "POST",
-	                                    success: function(data) {
-	                                        y1 = parseInt(data.real) == NaN ? 0 : parseInt(data.real);
-	                                        series.addPoint([x + 300000, y1], true, true);
-	                                        xxx = xxx + 300;
-	                                        x = x + 300000;
-	                                    }
-	                                });
-	                            },
-	                            300000);
-	                        }
-	                    }
-	                },
-	
-	                rangeSelector: {
-	                    buttons: [{
-	                        count: 1,
-	                        type: 'day',
-	                        text: '天'
-	                    },
-	                    {
-	                        count: 7,
-	                        type: 'day',
-	                        text: '周'
-	                    },
-	                    {
-	                        count: 30,
-	                        type: 'day',
-	                        text: '月'
-	                    }],
-	                    inputEnabled: bool,
-	                    inputStyle: {
-            				color: '#fff',
-            				fontWeight: 'bold'
-        				},
-	                    selected: init,
-	                    labelStyle: {
-            				color: '#fff',
-            				fontWeight: 'bold'
-        					},
-	                },
-					navigator:{
-	                	xAxis: {
-							tickWidth: 0,
-							lineWidth: 0,
-							gridLineWidth: 1,
-							tickPixelInterval: 200,
-							labels: {
-    							align: 'left',
-    							style: {
-        							color: '#000'
-    							},
-    							x: 3,
-    							y: -4
-							}
-						},
-	                },
-	                title: {
-	                    text: info,
-	                    style: {
-	                        color: '#000',
-	                        font: 'bold 15px "微软雅黑"'
-	                    }
-	                },
-	                xAxis: {
-	                    gridLineWidth: 1,
-	                    gridLineColor:'#000',
-	                    lineColor: '#000',
-	                    tickColor: '#000',
-	                    labels: {
-	                        style: {
-	                            color: '#000',
-	                            font: '11px Trebuchet MS, Verdana, sans-serif'
-	                        }
-	                    },
-	                    type: 'category',
-	                    title: {
-	                        text: '',
-	                        style: {
-	                            color: '#000',
-	                            font: 'bold 15px "微软雅黑"'
-	                        }
-	                    },
-	                },
-	                yAxis: {
-	                    min: 0,
-	                    gridLineColor:'#000',
-	                    legend: {
-	                        itemStyle: {
-	                            font: '9pt Trebuchet MS, Verdana, sans-serif',
-	                            color: 'black'
-	                        },
-	                        itemHoverStyle: {
-	                            color: '#000'
-	                        },
-	                        itemHiddenStyle: {
-	                            color: '#000'
-	                        }
-	                    },
-	                    labels:{
-	                    	style:{
-	                    		color:'#000'
-	                    	}
-	                    },
-	                    title: {
-	                        text: '',
-	                        style: {
-	                            color: '#000',
-	                            font: 'bold 15px "微软雅黑"'
-	                        }
-	
-	                    }
-	                },
-	
-	                exporting: {
-	                    enabled: true
-	                },
-	                legend: {
-	                    layout: 'vertical',
-	                    align: 'right',
-	                    verticalAlign: 'top',
-	                    y: 30,
-	                    navigation: {
-	                        activeColor: 'red',
-	                        animation: true,
-	                        arrowSize: 15,
-	                        inactiveColor: '#CCC',
-	                        style: {
-	                            fontWeight: 'bold',
-	                            color: '#333',
-	                            fontSize: '12px'
-	
-	                        }
-	                    }
-	                },
-	                exporting: {
-	                    enabled: false
-	                },
-	                credits: {
-	                    text: '',
-	                    href: ''
-	                },
-	
-	                series: [{
-	                    name: '流量数据',
-	                    data: jsonObj.data
-	                }]
-	            });
-			}, error: function() {
-				document.getElementById("container6-19").innerHTML = "<div id=\"preloader\"></div>";
-			}
-		});	
+	                                    url: "<%=basePath%>
+	realtimedataIn/realdata/",
+																				data : "place="
+																						+ place
+																						+ "&time="
+																						+ xxxx,
+																				dataType : "json",
+																				type : "POST",
+																				success : function(
+																						data) {
+																					y1 = parseInt(data.real) == NaN ? 0
+																							: parseInt(data.real);
+																					series
+																							.addPoint(
+																									[
+																											x + 300000,
+																											y1 ],
+																									true,
+																									true);
+																					xxx = xxx + 300;
+																					x = x + 300000;
+																				}
+																			});
+																}, 300000);
+													}
+												}
+											},
+
+											rangeSelector : {
+												buttons : [ {
+													count : 1,
+													type : 'day',
+													text : '天'
+												}, {
+													count : 7,
+													type : 'day',
+													text : '周'
+												}, {
+													count : 30,
+													type : 'day',
+													text : '月'
+												} ],
+												inputEnabled : bool,
+												inputStyle : {
+													color : '#fff',
+													fontWeight : 'bold'
+												},
+												selected : init,
+												labelStyle : {
+													color : '#fff',
+													fontWeight : 'bold'
+												},
+											},
+											navigator : {
+												xAxis : {
+													tickWidth : 0,
+													lineWidth : 0,
+													gridLineWidth : 1,
+													tickPixelInterval : 200,
+													labels : {
+														align : 'left',
+														style : {
+															color : '#000'
+														},
+														x : 3,
+														y : -4
+													}
+												},
+											},
+											title : {
+												text : info,
+												style : {
+													color : '#000',
+													font : 'bold 15px "微软雅黑"'
+												}
+											},
+											xAxis : {
+												gridLineWidth : 1,
+												gridLineColor : '#000',
+												lineColor : '#000',
+												tickColor : '#000',
+												labels : {
+													style : {
+														color : '#000',
+														font : '11px Trebuchet MS, Verdana, sans-serif'
+													}
+												},
+												type : 'category',
+												title : {
+													text : '',
+													style : {
+														color : '#000',
+														font : 'bold 15px "微软雅黑"'
+													}
+												},
+											},
+											yAxis : {
+												min : 0,
+												gridLineColor : '#000',
+												legend : {
+													itemStyle : {
+														font : '9pt Trebuchet MS, Verdana, sans-serif',
+														color : 'black'
+													},
+													itemHoverStyle : {
+														color : '#000'
+													},
+													itemHiddenStyle : {
+														color : '#000'
+													}
+												},
+												labels : {
+													style : {
+														color : '#000'
+													}
+												},
+												title : {
+													text : '',
+													style : {
+														color : '#000',
+														font : 'bold 15px "微软雅黑"'
+													}
+
+												}
+											},
+
+											exporting : {
+												enabled : true
+											},
+											legend : {
+												layout : 'vertical',
+												align : 'right',
+												verticalAlign : 'top',
+												y : 30,
+												navigation : {
+													activeColor : 'red',
+													animation : true,
+													arrowSize : 15,
+													inactiveColor : '#CCC',
+													style : {
+														fontWeight : 'bold',
+														color : '#333',
+														fontSize : '12px'
+
+													}
+												}
+											},
+											exporting : {
+												enabled : false
+											},
+											credits : {
+												text : '',
+												href : ''
+											},
+
+											series : [ {
+												name : '流量数据',
+												data : jsonObj.data
+											} ]
+										});
+					},
+					error : function() {
+						document.getElementById("container6-19").innerHTML = "<div id=\"preloader\"></div>";
+					}
+				});
 	}
-	
-	</script>
+</script>
