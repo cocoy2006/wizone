@@ -169,8 +169,10 @@ function createPageNav(opt) {
     //生成普通页码
     function _createCommonPage(startNum, activeNum) {
         var initStr = [];
+        var buildingName =['教一', '教二', '教三', '教四', '新科研楼', '主楼', '综合餐厅', '学生食堂', '学生公寓1', '学生公寓2', '学生公寓4', '学生公寓5',
+                           '学生公寓6', '学生公寓8', '学生公寓9', '学生公寓10', '学生公寓11', '学生公寓29', '学生公寓3'];
         for (var i = 1,pageNum=startNum; i <= pageCount && i <= maxCommonLen; i++ , pageNum++) {
-            initStr.push('<li class="commonPage" value="' + pageNum + '"><img width="80" height="80" src="wibupt/img/main-building.jpg"></li>');
+            initStr.push('<li class="commonPage" value="' + pageNum + '"><img width="80" height="80" src="wibupt/img/building'+(i+1)+'.jpg"><p class="buildingName">'  +buildingName[i]  +'</p></li>');
         }
         
         $parent.hide();
