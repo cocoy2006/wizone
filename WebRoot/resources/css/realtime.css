@@ -80,3 +80,10 @@ ul.pagination>li>span, ul.pagination>li>a, ul.pagination>li.active>a, ul.pager>l
 li.first-page,li.pre-page,li.next-page,li.last-page,.input-page-div {
 	margin-top:30px;
 }
+div#page-nav {
+	margin-top:30px;
+}
+.buildingName {
+	color:#fff;
+	padding-top:6px;
+}

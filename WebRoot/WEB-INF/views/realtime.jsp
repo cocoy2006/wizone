@@ -118,11 +118,10 @@
 			</div>
 		</div>
 	</div>
-
+	<div id='page-nav'></div>
 	<div class="container" style="width:93%;">
 		<div class="row clearfix">
 			<div class="col-md-12 column">
-				<h3 style="color: white;">实时流量图</h3>
 				<hr style="opacity:0.4">
 				<div class="row clearfix">
 					<div id="container-line1" class="col-md-12 col-xs-12 column show-line" style="padding-right: 0px">
@@ -674,7 +673,6 @@
 			</div>
 		</div>
 	</div>
-	<div id='page-nav'></div>
 	<!-- Copyright -->
 	<div class="copyright" style="filter: alpha(opacity=90);opacity: 0.9;">
 		<center>
