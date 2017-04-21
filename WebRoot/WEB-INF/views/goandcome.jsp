@@ -401,6 +401,10 @@
 		function showtotal(str) {
 			if(str=='all'){
 				$("#btt1").removeClass("btn-info").addClass("btn-primary");
+				$("#btt2").removeClass("btn-primary").addClass("btn-info");
+				$("#btt3").removeClass("btn-primary").addClass("btn-info");
+				$("#btt4").removeClass("btn-primary").addClass("btn-info");
+				$("#btt5").removeClass("btn-primary").addClass("btn-info");
 			}else if(str=='west'){
 				$("#btt1").removeClass("btn-primary").addClass("btn-info");
 				$("#btt3").removeClass("btn-primary").addClass("btn-info");

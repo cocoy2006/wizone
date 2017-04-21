@@ -130,104 +130,110 @@
 		<nav>
 			<ul class="pagination" onselectstart="return false"
 				style="display: inline-block;">
-				<li class="commonPage active" value="1"
-					style="width:80px;height:193px;background:url(wibupt/img/building1.jpg);background-repeat: no-repeat;
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看教一实时流量图" data-toggle="tooltip" data-placement="top" title="点击查看实时流量图"  value="1"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building1.jpg);background-repeat: no-repeat;
     background-position: center;"><p
 						class="buildingName">教一</p>
 				</li>
-				<li class="commonPage" value="2"
-					style="width:80px;height:193px;background:url(wibupt/img/building2.jpg);background-repeat: no-repeat;
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看教二实时流量图" data-toggle="tooltip" data-placement="top" title="点击查看实时流量图" value="2"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building2.jpg);background-repeat: no-repeat;
     background-position: center;"><p
 						class="buildingName">教二</p>
 				</li>
-				<li class="commonPage" value="3"
-					style="width:80px;height:193px;background:url(wibupt/img/building3.jpg);background-repeat: no-repeat;
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看教三实时流量图" data-toggle="tooltip" data-placement="top" title="点击查看实时流量图" value="3"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building3.jpg);background-repeat: no-repeat;
     background-position: center;"><p
 						class="buildingName">教三</p>
 				</li>
-				<li class="commonPage" value="4"
-					style="width:80px;height:193px;background:url(wibupt/img/building4.jpg);background-repeat: no-repeat;
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看教四实时流量图" data-toggle="tooltip" data-placement="top" title="点击查看实时流量图" value="4"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building4.jpg);background-repeat: no-repeat;
     background-position: center;"><p
 						class="buildingName">教四</p>
 				</li>
-				<li class="commonPage" value="5"
-					style="width:80px;height:193px;background:url(wibupt/img/building5.jpg);background-repeat: no-repeat;
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看新科研楼实时流量图" value="5"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building5.jpg);background-repeat: no-repeat;
     background-position: center;"><p
 						class="buildingName">新科研楼</p>
 				</li>
-				<li class="commonPage" value="6"
-					style="width:80px;height:193px;background:url(wibupt/img/building6.jpg);background-repeat: no-repeat;
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看主楼实时流量图" value="6"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building6.jpg);background-repeat: no-repeat;
     background-position: center;"><p
 						class="buildingName">主楼</p>
 				</li>
-				<li class="commonPage" value="7"
-					style="width:80px;height:193px;background:url(wibupt/img/building7.jpg);background-repeat: no-repeat;
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看综合餐厅实时流量图" value="7"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building7.jpg);background-repeat: no-repeat;
     background-position: center;"><p
 						class="buildingName">综合餐厅</p>
 				</li>
-				<li class="commonPage" value="8"
-					style="width:80px;height:193px;background:url(wibupt/img/building8.jpg);background-repeat: no-repeat;
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看学生食堂实时流量图" value="8"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building8.jpg);background-repeat: no-repeat;
     background-position: center;"><p
 						class="buildingName">学生食堂</p>
 				</li>
-				<li class="commonPage" value="9"
-					style="width:80px;height:193px;background:url(wibupt/img/building9.jpg);background-repeat: no-repeat;
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看学生公寓1实时流量图" value="9"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building9.jpg);background-repeat: no-repeat;
     background-position: center;"><p
 						class="buildingName">学生公寓1</p>
 				</li>
-				<li class="commonPage" value="10"
-					style="width:80px;height:193px;background:url(wibupt/img/building10.jpg);background-repeat: no-repeat;
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看实时流量图" value="10"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building10.jpg);background-repeat: no-repeat;
     background-position: center;"><p
 						class="buildingName">学生公寓2</p>
 				</li>
-				<li class="commonPage" value="11"
-					style="width:80px;height:193px;background:url(wibupt/img/building11.jpg);background-repeat: no-repeat;
+			</ul>
+		</nav>
+	</div>
+		<div id="page-nav" style="display: block;">
+		<nav>
+			<ul class="pagination pagination2" onselectstart="return false"
+				style="display: inline-block;">
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看学生公寓4实时流量图" value="11"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building11.jpg);background-repeat: no-repeat;
     background-position: center;"><p
 						class="buildingName">学生公寓4</p>
 				</li>
-				<li class="commonPage" value="12"
-					style="width:80px;height:193px;background:url(wibupt/img/building12.jpg);background-repeat: no-repeat;
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看学生公寓5实时流量图" value="12"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building12.jpg);background-repeat: no-repeat;
     background-position: center;"><p
 						class="buildingName">学生公寓5</p>
 				</li>
-				<li class="commonPage" value="13"
-					style="width:80px;height:193px;background:url(wibupt/img/building13.jpg);background-repeat: no-repeat;
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看学生公寓6实时流量图" value="13"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building13.jpg);background-repeat: no-repeat;
     background-position: center;"><p
 						class="buildingName">学生公寓6</p>
 				</li>
-				<li class="commonPage" value="14"
-					style="width:80px;height:193px;background:url(wibupt/img/building14.jpg);background-repeat: no-repeat;
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看学生公寓8实时流量图" value="14"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building14.jpg);background-repeat: no-repeat;
     background-position: center;"><p
 						class="buildingName">学生公寓8</p>
 				</li>
-				<li class="commonPage" value="15"
-					style="width:80px;height:193px;background:url(wibupt/img/building15.jpg);background-repeat: no-repeat;
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看学生公寓9实时流量图" value="15"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building15.jpg);background-repeat: no-repeat;
     background-position: center;"><p
 						class="buildingName">学生公寓9</p>
 				</li>
-				<li class="commonPage" value="16"
-					style="width:80px;height:193px;background:url(wibupt/img/building16.jpg);background-repeat: no-repeat;
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看学生公寓10实时流量图" value="16"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building16.jpg);background-repeat: no-repeat;
     background-position: center;"><p
 						class="buildingName">学生公寓10</p>
 				</li>
-				<li class="commonPage" value="17"
-					style="width:80px;height:193px;background:url(wibupt/img/building17.jpg);background-repeat: no-repeat;
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看学生公寓11实时流量图" value="17"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building17.jpg);background-repeat: no-repeat;
     background-position: center;"><p
 						class="buildingName">学生公寓11</p>
 				</li>
-				<li class="commonPage" value="18"
-					style="width:80px;height:193px;background:url(wibupt/img/building18.jpg);background-repeat: no-repeat;
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看学生公寓29实时流量图" value="18"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building18.jpg);background-repeat: no-repeat;
     background-position: center;"><p
 						class="buildingName">学生公寓29</p>
 				</li>
-				<li class="commonPage" value="19"
-					style="width:80px;height:193px;background:url(wibupt/img/building19.jpg);background-repeat: no-repeat;
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看学生公寓3实时流量图" value="19"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building19.jpg);background-repeat: no-repeat;
     background-position: center;"><p
 						class="buildingName">学生公寓3</p>
 				</li>
 			</ul>
 		</nav>
-	</div>
 	<div class="container" style="width:93%;">
 		<div class="row clearfix">
 			<div class="col-md-12 column">
@@ -807,10 +813,9 @@
 					   </div>
 -->
 				</div>
-
-				<br> <br> <br> <br> <br> <br>
 			</div>
 		</div>
+	</div>
 	</div>
 	<!-- Copyright -->
 	<div class="copyright" style="filter: alpha(opacity=90);opacity: 0.9;">
@@ -834,12 +839,10 @@
 <script src="<%=basePath%>wibupt/js/bootstrap-modal.js"></script>
 <script type="text/javascript" src="<%=basePath%>wibupt/js/Function.js"></script>
 <script type="text/javascript" src="<%=basePath%>wibupt/js/index.js"></script>
-<script type="text/javascript" src="<%=basePath%>wibupt/js/realtime.js"></script>
 <script type="text/javascript"
 	src="<%=basePath%>wibupt/js/unslider-min.js"></script>
 <script>
-	 //createPageNav({$container:$("#page-nav"),pageCount:19});
-	 $('#page-nav').unslider();
+	 //$('#page-nav').unslider();
 		var groups=new Array();     		
    		window.onload =getGroup();
    		   		

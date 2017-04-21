@@ -264,10 +264,6 @@
 		            var f = parseFloat(toDecimal2(100 * jsonObj.brand[4].value / jsonObj.total));
 		            var g = parseFloat(toDecimal2(100 * jsonObj.brand[5].value / jsonObj.total));
 		            var h = parseFloat(toDecimal2(100 * jsonObj.brand[6].value / jsonObj.total));
-		            var i = parseFloat(toDecimal2(100 * jsonObj.brand[7].value / jsonObj.total));
-		            var j = parseFloat(toDecimal2(100 * jsonObj.brand[8].value / jsonObj.total));
-		            var k = parseFloat(toDecimal2(100 * jsonObj.brand[9].value / jsonObj.total));
-		            var l = parseFloat(toDecimal2(100 * jsonObj.brand[10].value / jsonObj.total));
 				
       		 		
 					    Highcharts.setOptions({
@@ -348,7 +344,7 @@
 		                    [jsonObj.brand[3].brand, e], 
 		                    [jsonObj.brand[4].brand, f], 
 		                    [jsonObj.brand[5].brand, g],  
-		                    [jsonObj.brand[10].brand, l]]
+		                    [jsonObj.brand[6].brand, h]]
 		                }],
 		                tooltip: {
 		                    pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'

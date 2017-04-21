@@ -28,16 +28,19 @@ public class GoAndComeService {
 		
 		if(list != null && list.size() > 0) {
 			for(GoAndCome goandcome : list) {
-				come_avg=come_avg+goandcome.getComeIn();
-				comedata.append(goandcome.getComeIn()).append(",");
+				int getComeIn = goandcome.getComeIn();
+				int getGoOut = goandcome.getGoOut();
+				int comeInAndGoOut = getComeIn + getGoOut;
 				
-				go_avg=go_avg+goandcome.getGoOut();
-				godata.append(goandcome.getGoOut()).append(",");
+				come_avg += getComeIn;
+				go_avg += getGoOut;
 				
-				totaldata.append(goandcome.getComeIn()+goandcome.getGoOut()).append(",");
+				comedata.append(getComeIn).append(",");
+				godata.append(getGoOut).append(",");
+				
+				totaldata.append(comeInAndGoOut).append(",");
 			}
 		}
-		
 		if (comedata.length() > 1) {
 			comedata.delete(comedata.length() - 1, comedata.length());
 		}

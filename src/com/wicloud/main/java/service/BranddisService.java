@@ -222,17 +222,17 @@ public class BranddisService {
 				}
 			}
 			//计算消费等级end
-			int ii = 10;
-			double top10 = 0;
+			int ii = 6;
+			double top6 = 0;
 			for (Map.Entry<String, Integer> mapping : mappingList) {
 				brand.append("{\"brand\":\"" + mapping.getKey()
 						+ "\",\"value\":" + mapping.getValue() + "},");
 				ii--;
-				top10 = top10 + mapping.getValue();
+				top6 = top6 + mapping.getValue();
 				if (ii <= 0)
 					break;
 			}
-			others = (int) (Wicloud.parseDoubleValue(objs[0]) - top10);
+			others = (int) (Wicloud.parseDoubleValue(objs[0]) - top6);
 			brand.append("{\"brand\":\"Other\",\"value\":" + others + "}");
 			return "{\"total\":" + (int)Wicloud.parseDoubleValue(objs[0]) + ",\"rank\":\""+rank+"\",\"brand\":[" + brand.toString()
 					+ "]"+",\"p\":["+p.toString()+"]}";

@@ -64,11 +64,16 @@ ul.pagination>li>span,ul.pagination>li>a,ul.pagination>li.active>a,ul.pager>li>s
 }
 
 .pagination {
-	margin-left: 1%;
+	margin-left: 13%;
+}
+
+.pagination2 {
+	margin-left: 16%;
 }
 
 .pagination li {
 	float: left;
+	border-radius:50%;
 }
 
 .commonPage img {
@@ -169,4 +174,15 @@ div#page-nav {
 .unslider-arrow.next {
 	left: auto;
 	right: 20px
+}
+li.commonPage{
+	display:block;
+	-webkit-transition:1s;
+	transition:1s;	
+}
+li.commonPage:hover {
+	-webkit-transform:scale(1.2);
+	cursor:pointer;
+	 -moz-transform:scale(1.2);
+	transfrom:scale{2,2};
 }
