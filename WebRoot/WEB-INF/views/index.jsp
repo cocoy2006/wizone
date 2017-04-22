@@ -299,7 +299,7 @@
 				    dataType: "json",
 				    type: "POST",
 					success:function(data){
-    					alert(JSON.stringify(data)); 打印所有数据
+    					alert(JSON.stringify(data)); 
     					//alert(data['traffic_today'][0]['dayTraffic']);
 					}, error: function() {
 						alert("error");
