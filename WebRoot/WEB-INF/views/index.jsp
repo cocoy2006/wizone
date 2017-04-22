@@ -274,6 +274,38 @@
 				   }
 				});
 				heatmapOverlay.show();
+/*			
+			    // add test RealtimeTraffic---------------------------------------------------------------------------------
+			    var place = 1, start = 1421798699, finish = 1421798710;
+			    $.ajax({
+					url:"<%=basePath%>realtimetraffic/getRealtimeTraffic/",
+					data: "place=" + place + "&start=" + start + "&finish=" + finish,
+				    dataType: "json",
+				    type: "POST",
+					success:function(data){
+    					//alert(JSON.stringify(data)); 打印所有数据
+    					//alert(data['realtime_traffic'][0]['monTime']);
+					}, error: function() {
+						//alert("error");
+				   }
+				});
+				// add test --------------------------------------------------------------------------
+*/		
+				// add test TrafficToday---------------------------------------------------------------------------------
+			    var place = 9, start = 1421798699, finish = 1421798710;
+			    $.ajax({
+					url:"<%=basePath%>traffictoday/getTrafficToday/",
+					data: "place=" + place + "&start=" + start + "&finish=" + finish,
+				    dataType: "json",
+				    type: "POST",
+					success:function(data){
+    					alert(JSON.stringify(data)); 打印所有数据
+    					//alert(data['traffic_today'][0]['dayTraffic']);
+					}, error: function() {
+						alert("error");
+				   }
+				});
+				// add test --------------------------------------------------------------------------
 			
 		}
 			var boxcontent1=  "<div class='module' style='border: #DEDEDE 1px solid;border-radius: 7px;background-color:rgba(249, 249, 249, 0.84);padding:15px'><div style='line-height:1.8em;font-size:12px;'>当前位置：<b><span id='heatplace1'></span></b></br>热力指数：<b><span id='heatvalue1'></span></b></div></div>"	

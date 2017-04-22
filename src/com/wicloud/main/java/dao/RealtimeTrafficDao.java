@@ -88,7 +88,7 @@ public class RealtimeTrafficDao extends BaseHibernateDAO{
 	public List<RealtimeTraffic> findTraffic(int groupId,int start, int finish) {
 		log.debug("finding traffic from realtime_traffic with" +", start: " + start + ", finish: " + finish);
 		try {
-			String queryString = "from realtime_traffic where groupid = ? and monTime >= ? and monTime <= ?";
+			String queryString = "from RealtimeTraffic where groupid = ? and monTime >= ? and monTime <= ?";
 			return hibernateTemplate.find(queryString, groupId, start, finish);
 		} catch (RuntimeException re) {
 			log.error("find traffic failed", re);

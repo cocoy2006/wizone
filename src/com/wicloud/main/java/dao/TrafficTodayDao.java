@@ -87,7 +87,7 @@ public class TrafficTodayDao extends BaseHibernateDAO{
 	public List<TrafficToday> findTraffic(int groupId,int start, int finish) {
 		log.debug("finding traffic from traffic_today with" +", start: " + start + ", finish: " + finish);
 		try {
-			String queryString = "from traffic_today where groupid = ? and monTime >= ? and monTime <= ?";
+			String queryString = "from TrafficToday where groupid = ? and monTime >= ? and monTime <= ?";
 			return hibernateTemplate.find(queryString, groupId, start, finish);
 		} catch (RuntimeException re) {
 			log.error("find traffic failed", re);

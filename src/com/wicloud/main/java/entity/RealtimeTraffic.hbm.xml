@@ -9,7 +9,7 @@
         <id name="id" type="java.lang.Integer">
             <column name="id" />
         </id>
-        <property name="groupId" type="java.lang.Integer">
+        <property name="groupid" type="java.lang.Integer">
             <column name="groupid"/>
         </property>
          <property name="traffic" type="java.lang.Integer">

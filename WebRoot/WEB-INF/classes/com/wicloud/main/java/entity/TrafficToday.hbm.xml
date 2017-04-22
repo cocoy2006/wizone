@@ -9,10 +9,10 @@
         <id name="id" type="java.lang.Integer">
             <column name="id" />
         </id>
-        <property name="groupId" type="java.lang.Integer">
+        <property name="groupid" type="java.lang.Integer">
             <column name="groupid"/>
         </property>
-         <property name="dayTraffic" type="java.lang.Integer">
+         <property name="daytraffic" type="java.lang.Integer">
             <column name="daytraffic"/>
         </property>
         <property name="monTime" type="java.lang.Integer">

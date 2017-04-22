@@ -35,7 +35,7 @@ public class TrafficTodayService {
 		if(traffics != null && 0 != traffics.size()){
 			for(TrafficToday trafficToday : traffics) {
 				int monTime = trafficToday.getMonTime();
-				int traffic = trafficToday.getDayTraffic();
+				int traffic = trafficToday.getDaytraffic();
 				realdata.append("{\"monTime\":").append(monTime).append(",\"dayTraffic\":").append(traffic)
 				.append("},");
 			}

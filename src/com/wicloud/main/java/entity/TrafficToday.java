@@ -14,27 +14,26 @@ java.io.Serializable {
 	
 	// Fields    
 	private Integer id;
-	private Integer groupId;
-	private Integer dayTraffic;
+	private Integer groupid;
+	private Integer daytraffic;
 	private Integer monTime;
 	
-	public TrafficToday(Integer id) {
+	public TrafficToday() {
 		super();
-		this.id = id;
 	}
 
-	public TrafficToday(Integer dayTraffic, Integer monTime) {
+	public TrafficToday(Integer daytraffic, Integer monTime) {
 		super();
-		this.dayTraffic = dayTraffic;
+		this.daytraffic = daytraffic;
 		this.monTime = monTime;
 	}
 
-	public TrafficToday(Integer id, Integer groupId, Integer dayTraffic,
+	public TrafficToday(Integer id, Integer groupid, Integer daytraffic,
 			Integer monTime) {
 		super();
 		this.id = id;
-		this.groupId = groupId;
-		this.dayTraffic = dayTraffic;
+		this.groupid = groupid;
+		this.daytraffic = daytraffic;
 		this.monTime = monTime;
 	}
 
@@ -46,20 +45,20 @@ java.io.Serializable {
 		this.id = id;
 	}
 
-	public Integer getGroupId() {
-		return groupId;
+	public Integer getGroupid() {
+		return groupid;
 	}
 
-	public void setGroupId(Integer groupId) {
-		this.groupId = groupId;
+	public void setGroupid(Integer groupid) {
+		this.groupid = groupid;
 	}
 
-	public Integer getDayTraffic() {
-		return dayTraffic;
+	public Integer getDaytraffic() {
+		return daytraffic;
 	}
 
-	public void setDayTraffic(Integer dayTraffic) {
-		this.dayTraffic = dayTraffic;
+	public void setDaytraffic(Integer daytraffic) {
+		this.daytraffic = daytraffic;
 	}
 
 	public Integer getMonTime() {
@@ -69,6 +68,10 @@ java.io.Serializable {
 	public void setMonTime(Integer monTime) {
 		this.monTime = monTime;
 	}
-   
+	
+	
+	
+	
+	
 }
 

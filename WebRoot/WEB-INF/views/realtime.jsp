@@ -5301,8 +5301,7 @@
 	                            var series = this.series[0];
 	                            setInterval(function() {
 	                                $.ajax({
-	                                    url: "<%=basePath%>
-	realtimedataIn/realdata/",
+	                                    url: "<%=basePath%>realtimedataIn/realdata/",
 																				data : "place="
 																						+ place
 																						+ "&time="
