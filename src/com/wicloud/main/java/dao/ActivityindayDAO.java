@@ -102,7 +102,7 @@ public class ActivityindayDAO extends BaseHibernateDAO  {
 	public List<Activityinday> getAll(int kaishi,int jieshu) {
 		log.debug("finding all Activity instances");
 		try {
-			String queryString = "from Activityinday where monTime>=? and monTime<=?";
+			String queryString = "from Activityinday where monTime BETWEEN ? AND ?";
 		 	return getHibernateTemplate().find(queryString,kaishi,jieshu);
 		} catch (RuntimeException re) {
 			log.error("find all failed", re);
@@ -113,7 +113,7 @@ public class ActivityindayDAO extends BaseHibernateDAO  {
 	public List<Activityinday> getWeekActivityinday(int start,int finish){
 		log.debug("find a week Activityinday");
 		try {
-			String queryString = "from Activityinday where monTime>=? and monTime<=?";
+			String queryString = "from Activityinday where monTime BETWEEN ? AND ?";
 		 	return getHibernateTemplate().find(queryString,start,finish);
 		} catch (RuntimeException re) {
 			log.error("find all failed", re);

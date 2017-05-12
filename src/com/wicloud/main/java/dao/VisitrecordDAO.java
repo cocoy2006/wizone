@@ -144,7 +144,7 @@ public class VisitrecordDAO extends BaseHibernateDAO {
 		log.debug("finding distinct(mac) from Visitrecord with monid: " + 
 				monid + ", start inTime: " + start + ", finish inTime: " + finish);
 		try {
-			String queryString = "SELECT DISTINCT(mac) FROM Visitrecord where monid=? and inTime>=? and inTime<=?";
+			String queryString = "SELECT DISTINCT(mac) FROM Visitrecord where monid=? and (inTime BETWEEN ? AND ?)";
 			return hibernateTemplate.find(queryString, monid, start, finish);
 		} catch (RuntimeException re) {
 			log.error("find all failed", re);
@@ -158,7 +158,7 @@ public class VisitrecordDAO extends BaseHibernateDAO {
 		try {
 //			String queryString = "SELECT avg(f),max(f) FROM (SELECT COUNT(*) AS f,mac FROM Visitrecord where monid=? and inTime>=? and inTime<=? GROUP BY mac ORDER BY f DESC) as hh;";
 			// rewrite it after
-			String queryString = "SELECT COUNT(*) FROM Visitrecord where monid=? and inTime>=? and inTime<=? GROUP BY mac";
+			String queryString = "SELECT COUNT(*) FROM Visitrecord where monid=? and (inTime BETWEEN ? AND ?) GROUP BY mac";
 			return hibernateTemplate.find(queryString, monid, start, finish);
 		} catch (RuntimeException re) {
 			log.error("find all failed", re);

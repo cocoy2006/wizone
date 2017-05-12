@@ -93,8 +93,7 @@
 				</button>
 				<a href="<%=basePath%>index"> <img alt="Wibupt"
 					src="<%=basePath%>wibupt/img/logo_wibupt-m.png"
-					style="width:150px;height:60px;">
-				</a>
+					style="width:150px;height:60px;"> </a>
 			</div>
 			<div class="navbar-collapse collapse" role="navigation">
 				<ul class="nav navbar-nav navbar-right hidden-sm nav-tabs">
@@ -102,6 +101,7 @@
 						style="font-size: 18px"><i class="icon-home"></i>&nbsp实时校园</a></li>
 					<li><a href="<%=basePath%>realtime" style="font-size: 18px"><i
 							class="icon-repeat"></i>&nbsp实时流量分析</a></li>
+							
 					<li><a href="<%=basePath%>activity" style="font-size: 18px"><i
 							class="icon-group"></i>&nbsp活跃分析</a></li>
 					<li><a href="<%=basePath%>consumption" style="font-size: 18px"><i
@@ -289,8 +289,7 @@
 						//alert("error");
 				   }
 				});
-				// add test --------------------------------------------------------------------------
-*/		
+				// add test --------------------------------------------------------------------------	
 				// add test TrafficToday---------------------------------------------------------------------------------
 			    var place = 9, start = 1421798699, finish = 1421798710;
 			    $.ajax({
@@ -306,7 +305,7 @@
 				   }
 				});
 				// add test --------------------------------------------------------------------------
-			
+*/
 		}
 			var boxcontent1=  "<div class='module' style='border: #DEDEDE 1px solid;border-radius: 7px;background-color:rgba(249, 249, 249, 0.84);padding:15px'><div style='line-height:1.8em;font-size:12px;'>当前位置：<b><span id='heatplace1'></span></b></br>热力指数：<b><span id='heatvalue1'></span></b></div></div>"	
 			var infoBox1 = new BMapLib.InfoBox(map,boxcontent1,{boxStyle:{width: "175px"}, closeIconMargin: "10px 10px 0 0",closeIconUrl:'<%=basePath%>wibupt/img/x1.png', enableAutoPan: true ,alignBottom: false});

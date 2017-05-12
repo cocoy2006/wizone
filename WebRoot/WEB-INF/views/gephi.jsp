@@ -26,6 +26,9 @@
 	String kaishi7 = Wicloud.change(time, 7);
 	String kaishi30 = Wicloud.change(time, 30);
 	String kaishi90 = Wicloud.change(time, 90);
+	
+	String svgPath ="/svgstore";
+	String svgBasePath=request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+svgPath+"/";
  %>
 <!DOCTYPE html>
 <html>
@@ -318,8 +321,8 @@
          document.getElementById('seln2').innerHTML=def(abc(selget,-2));
          document.getElementById('seln3').innerHTML=def(abc(selget,-3));
          document.getElementById('seln4').innerHTML=def(abc(selget,-4));
-          
-         document.getElementById('svg0').src = '<%=basePath%>wibupt/img/'+ selget +'.svg'; 
+         
+         document.getElementById('svg0').src = '<%=svgBasePath%>wibupt/img/'+ selget +'.svg'; 
          document.getElementById('time0').innerHTML=def(abc(selget,0));			               
         } 
         function gp1() {selget=document.getElementById('selp1').value; ghi();}

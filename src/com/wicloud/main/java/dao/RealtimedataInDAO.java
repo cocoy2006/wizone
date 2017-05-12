@@ -117,7 +117,7 @@ public class RealtimedataInDAO extends BaseHibernateDAO {
 	public List<RealtimedataIn> findMontimeAndTraffic(String place,int start, int finish) {
 		log.debug("finding monTime and traffic from RealtimedataIn with" +", start: " + start + ", finish: " + finish);
 		try {
-			String queryString = "from RealtimedataIn where groupindex.groupname=? and id.monTime>=? and id.monTime<=?";
+			String queryString = "from RealtimedataIn where groupindex.groupname=? and (id.monTime BETWEEN ? AND ?)";
 			return hibernateTemplate.find(queryString,place,start, finish);
 		} catch (RuntimeException re) {
 			log.error("find monTime and traffic failed", re);

@@ -26,6 +26,7 @@
 	String kaishi7 = Wicloud.change(time, 7);
 	String kaishi30 = Wicloud.change(time, 30);
 	String kaishi90 = Wicloud.change(time, 90);
+	
  %>
 <!DOCTYPE html>
 <html>
@@ -244,8 +245,8 @@
    			showtotal('all');
    			showWeekGate();
 			showrealgate();
-			
-		}
+			setInterval(showrealgate,300000);
+		};
    		
    </script>
 	

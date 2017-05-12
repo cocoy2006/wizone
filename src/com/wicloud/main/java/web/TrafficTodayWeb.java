@@ -9,8 +9,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.wicloud.main.java.service.TrafficTodayService;
 
-
-
 @Controller
 @RequestMapping(value = "/traffictoday")
 public class TrafficTodayWeb {

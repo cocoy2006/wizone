@@ -50,6 +50,11 @@ public class IndexWeb {
 		return "realtime";
 	}
 	
+	@RequestMapping(value = "/traffic")
+	public String traffic() {
+		return "traffic";
+	}
+	
 	@RequestMapping(value = "/activity")
 	public String contacts() {
 		return "activity";
