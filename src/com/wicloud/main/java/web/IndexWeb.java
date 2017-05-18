@@ -65,11 +65,6 @@ public class IndexWeb {
 		return "consumption";
 	}
 	
-	@RequestMapping(value = "/goandcome")
-	public String info() {
-		return "goandcome";
-	}
-	
 	@RequestMapping(value = "/gephi")
 	public String admin() {
 		return "gephi";

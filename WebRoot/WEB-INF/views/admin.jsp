@@ -34,7 +34,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-		<title>WiBupt - 基于WiFi数据的北邮校园分析</title>
+		<title>Wizone - 基于WiFi数据的展厅分析</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="description" content="This is FU'S page">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
@@ -443,7 +443,7 @@
 				<!-- BEGIN LOGO -->
 				<div id="logo" class="logo">
 					<a href="<%=basePath%>index">
-						<img src="<%=basePath%>wibupt/img/logo_wibupt-m.png" style="width: 125px; height: 50px" alt="Wibupt" />
+						<img src="<%=basePath%>wibupt/img/logo.png" style="width: 125px; height: 50px" alt="Wibupt" />
 					</a>
 				</div>
 				<!-- END LOGO -->

@@ -33,7 +33,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>WiBupt - 基于WiFi数据的北邮校园分析</title>
+<title>Wizone - 基于WiFi数据的展厅分析</title>
 <meta name="viewport"
 	content="width=device-width, initial-scale=1.0,maximum-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
@@ -149,7 +149,7 @@
 					style="width:150px;height:60px;"> </a>
 			</div>
 			<div class="navbar-collapse collapse" role="navigation">
-				<ul class="nav navbar-nav navbar-right hidden-sm nav-tabs">
+				<ul class="nav navbar-nav navbar-left hidden-sm nav-tabs">
 					<li><a href="<%=basePath%>index" style="font-size: 18px"><i
 							class="icon-home"></i>&nbsp实时校园</a>
 					</li>
@@ -160,7 +160,7 @@
 							class="icon-group"></i>&nbsp活跃分析</a>
 					</li>
 					<li><a href="<%=basePath%>consumption" style="font-size: 18px"><i
-							class="icon-camera"></i>&nbsp消费能力分析</a>
+							class="icon-camera"></i>&nbsp手机品牌分析</a>
 					</li>
 					<li><a href="<%=basePath%>goandcome" style="font-size: 18px"><i
 							class="icon-resize-full"></i>&nbsp出入校园分析</a>

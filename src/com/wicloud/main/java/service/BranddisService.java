@@ -195,11 +195,11 @@ public class BranddisService {
 					}
 					
 				}
-				c12=(double)(Math.round(c12/counter*100)/100.0);
-				c23=(double)(Math.round(c23/counter*100)/100.0);
-				c35=(double)(Math.round(c35/counter*100)/100.0);
-				c5=(double)(Math.round(c5/counter*100)/100.0);
-				c1=(double)(Math.round(c1/counter*100)/100.0);
+				c12=(double)(Math.round(c12/counter*100));
+				c23=(double)(Math.round(c23/counter*100));
+				c35=(double)(Math.round(c35/counter*100));
+				c5=(double)(Math.round(c5/counter*100));
+				c1=(double)(Math.round(c1/counter*100));
 				System.out.println(c1+","+c23+","+c35+","+c5);
 				p.append(c5).append(",").append(c35).append(",").append(c23).append(",").append(c12).append(",").append(c1);
 				

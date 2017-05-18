@@ -64,11 +64,12 @@ ul.pagination>li>span,ul.pagination>li>a,ul.pagination>li.active>a,ul.pager>li>s
 }
 
 .pagination {
-	margin-left: 13%;
+	width: 600px;
+	margin: 0 auto;
 }
 
 .pagination2 {
-	margin-left: 16%;
+	margin: 0 auto;
 }
 
 .pagination li {

@@ -41,14 +41,12 @@
 		<mapping
 			resource="com/wicloud/main/java/entity/Groupindex.hbm.xml" />
 		<mapping
-			resource="com/wicloud/main/java/entity/GoAndCome.hbm.xml" />
-		<mapping
-			resource="com/wicloud/main/java/entity/RealGate.hbm.xml" />
-		<mapping
 			resource="com/wicloud/main/java/entity/Activityinday.hbm.xml" />
 		<mapping
 		    resource="com/wicloud/main/java/entity/RealtimeTraffic.hbm.xml" />
 		<mapping
 		    resource="com/wicloud/main/java/entity/TrafficToday.hbm.xml" />
+		<mapping
+		    resource="com/wicloud/main/java/entity/Visitrecord.hbm.xml" />  
 	</session-factory>
 </hibernate-configuration>
