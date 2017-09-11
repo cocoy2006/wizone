@@ -128,7 +128,7 @@ public class GoAndComeDAO extends BaseHibernateDAO {
 		log.debug("finding all GoAndCome instances");
 		try {
 			SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd"); 
-			String queryString = "from GoAndCome where gateId=? and time>=? and time<=?";
+			String queryString = "from GoAndCome where gateId=? AND time BETWEEN ? AND ? ORDER BY time";
 			return getHibernateTemplate().find(queryString,gateId,Date.valueOf(start),Date.valueOf(finish));
 		} catch (RuntimeException re) {
 			log.error("find all failed", re);
@@ -139,7 +139,7 @@ public class GoAndComeDAO extends BaseHibernateDAO {
 		log.debug("finding all GoAndCome instances");
 		try {
 			SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd"); 
-			String queryString = "from GoAndCome where time>=? and time<=?";
+			String queryString = "from GoAndCome where time BETWEEN ? AND ?";
 			return getHibernateTemplate().find(queryString,Date.valueOf(start),Date.valueOf(finish));
 		} catch (RuntimeException re) {
 			log.error("find all failed", re);
@@ -150,7 +150,7 @@ public class GoAndComeDAO extends BaseHibernateDAO {
 		log.debug("finding all GoAndCome instances");
 		try {
 			SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd"); 
-			String queryString = "from GoAndCome where time>=? and time<=?";
+			String queryString = "from GoAndCome where time BETWEEN ? AND ?";
 			return getHibernateTemplate().find(queryString,Date.valueOf(start),Date.valueOf(finish));
 		} catch (RuntimeException re) {
 			log.error("find all failed", re);

@@ -50,6 +50,11 @@ public class IndexWeb {
 		return "realtime";
 	}
 	
+	@RequestMapping(value = "/traffic")
+	public String traffic() {
+		return "traffic";
+	}
+	
 	@RequestMapping(value = "/activity")
 	public String contacts() {
 		return "activity";
@@ -58,11 +63,6 @@ public class IndexWeb {
 	@RequestMapping(value = "/consumption")
 	public String shop() {
 		return "consumption";
-	}
-	
-	@RequestMapping(value = "/goandcome")
-	public String info() {
-		return "goandcome";
 	}
 	
 	@RequestMapping(value = "/gephi")

@@ -26,12 +26,15 @@
 	String kaishi7 = Wicloud.change(time, 7);
 	String kaishi30 = Wicloud.change(time, 30);
 	String kaishi90 = Wicloud.change(time, 90);
+	
+	String svgPath ="/svgstore";
+	String svgBasePath=request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+svgPath+"/";
  %>
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
-        <title>WiBupt - 基于WiFi数据的北邮校园分析</title>
+        <title>Wizone - 基于WiFi数据的展厅分析</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
       	<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
          <link href="<%=basePath%>wibupt/css/timelist.css" rel="stylesheet">
@@ -114,16 +117,15 @@
             			<span class="icon-bar"></span>
           			</button>
           			<a href="<%=basePath%>index">
-            			<img alt="Wibupt" src="<%=basePath%>wibupt/img/logo_wibupt-m.png" style="width:150px;height:60px;">
+            			<img alt="Wibupt" src="<%=basePath%>wibupt/img/logo.png" style="width:150px;height:60px;">
             		</a>
         		</div>
         		<div class="navbar-collapse collapse" role="navigation">
-          			<ul class="nav navbar-nav navbar-right hidden-sm nav-tabs">
-   						<li><a href="<%=basePath%>index" style="font-size: 18px"><i class="icon-home"></i>&nbsp实时校园</a></li>
+          			<ul class="nav navbar-nav navbar-left hidden-sm nav-tabs">
+   						<li><a href="<%=basePath%>index" style="font-size: 18px"><i class="icon-home"></i>&nbsp展厅热点</a></li>
    						<li><a href="<%=basePath%>realtime"  style="font-size: 18px"><i class="icon-repeat"></i>&nbsp实时流量图</a></li>
    						<li><a href="<%=basePath%>activity" style="font-size: 18px"><i class="icon-group"></i>&nbsp活跃度</a></li>
-         				<li><a href="<%=basePath%>consumption" style="font-size: 18px"><i class="icon-camera"></i>&nbsp消费能力分析</a></li>
-         				<li><a href="<%=basePath%>goandcome" style="font-size: 18px"><i class="icon-resize-full"></i>&nbsp出入校园情况</a></li>
+         				<li><a href="<%=basePath%>consumption" style="font-size: 18px"><i class="icon-camera"></i>&nbsp手机品牌分析</a></li>
          				<li class="active"><a href="<%=basePath%>gephi" style="font-size: 18px"><i class="icon-magnet"></i>&nbsp关联图</a></li>
    						<li><a href="<%=basePath%>login" style="font-size: 18px"><i class="icon-cog"></i>&nbsp设置</a></li>
           			</ul>
@@ -140,7 +142,7 @@
         									<div class="col-md-4  col-xs-4 column">
         										<div id="bb1" style="color:rgb(146,146,146);width:80%; position:absolute; background:transparent;"></div>
                                     			<h3 style="color: #fff;">关联图
-                                       				<a  onmouseover="ddd('bb1', 'show','45px','&nbsp;&nbsp;&nbsp;&nbsp;关联图:&nbsp;&nbsp;表征北邮各主要教学楼的联系紧密情况');" onmouseout="ddd('bb1', 'hide');"> 
+                                       				<a  onmouseover="ddd('bb1', 'show','45px','&nbsp;&nbsp;&nbsp;&nbsp;关联图:&nbsp;&nbsp;表征展厅不同位置的联系紧密情况');" onmouseout="ddd('bb1', 'hide');"> 
                                            				<img src="<%=basePath%>wibupt/img/shuoming.jpg" style="margin-top: -5px; width: 15px; height: 15px;">
 													</a>
 												</h3>
@@ -208,7 +210,9 @@
 		<div class="copyright" style="filter: alpha(opacity=90);opacity: 0.9;">
 			<center>
 				<div style="height:20px;"> 
+				<!--
 					<p><a href="<%=basePath%>index">WiBupt </a><span class="separator">|</span>北京邮电大学版权所有&copy; 2013~2014 </p>
+				-->
 				</div>								
 			</center>
 		</div>
@@ -318,8 +322,8 @@
          document.getElementById('seln2').innerHTML=def(abc(selget,-2));
          document.getElementById('seln3').innerHTML=def(abc(selget,-3));
          document.getElementById('seln4').innerHTML=def(abc(selget,-4));
-          
-         document.getElementById('svg0').src = '<%=basePath%>wibupt/img/'+ selget +'.svg'; 
+         
+         document.getElementById('svg0').src = '<%=svgBasePath%>wibupt/img/'+ selget +'.svg'; 
          document.getElementById('time0').innerHTML=def(abc(selget,0));			               
         } 
         function gp1() {selget=document.getElementById('selp1').value; ghi();}

@@ -33,7 +33,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>WiBupt - 基于WiFi数据的北邮校园分析</title>
+<title>Wizone - 基于WiFi数据的展厅分析</title>
 <meta name="viewport"
 	content="width=device-width, initial-scale=1.0,maximum-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
@@ -96,13 +96,13 @@
 						class="icon-bar"></span>
 				</button>
 				<a href="<%=basePath%>index"> <img alt="Wibupt"
-					src="<%=basePath%>wibupt/img/logo_wibupt-m.png"
+					src="<%=basePath%>wibupt/img/logo.png"
 					style="width:150px;height:60px;"> </a>
 			</div>
 			<div class="navbar-collapse collapse" role="navigation">
-				<ul class="nav navbar-nav navbar-right hidden-sm nav-tabs">
+				<ul class="nav navbar-nav navbar-left hidden-sm nav-tabs">
 					<li><a href="<%=basePath%>index" style="font-size: 18px"><i
-							class="icon-home"></i>&nbsp实时校园</a>
+							class="icon-home"></i>&nbsp展厅热点</a>
 					</li>
 					<li class="active"><a href="<%=basePath%>realtime"
 						style="font-size: 18px"><i class="icon-repeat"></i>&nbsp实时流量分析</a>
@@ -111,10 +111,7 @@
 							class="icon-group"></i>&nbsp活跃分析</a>
 					</li>
 					<li><a href="<%=basePath%>consumption" style="font-size: 18px"><i
-							class="icon-camera"></i>&nbsp消费能力分析</a>
-					</li>
-					<li><a href="<%=basePath%>goandcome" style="font-size: 18px"><i
-							class="icon-resize-full"></i>&nbsp出入校园分析</a>
+							class="icon-camera"></i>&nbsp手机品牌分析</a>
 					</li>
 					<li><a href="<%=basePath%>gephi" style="font-size: 18px"><i
 							class="icon-magnet"></i>&nbsp关联分析</a>
@@ -129,105 +126,113 @@
 	<div id="page-nav" style="display: block;">
 		<nav>
 			<ul class="pagination" onselectstart="return false"
-				style="display: inline-block;">
-				<li class="commonPage active" value="1"
-					style="width:80px;height:193px;background:url(wibupt/img/building1.jpg);background-repeat: no-repeat;
-    background-position: center;"><p
-						class="buildingName">教一</p>
+				style="display: block;">
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看教一实时流量图" data-toggle="tooltip" data-placement="top" title="点击查看实时流量图"  value="1"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building1.jpg);background-repeat: no-repeat;
+    background-position: center; background-size: 75px;"><p
+						class="buildingName">一层东北</p>
 				</li>
-				<li class="commonPage" value="2"
-					style="width:80px;height:193px;background:url(wibupt/img/building2.jpg);background-repeat: no-repeat;
-    background-position: center;"><p
-						class="buildingName">教二</p>
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看教二实时流量图" data-toggle="tooltip" data-placement="top" title="点击查看实时流量图" value="2"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building2.jpg);background-repeat: no-repeat;
+    background-position: center; background-size: 75px;"><p
+						class="buildingName">一层东中间</p>
 				</li>
-				<li class="commonPage" value="3"
-					style="width:80px;height:193px;background:url(wibupt/img/building3.jpg);background-repeat: no-repeat;
-    background-position: center;"><p
-						class="buildingName">教三</p>
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看教三实时流量图" data-toggle="tooltip" data-placement="top" title="点击查看实时流量图" value="3"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building3.jpg);background-repeat: no-repeat;
+    background-position: center; background-size: 75px;"><p
+						class="buildingName">一层东南</p>
 				</li>
-				<li class="commonPage" value="4"
-					style="width:80px;height:193px;background:url(wibupt/img/building4.jpg);background-repeat: no-repeat;
-    background-position: center;"><p
-						class="buildingName">教四</p>
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看教四实时流量图" data-toggle="tooltip" data-placement="top" title="点击查看实时流量图" value="4"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building4.jpg);background-repeat: no-repeat;
+    background-position: center; background-size: 75px;"><p
+						class="buildingName">一层西北</p>
 				</li>
-				<li class="commonPage" value="5"
-					style="width:80px;height:193px;background:url(wibupt/img/building5.jpg);background-repeat: no-repeat;
-    background-position: center;"><p
-						class="buildingName">新科研楼</p>
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看新科研楼实时流量图" value="5"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building5.jpg);background-repeat: no-repeat;
+    background-position: center; background-size: 75px;"><p
+						class="buildingName">一层西中间</p>
 				</li>
-				<li class="commonPage" value="6"
-					style="width:80px;height:193px;background:url(wibupt/img/building6.jpg);background-repeat: no-repeat;
-    background-position: center;"><p
-						class="buildingName">主楼</p>
-				</li>
-				<li class="commonPage" value="7"
-					style="width:80px;height:193px;background:url(wibupt/img/building7.jpg);background-repeat: no-repeat;
-    background-position: center;"><p
-						class="buildingName">综合餐厅</p>
-				</li>
-				<li class="commonPage" value="8"
-					style="width:80px;height:193px;background:url(wibupt/img/building8.jpg);background-repeat: no-repeat;
-    background-position: center;"><p
-						class="buildingName">学生食堂</p>
-				</li>
-				<li class="commonPage" value="9"
-					style="width:80px;height:193px;background:url(wibupt/img/building9.jpg);background-repeat: no-repeat;
-    background-position: center;"><p
-						class="buildingName">学生公寓1</p>
-				</li>
-				<li class="commonPage" value="10"
-					style="width:80px;height:193px;background:url(wibupt/img/building10.jpg);background-repeat: no-repeat;
-    background-position: center;"><p
-						class="buildingName">学生公寓2</p>
-				</li>
-				<li class="commonPage" value="11"
-					style="width:80px;height:193px;background:url(wibupt/img/building11.jpg);background-repeat: no-repeat;
-    background-position: center;"><p
-						class="buildingName">学生公寓4</p>
-				</li>
-				<li class="commonPage" value="12"
-					style="width:80px;height:193px;background:url(wibupt/img/building12.jpg);background-repeat: no-repeat;
-    background-position: center;"><p
-						class="buildingName">学生公寓5</p>
-				</li>
-				<li class="commonPage" value="13"
-					style="width:80px;height:193px;background:url(wibupt/img/building13.jpg);background-repeat: no-repeat;
-    background-position: center;"><p
-						class="buildingName">学生公寓6</p>
-				</li>
-				<li class="commonPage" value="14"
-					style="width:80px;height:193px;background:url(wibupt/img/building14.jpg);background-repeat: no-repeat;
-    background-position: center;"><p
-						class="buildingName">学生公寓8</p>
-				</li>
-				<li class="commonPage" value="15"
-					style="width:80px;height:193px;background:url(wibupt/img/building15.jpg);background-repeat: no-repeat;
-    background-position: center;"><p
-						class="buildingName">学生公寓9</p>
-				</li>
-				<li class="commonPage" value="16"
-					style="width:80px;height:193px;background:url(wibupt/img/building16.jpg);background-repeat: no-repeat;
-    background-position: center;"><p
-						class="buildingName">学生公寓10</p>
-				</li>
-				<li class="commonPage" value="17"
-					style="width:80px;height:193px;background:url(wibupt/img/building17.jpg);background-repeat: no-repeat;
-    background-position: center;"><p
-						class="buildingName">学生公寓11</p>
-				</li>
-				<li class="commonPage" value="18"
-					style="width:80px;height:193px;background:url(wibupt/img/building18.jpg);background-repeat: no-repeat;
-    background-position: center;"><p
-						class="buildingName">学生公寓29</p>
-				</li>
-				<li class="commonPage" value="19"
-					style="width:80px;height:193px;background:url(wibupt/img/building19.jpg);background-repeat: no-repeat;
-    background-position: center;"><p
-						class="buildingName">学生公寓3</p>
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看主楼实时流量图" value="6"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building6.jpg);background-repeat: no-repeat;
+    background-position: center; background-size: 75px;"><p
+						class="buildingName">一层西南</p>
 				</li>
 			</ul>
 		</nav>
 	</div>
+	<div id="page-nav" style="display: block;">
+		<nav>
+			<ul class="pagination" onselectstart="return false"
+				style="display: block;">
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看综合餐厅实时流量图" value="7"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building7.jpg);background-repeat: no-repeat;
+    background-position: center; background-size: 75px;"><p
+						class="buildingName">三层东北</p>
+				</li>
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看学生食堂实时流量图" value="8"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building8.jpg);background-repeat: no-repeat;
+    background-position: center; background-size: 75px;"><p
+						class="buildingName">三层东中间</p>
+				</li>
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看学生公寓1实时流量图" value="9"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building9.jpg);background-repeat: no-repeat;
+    background-position: center; background-size: 75px;"><p
+						class="buildingName">三层东南</p>
+				</li>
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看实时流量图" value="10"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building10.jpg);background-repeat: no-repeat;
+    background-position: center; background-size: 75px;"><p
+						class="buildingName">三层西北</p>
+				</li>
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看教一实时流量图" data-toggle="tooltip" data-placement="top" title="点击查看实时流量图"  value="11"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building11.jpg);background-repeat: no-repeat;
+    background-position: center; background-size: 75px;"><p
+						class="buildingName">三层西中间</p>
+				</li>
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看教二实时流量图" data-toggle="tooltip" data-placement="top" title="点击查看实时流量图" value="12"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building12.jpg);background-repeat: no-repeat;
+    background-position: center; background-size: 75px;"><p
+						class="buildingName">三层西南</p>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<div id="page-nav" style="display: block;">
+		<nav>
+			<ul class="pagination" onselectstart="return false"
+				style="display: block;">
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看学生公寓4实时流量图" value="13"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building13.jpg);background-repeat: no-repeat;
+    background-position: center; background-size: 75px;"><p
+						class="buildingName">五层东北</p>
+				</li>
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看学生公寓5实时流量图" value="14"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building14.jpg);background-repeat: no-repeat;
+    background-position: center; background-size: 75px;"><p
+						class="buildingName">五层东中间</p>
+				</li>
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看学生公寓6实时流量图" value="15"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building15.jpg);background-repeat: no-repeat;
+    background-position: center; background-size: 75px;"><p
+						class="buildingName">五层东南</p>
+				</li>
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看学生公寓8实时流量图" value="16"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building16.jpg);background-repeat: no-repeat;
+    background-position: center; background-size: 75px;"><p
+						class="buildingName">五层西北</p>
+				</li>
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看学生公寓9实时流量图" value="17"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building17.jpg);background-repeat: no-repeat;
+    background-position: center; background-size: 75px;"><p
+						class="buildingName">五层西中间</p>
+				</li>
+				<li class="commonPage thumbnail" data-toggle="tooltip" data-placement="top" title="点击查看学生公寓10实时流量图" value="18"
+					style="width:80px;height:80px;padding:20px;margin:10px;background:url(wibupt/img/building18.jpg);background-repeat: no-repeat;
+    background-position: center; background-size: 75px;"><p
+						class="buildingName">五层西南</p>
+				</li>
+			</ul>
+		</nav>
 	<div class="container" style="width:93%;">
 		<div class="row clearfix">
 			<div class="col-md-12 column">
@@ -245,13 +250,13 @@
 								<div class="col-md-6 col-xs-6 column">
 									<button id="line1"
 										style=" width: 25%;margin: 10px 0px 0px 10%;"
-										class="btn btn-default" onclick="showline1('day');">
+										class="btn btn-default" onclick="showgraph1('day');">
 										今天</button>
 									<button id="line2" style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline1('week');">
+										class="btn btn-default" onclick="showgraph1('week');">
 										近7天</button>
 									<button id="line3" style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline1('month');">
+										class="btn btn-default" onclick="showgraph1('month');">
 										近30天</button>
 								</div>
 							</div>
@@ -270,13 +275,13 @@
 								<div class="col-md-6 col-xs-6 column">
 									<button id="line4"
 										style=" width: 25%;margin: 10px 0px 0px 10%;"
-										class="btn btn-default" onclick="showline2('day');">
+										class="btn btn-default" onclick="showgraph2('day');">
 										今天</button>
 									<button id="line5" style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline2('week');">
+										class="btn btn-default" onclick="showgraph2('week');">
 										近7天</button>
 									<button id="line6" style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline2('month');">
+										class="btn btn-default" onclick="showgraph2('month');">
 										近30天</button>
 								</div>
 							</div>
@@ -297,13 +302,13 @@
 								<div class="col-md-6 col-xs-6 column">
 									<button id="line7"
 										style=" width: 25%;margin: 10px 0px 0px 10%;"
-										class="btn btn-default" onclick="showline3('day');">
+										class="btn btn-default" onclick="showgraph3('day');">
 										今天</button>
 									<button id="line8" style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline3('week');">
+										class="btn btn-default" onclick="showgraph3('week');">
 										近7天</button>
 									<button id="line9" style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline3('month');">
+										class="btn btn-default" onclick="showgraph3('month');">
 										近30天</button>
 								</div>
 							</div>
@@ -322,15 +327,15 @@
 								<div class="col-md-6 col-xs-6 column">
 									<button id="line10"
 										style=" width: 25%;margin: 10px 0px 0px 10%;"
-										class="btn btn-default" onclick="showline4('day');">
+										class="btn btn-default" onclick="showgraph4('day');">
 										今天</button>
 									<button id="line11"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline4('week');">
+										class="btn btn-default" onclick="showgraph4('week');">
 										近7天</button>
 									<button id="line12"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline4('month');">
+										class="btn btn-default" onclick="showgraph4('month');">
 										近30天</button>
 								</div>
 							</div>
@@ -351,15 +356,15 @@
 								<div class="col-md-6 col-xs-6 column">
 									<button id="line13"
 										style=" width: 25%;margin: 10px 0px 0px 10%;"
-										class="btn btn-default" onclick="showline5('day');">
+										class="btn btn-default" onclick="showgraph5('day');">
 										今天</button>
 									<button id="line14"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline5('week');">
+										class="btn btn-default" onclick="showgraph5('week');">
 										近7天</button>
 									<button id="line15"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline5('month');">
+										class="btn btn-default" onclick="showgraph5('month');">
 										近30天</button>
 								</div>
 							</div>
@@ -378,15 +383,15 @@
 								<div class="col-md-6 col-xs-6 column">
 									<button id="line16"
 										style=" width: 25%;margin: 10px 0px 0px 10%;"
-										class="btn btn-default" onclick="showline6('day');">
+										class="btn btn-default" onclick="showgraph6('day');">
 										今天</button>
 									<button id="line17"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline6('week');">
+										class="btn btn-default" onclick="showgraph6('week');">
 										近7天</button>
 									<button id="line18"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline6('month');">
+										class="btn btn-default" onclick="showgraph6('month');">
 										近30天</button>
 								</div>
 							</div>
@@ -407,15 +412,15 @@
 								<div class="col-md-6 col-xs-6 column">
 									<button id="line19"
 										style=" width: 25%;margin: 10px 0px 0px 10%;"
-										class="btn btn-default" onclick="showline7('day');">
+										class="btn btn-default" onclick="showgraph7('day');">
 										今天</button>
 									<button id="line20"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline7('week');">
+										class="btn btn-default" onclick="showgraph7('week');">
 										近7天</button>
 									<button id="line21"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline7('month');">
+										class="btn btn-default" onclick="showgraph7('month');">
 										近30天</button>
 								</div>
 							</div>
@@ -434,15 +439,15 @@
 								<div class="col-md-6 col-xs-6 column">
 									<button id="line22"
 										style=" width: 25%;margin: 10px 0px 0px 10%;"
-										class="btn btn-default" onclick="showline8('day');">
+										class="btn btn-default" onclick="showgraph8('day');">
 										今天</button>
 									<button id="line23"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline8('week');">
+										class="btn btn-default" onclick="showgraph8('week');">
 										近7天</button>
 									<button id="line24"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline8('month');">
+										class="btn btn-default" onclick="showgraph8('month');">
 										近30天</button>
 								</div>
 							</div>
@@ -467,15 +472,15 @@
 								<div class="col-md-6 col-xs-6 column">
 									<button id="line25"
 										style=" width: 25%;margin: 10px 0px 0px 10%;"
-										class="btn btn-default" onclick="showline9('day');">
+										class="btn btn-default" onclick="showgraph9('day');">
 										今天</button>
 									<button id="line26"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline9('week');">
+										class="btn btn-default" onclick="showgraph9('week');">
 										近7天</button>
 									<button id="line27"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline9('month');">
+										class="btn btn-default" onclick="showgraph9('month');">
 										近30天</button>
 								</div>
 							</div>
@@ -495,15 +500,15 @@
 								<div class="col-md-6 col-xs-6 column">
 									<button id="line28"
 										style=" width: 25%;margin: 10px 0px 0px 10%;"
-										class="btn btn-default" onclick="showline10('day');">
+										class="btn btn-default" onclick="showgraph10('day');">
 										今天</button>
 									<button id="line29"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline10('week');">
+										class="btn btn-default" onclick="showgraph10('week');">
 										近7天</button>
 									<button id="line30"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline10('month');">
+										class="btn btn-default" onclick="showgraph10('month');">
 										近30天</button>
 								</div>
 							</div>
@@ -527,15 +532,15 @@
 								<div class="col-md-6 col-xs-6 column">
 									<button id="line31"
 										style=" width: 25%;margin: 10px 0px 0px 10%;"
-										class="btn btn-default" onclick="showline11('day');">
+										class="btn btn-default" onclick="showgraph11('day');">
 										今天</button>
 									<button id="line32"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline11('week');">
+										class="btn btn-default" onclick="showgraph11('week');">
 										近7天</button>
 									<button id="line33"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline11('month');">
+										class="btn btn-default" onclick="showgraph11('month');">
 										近30天</button>
 								</div>
 							</div>
@@ -555,15 +560,15 @@
 								<div class="col-md-6 col-xs-6 column">
 									<button id="line34"
 										style=" width: 25%;margin: 10px 0px 0px 10%;"
-										class="btn btn-default" onclick="showline12('day');">
+										class="btn btn-default" onclick="showgraph12('day');">
 										今天</button>
 									<button id="line35"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline12('week');">
+										class="btn btn-default" onclick="showgraph12('week');">
 										近7天</button>
 									<button id="line36"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline12('month');">
+										class="btn btn-default" onclick="showgraph12('month');">
 										近30天</button>
 								</div>
 							</div>
@@ -587,15 +592,15 @@
 								<div class="col-md-6 col-xs-6 column">
 									<button id="line37"
 										style=" width: 25%;margin: 10px 0px 0px 10%;"
-										class="btn btn-default" onclick="showline13('day');">
+										class="btn btn-default" onclick="showgraph13('day');">
 										今天</button>
 									<button id="line38"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline13('week');">
+										class="btn btn-default" onclick="showgraph13('week');">
 										近7天</button>
 									<button id="line39"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline13('month');">
+										class="btn btn-default" onclick="showgraph13('month');">
 										近30天</button>
 								</div>
 							</div>
@@ -615,15 +620,15 @@
 								<div class="col-md-6 col-xs-6 column">
 									<button id="line40"
 										style=" width: 25%;margin: 10px 0px 0px 10%;"
-										class="btn btn-default" onclick="showline14('day');">
+										class="btn btn-default" onclick="showgraph14('day');">
 										今天</button>
 									<button id="line41"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline14('week');">
+										class="btn btn-default" onclick="showgraph14('week');">
 										近7天</button>
 									<button id="line42"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline14('month');">
+										class="btn btn-default" onclick="showgraph14('month');">
 										近30天</button>
 								</div>
 							</div>
@@ -647,15 +652,15 @@
 								<div class="col-md-6 col-xs-6 column">
 									<button id="line43"
 										style=" width: 25%;margin: 10px 0px 0px 10%;"
-										class="btn btn-default" onclick="showline15('day');">
+										class="btn btn-default" onclick="showgraph15('day');">
 										今天</button>
 									<button id="line44"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline15('week');">
+										class="btn btn-default" onclick="showgraph15('week');">
 										近7天</button>
 									<button id="line45"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline15('month');">
+										class="btn btn-default" onclick="showgraph15('month');">
 										近30天</button>
 								</div>
 							</div>
@@ -675,15 +680,15 @@
 								<div class="col-md-6 col-xs-6 column">
 									<button id="line46"
 										style=" width: 25%;margin: 10px 0px 0px 10%;"
-										class="btn btn-default" onclick="showline16('day');">
+										class="btn btn-default" onclick="showgraph16('day');">
 										今天</button>
 									<button id="line47"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline16('week');">
+										class="btn btn-default" onclick="showgraph16('week');">
 										近7天</button>
 									<button id="line48"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline16('month');">
+										class="btn btn-default" onclick="showgraph16('month');">
 										近30天</button>
 								</div>
 							</div>
@@ -707,15 +712,15 @@
 								<div class="col-md-6 col-xs-6 column">
 									<button id="line49"
 										style=" width: 25%;margin: 10px 0px 0px 10%;"
-										class="btn btn-default" onclick="showline17('day');">
+										class="btn btn-default" onclick="showgraph17('day');">
 										今天</button>
 									<button id="line50"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline17('week');">
+										class="btn btn-default" onclick="showgraph17('week');">
 										近7天</button>
 									<button id="line51"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline17('month');">
+										class="btn btn-default" onclick="showgraph17('month');">
 										近30天</button>
 								</div>
 							</div>
@@ -735,15 +740,15 @@
 								<div class="col-md-6 col-xs-6 column">
 									<button id="line52"
 										style=" width: 25%;margin: 10px 0px 0px 10%;"
-										class="btn btn-default" onclick="showline18('day');">
+										class="btn btn-default" onclick="showgraph18('day');">
 										今天</button>
 									<button id="line53"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline18('week');">
+										class="btn btn-default" onclick="showgraph18('week');">
 										近7天</button>
 									<button id="line54"
 										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline18('month');">
+										class="btn btn-default" onclick="showgraph18('month');">
 										近30天</button>
 								</div>
 							</div>
@@ -752,73 +757,20 @@
 						</div>
 					</div>
 				</div>
-
-				<!-- 学29 -->
-				<div class="row clearfix">
-					<div id="container-line19"
-						class="col-md-12 col-xs-12 column hidden"
-						style="padding-right: 0px">
-						<div class="module"
-							style="margin-right: 0px;padding-top:10px;padding-bottom:10px;border-radius:0px;;background-color:rgba(255,255,255,0.3)">
-							<div class="row clearfix">
-								<div class="col-md-6 col-xs-6 column">
-									<h4 id="group19" style="font-weight: bold;"></h4>
-								</div>
-								<div class="col-md-6 col-xs-6 column">
-									<button id="line55"
-										style=" width: 25%;margin: 10px 0px 0px 10%;"
-										class="btn btn-default" onclick="showline19('day');">
-										今天</button>
-									<button id="line56"
-										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline19('week');">
-										近7天</button>
-									<button id="line57"
-										style=" width: 25%;margin: 10px 0px 0px 1%;"
-										class="btn btn-default" onclick="showline19('month');">
-										近30天</button>
-								</div>
-							</div>
-							<hr style="color:#fff;margin-top:10px">
-							<div id="container6-19" style="height:320px"></div>
-						</div>
-					</div>
-					<!--       				<div class="col-md-6 col-xs-6 column" style="padding-left: 0px">
-							<div class="module" style="margin-left: 0px;padding-top:10px;padding-bottom:10px;border-radius:0px;background-color:rgba(51,46,46,0.6)">
-								<div class="row clearfix">
-									<div class="col-md-6 col-xs-6 column">
-										<h4 id="group20" style="color:#fff"></h4>
-									</div>
-									<div class="col-md-6 col-xs-6 column">
-										<button id="line58" style=" width: 25%;margin: 10px 0px 0px 10%;" class="btn btn-default" onclick="showline20('day');">
-																今天
-										</button>
-										<button id="line59" style=" width: 25%;margin: 10px 0px 0px 1%;" class="btn btn-default" onclick="showline20('week');">
-																近7天
-										</button>
-										<button id="line60" style=" width: 25%;margin: 10px 0px 0px 1%;" class="btn btn-default" onclick="showline20('month');">
-																近30天
-										</button>
-									</div>
-								</div>
-								<hr style="color:#fff;margin-top:10px">
-								<div id="container6-20" style="height:320px"></div>
-							</div>
-					   </div>
--->
-				</div>
-
-				<br> <br> <br> <br> <br> <br>
+				
 			</div>
 		</div>
 	</div>
+	</div>
 	<!-- Copyright -->
-	<div class="copyright" style="filter: alpha(opacity=90);opacity: 0.9;">
+    <div class="copyright" style="filter: alpha(opacity=90);opacity: 0.9;">
 		<center>
 			<div style="height:20px">
 				<p>
+<!--
 					<a href="<%=basePath%>index">WiBupt </a><span class="separator">|</span>北京邮电大学版权所有&copy;
 					2013~2014
+-->
 				</p>
 			</div>
 		</center>
@@ -834,68 +786,10 @@
 <script src="<%=basePath%>wibupt/js/bootstrap-modal.js"></script>
 <script type="text/javascript" src="<%=basePath%>wibupt/js/Function.js"></script>
 <script type="text/javascript" src="<%=basePath%>wibupt/js/index.js"></script>
-<script type="text/javascript" src="<%=basePath%>wibupt/js/realtime.js"></script>
 <script type="text/javascript"
 	src="<%=basePath%>wibupt/js/unslider-min.js"></script>
 <script>
-	 //createPageNav({$container:$("#page-nav"),pageCount:19});
-	 $('#page-nav').unslider();
-		var groups=new Array();     		
-   		window.onload =getGroup();
-   		   		
-   		function getGroup(){
-   		//waitingDialog.show();
-   				$.ajax({
-					url:"<%=basePath%>overview/getAllGroup/",
-					dataType:"json",
-					type:"GET",
-					success:function(data){
-						var temp="group";
-						for(var i=1;i<=data.groupnames.length;i++){
-							group=temp+i;
-							document.getElementById(group).innerHTML=data.groupnames[i-1];
-							groups[i-1]=data.groupnames[i-1];
-						}
-						showline1('day'); 
-						waitingDialog.hide();
-					}
-				});
-   		}
-   		
-   		$('.pagination li').on('click',function(){
-	   		var value = $(this).val();
-	   		var id = $('.show-line').attr('id');
-	   		$('#'+id).addClass('hidden');
-	   		$('#'+id).removeClass('show-line');
-	   		$('#container-line'+value).addClass('show-line');
-	   		$('#container-line'+value).removeClass('hidden');
-	   		var func = 'showline' + value;
-	   		if(typeof(eval(func)) == "function") {  
-		        var fun = eval(func+"('day');");  
-		        fun;  
-		    }  
-	   		waitingDialog.hide();
-   		});
-   		
-   			$('.input-page-div button').on('click',function(){
-	   		var value = $('.input-page-div input').val();
-	   		var id = $('.show-line').attr('id');
-	   		$('#'+id).addClass('hidden');
-	   		$('#'+id).removeClass('show-line');
-	   		$('#container-line'+value).addClass('show-line');
-	   		$('#container-line'+value).removeClass('hidden');
-	   		var func = 'showline' + value;
-	   		if(typeof(eval(func)) == "function") {  
-		        var fun = eval(func+"('day');");  
-		        fun;  
-		    }  
-	   		waitingDialog.hide();
-   		});
-	</script>
-
-<!-- 教一 -->
-<script>
-		function showline1(str) {
+		function showgraph1(str) {
 			var today=((new Date("<%=timer_%>")).getTime()) / 1000;
 		    var x = parseInt(((new Date()).getTime()) / 300000) * 300000;
 		    var xx = x / 1000;
@@ -1138,7 +1032,7 @@
 
 <!-- 教二 -->
 <script>		
-		function showline2(str) {
+		function showgraph2(str) {
 			var today=((new Date("<%=timer_%>")).getTime()) / 1000;
 		    var x = parseInt(((new Date()).getTime()) / 300000) * 300000;
 		    var xx = x / 1000;
@@ -1377,7 +1271,7 @@
 
 <!-- 教三 -->
 <script>
-		function showline3(str) {
+		function showgraph3(str) {
 			var today=((new Date("<%=timer_%>")).getTime()) / 1000;
 		    var x = parseInt(((new Date()).getTime()) / 300000) * 300000;
 		    var xx = x / 1000;
@@ -1618,7 +1512,7 @@
 
 <!-- 教四 -->
 <script>	
-		function showline4(str) {
+		function showgraph4(str) {
 			var today=((new Date("<%=timer_%>")).getTime()) / 1000;
 		    var x = parseInt(((new Date()).getTime()) / 300000) * 300000;
 		    var xx = x / 1000;
@@ -1857,7 +1751,7 @@
 
 <!-- 新科研楼 -->
 <script>
-		function showline5(str) {
+		function showgraph5(str) {
 			var today=((new Date("<%=timer_%>")).getTime()) / 1000;
 		    var x = parseInt(((new Date()).getTime()) / 300000) * 300000;
 		    var xx = x / 1000;
@@ -2101,7 +1995,7 @@
 
 <!-- 主楼 -->
 <script>	
-		function showline6(str) {
+		function showgraph6(str) {
 			var today=((new Date("<%=timer_%>")).getTime()) / 1000;
 		    var x = parseInt(((new Date()).getTime()) / 300000) * 300000;
 		    var xx = x / 1000;
@@ -2340,7 +2234,7 @@
 
 <!-- 综合餐厅 -->
 <script>
-		function showline7(str) {
+		function showgraph7(str) {
 			var today=((new Date("<%=timer_%>")).getTime()) / 1000;
 		    var x = parseInt(((new Date()).getTime()) / 300000) * 300000;
 		    var xx = x / 1000;
@@ -2580,7 +2474,7 @@
 
 <!-- 学生食堂 -->
 <script>
-		function showline8(str) {
+		function showgraph8(str) {
 			var today=((new Date("<%=timer_%>")).getTime()) / 1000;
 		    var x = parseInt(((new Date()).getTime()) / 300000) * 300000;
 		    var xx = x / 1000;
@@ -2820,7 +2714,7 @@
 
 <!-- 学生公寓1 -->
 <script>		
-		function showline9(str) {
+		function showgraph9(str) {
 			var today=((new Date("<%=timer_%>")).getTime()) / 1000;
 		    var x = parseInt(((new Date()).getTime()) / 300000) * 300000;
 		    var xx = x / 1000;
@@ -3062,7 +2956,7 @@
 
 <!-- 学生公寓2 -->
 <script>		
-		function showline10(str) {
+		function showgraph10(str) {
 			var today=((new Date("<%=timer_%>")).getTime()) / 1000;
 		    var x = parseInt(((new Date()).getTime()) / 300000) * 300000;
 		    var xx = x / 1000;
@@ -3300,7 +3194,7 @@
 
 <!-- 学生公寓3 -->
 <script>	
-	function showline11(str) {
+	function showgraph11(str) {
 		var today=((new Date("<%=timer_%>")).getTime()) / 1000;
 	    var x = parseInt(((new Date()).getTime()) / 300000) * 300000;
 	    var xx = x / 1000;
@@ -3540,7 +3434,7 @@
 
 <!-- 学生公寓4 -->
 <script>	
-	function showline12(str) {
+	function showgraph12(str) {
 		var today=((new Date("<%=timer_%>")).getTime()) / 1000;
 	    var x = parseInt(((new Date()).getTime()) / 300000) * 300000;
 	    var xx = x / 1000;
@@ -3779,7 +3673,7 @@
 
 <!-- 学生公寓5 -->
 <script>	
-	function showline13(str) {
+	function showgraph13(str) {
 		var today=((new Date("<%=timer_%>")).getTime()) / 1000;
 	    var x = parseInt(((new Date()).getTime()) / 300000) * 300000;
 	    var xx = x / 1000;
@@ -4019,7 +3913,7 @@
 
 <!-- 学生公寓6 -->
 <script>	
-	function showline14(str) {
+	function showgraph14(str) {
 		var today=((new Date("<%=timer_%>")).getTime()) / 1000;
 	    var x = parseInt(((new Date()).getTime()) / 300000) * 300000;
 	    var xx = x / 1000;
@@ -4259,7 +4153,7 @@
 
 <!-- 学生公寓8 -->
 <script>	
-	function showline15(str) {
+	function showgraph15(str) {
 		var today=((new Date("<%=timer_%>")).getTime()) / 1000;
 	    var x = parseInt(((new Date()).getTime()) / 300000) * 300000;
 	    var xx = x / 1000;
@@ -4499,7 +4393,7 @@
 
 <!-- 学生公寓9 -->
 <script>	
-	function showline16(str) {
+	function showgraph16(str) {
 		var today=((new Date("<%=timer_%>")).getTime()) / 1000;
 	    var x = parseInt(((new Date()).getTime()) / 300000) * 300000;
 	    var xx = x / 1000;
@@ -4739,7 +4633,7 @@
 
 <!-- 学生公寓10 -->
 <script>	
-	function showline17(str) {
+	function showgraph17(str) {
 		var today=((new Date("<%=timer_%>")).getTime()) / 1000;
 	    var x = parseInt(((new Date()).getTime()) / 300000) * 300000;
 	    var xx = x / 1000;
@@ -4979,7 +4873,7 @@
 
 <!-- 学生公寓11 -->
 <script>	
-	function showline18(str) {
+	function showgraph18(str) {
 		var today=((new Date("<%=timer_%>")).getTime()) / 1000;
 	    var x = parseInt(((new Date()).getTime()) / 300000) * 300000;
 	    var xx = x / 1000;
@@ -5216,252 +5110,88 @@
 	}
 	
 	</script>
-
-<!-- 学生公寓29 -->
-<script>	
-	function showline19(str) {
-		var today=((new Date("<%=timer_%>")).getTime()) / 1000;
-	    var x = parseInt(((new Date()).getTime()) / 300000) * 300000;
-	    var xx = x / 1000;
-	    var xxx = xx - 300;
-	    var kaishi, jieshu, kaishi1, jieshu1, init;
-	    var bool, info;
-	    var xxxx = today;
-	    var place=groups[18];
-	
-	    var info, datainfo;
-	    if (str == 'day') {
-	        kaishi = xxxx;
-	        jieshu = xx;
-	        kaishi1 = "<%=time%>";
-	        jieshu1 = "<%=time%>";
-	        init = 0;
-	        bool = false;
-	        $("#line55").removeClass("btn-info").addClass("btn-primary");
-	        $("#line56").removeClass("btn-primary").addClass("btn-info");
-	        $("#line57").removeClass("btn-primary").addClass("btn-info");
-	        info = '今天该区域实时人流量';
-	    } else if (str == 'week') {
-	        kaishi = xxxx - 7 * 24 * 60 * 60;
-	        jieshu = xxxx;
-	        kaishi1 = "<%=kaishi7%>";
-	        jieshu1 = "<%=time1%>";
-	        init = 1;
-	        bool = true;
-	        $("#line56").removeClass("btn-info").addClass("btn-primary");
-	        $("#line55").removeClass("btn-primary").addClass("btn-info");
-	        $("#line57").removeClass("btn-primary").addClass("btn-info");
-	        info = '近7天该区域历史人流量';
-	    } else if (str == 'month') {
-	        kaishi = xxxx - 30 * 24 * 60 * 60;
-	        jieshu = xxxx;
-	        kaishi1 = "<%=kaishi30%>";
-	        jieshu1 = "<%=time1%>";
-	        init = 2;
-	        bool = true;
-	        $("#line57").removeClass("btn-info").addClass("btn-primary");
-	        $("#line56").removeClass("btn-primary").addClass("btn-info");
-	        $("#line55").removeClass("btn-primary").addClass("btn-info");
-	        info = '近30天该区域历史人流量';
-	    }
-	    $.ajax({
-			url: "<%=basePath%>realtimedataIn/realtimedataIn/",
-			data: "place=" + place + "&kaishi=" + kaishi + "&jieshu=" + jieshu + "&kaishi1=" + kaishi1 + "&jieshu1=" + jieshu1,
-			dataType: "json",
-			type: "POST",
-			success: function(jsonObj) {
-	            Highcharts.setOptions({
-					global : {
-						useUTC : false
-					},
-					colors: [ "#19BAEC", "#DF5353","black", "#7798BF" ,"#DDDF0D", "#55BF3B", "#DF5353", 
-						"#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
-					backgroundColor: {  
-			        	linearGradient: [0, 0, 500, 500],  
-			            stops: [  
-			                [0, 'rgb(255, 255, 255)'],  
-			                [1, 'rgb(240, 240, 255)']  
-			            ]  
-					},  
-			        borderWidth: 2,  
-			        plotBackgroundColor: null,  
-			        plotShadow: true,  
-			        plotBorderWidth: 1  
-		       	});
-	            var y1;
-	            $('#container6-19').highcharts('StockChart', {
-	                chart: {
-	            		backgroundColor: 'rgba(0,0,0,0)',
-	                    events: {
-	                        load: function() {
-	                            // set up the updating of the chart each second
-	                            var series = this.series[0];
-	                            setInterval(function() {
-	                                $.ajax({
-	                                    url: "<%=basePath%>
-	realtimedataIn/realdata/",
-																				data : "place="
-																						+ place
-																						+ "&time="
-																						+ xxxx,
-																				dataType : "json",
-																				type : "POST",
-																				success : function(
-																						data) {
-																					y1 = parseInt(data.real) == NaN ? 0
-																							: parseInt(data.real);
-																					series
-																							.addPoint(
-																									[
-																											x + 300000,
-																											y1 ],
-																									true,
-																									true);
-																					xxx = xxx + 300;
-																					x = x + 300000;
-																				}
-																			});
-																}, 300000);
-													}
-												}
-											},
-
-											rangeSelector : {
-												buttons : [ {
-													count : 1,
-													type : 'day',
-													text : '天'
-												}, {
-													count : 7,
-													type : 'day',
-													text : '周'
-												}, {
-													count : 30,
-													type : 'day',
-													text : '月'
-												} ],
-												inputEnabled : bool,
-												inputStyle : {
-													color : '#fff',
-													fontWeight : 'bold'
-												},
-												selected : init,
-												labelStyle : {
-													color : '#fff',
-													fontWeight : 'bold'
-												},
-											},
-											navigator : {
-												xAxis : {
-													tickWidth : 0,
-													lineWidth : 0,
-													gridLineWidth : 1,
-													tickPixelInterval : 200,
-													labels : {
-														align : 'left',
-														style : {
-															color : '#000'
-														},
-														x : 3,
-														y : -4
-													}
-												},
-											},
-											title : {
-												text : info,
-												style : {
-													color : '#000',
-													font : 'bold 15px "微软雅黑"'
-												}
-											},
-											xAxis : {
-												gridLineWidth : 1,
-												gridLineColor : '#000',
-												lineColor : '#000',
-												tickColor : '#000',
-												labels : {
-													style : {
-														color : '#000',
-														font : '11px Trebuchet MS, Verdana, sans-serif'
-													}
-												},
-												type : 'category',
-												title : {
-													text : '',
-													style : {
-														color : '#000',
-														font : 'bold 15px "微软雅黑"'
-													}
-												},
-											},
-											yAxis : {
-												min : 0,
-												gridLineColor : '#000',
-												legend : {
-													itemStyle : {
-														font : '9pt Trebuchet MS, Verdana, sans-serif',
-														color : 'black'
-													},
-													itemHoverStyle : {
-														color : '#000'
-													},
-													itemHiddenStyle : {
-														color : '#000'
-													}
-												},
-												labels : {
-													style : {
-														color : '#000'
-													}
-												},
-												title : {
-													text : '',
-													style : {
-														color : '#000',
-														font : 'bold 15px "微软雅黑"'
-													}
-
-												}
-											},
-
-											exporting : {
-												enabled : true
-											},
-											legend : {
-												layout : 'vertical',
-												align : 'right',
-												verticalAlign : 'top',
-												y : 30,
-												navigation : {
-													activeColor : 'red',
-													animation : true,
-													arrowSize : 15,
-													inactiveColor : '#CCC',
-													style : {
-														fontWeight : 'bold',
-														color : '#333',
-														fontSize : '12px'
-
-													}
-												}
-											},
-											exporting : {
-												enabled : false
-											},
-											credits : {
-												text : '',
-												href : ''
-											},
-
-											series : [ {
-												name : '流量数据',
-												data : jsonObj.data
-											} ]
-										});
-					},
-					error : function() {
-						document.getElementById("container6-19").innerHTML = "<div id=\"preloader\"></div>";
+<script>
+	 //$('#page-nav').unslider();
+	 function GetRequest() { 
+			var url = location.search; //获取url中"?"符后的字串 
+			var theRequest = new Object(); 
+			if (url.indexOf("?") != -1) { 
+			var str = url.substr(1); 
+			strs = str.split("&"); 
+				for(var i = 0; i < strs.length; i ++) { 
+					theRequest[strs[i].split("=")[0]]=unescape(strs[i].split("=")[1]); 
+				} 
+			} 
+			return theRequest; 
+		} 
+		var groups=new Array();     		
+   		window.onload =getGroup();
+   		   		
+   		function getGroup(){
+   		waitingDialog.show();
+   		var para = GetRequest();
+   		var idofpara = para.id;
+   				$.ajax({
+					url:"<%=basePath%>overview/getAllGroup/",
+					dataType:"json",
+					type:"GET",
+					success:function(data){
+						var temp="group";
+						for(var i=1;i<=data.groupnames.length;i++){
+							group=temp+i;
+							document.getElementById(group).innerHTML=data.groupnames[i-1];
+							groups[i-1]=data.groupnames[i-1];
+						}
+						if(idofpara==undefined){
+				   			showgraph1('day'); 
+				   		} else { 
+				   			var value = idofpara;
+					   		var id = $('.show-line').attr('id');
+					   		$('#'+id).addClass('hidden');
+					   		$('#'+id).removeClass('show-line');
+					   		$('#container-line'+value).addClass('show-line');
+					   		$('#container-line'+value).removeClass('hidden');
+					   		var func = 'showgraph' + value;
+					   		if(typeof(eval(func)) == "function") {  
+						        var fun = eval(func+"('day');");  
+						        fun;  
+						    }   
+						    console.log(value);
+				   		}
+						
+						waitingDialog.hide();
 					}
 				});
-	}
-</script>
+   		}
+   		
+   		
+   		$('.pagination li').on('click',function(){
+	   		var value = $(this).val();
+	   		var id = $('.show-line').attr('id');
+	   		$('#'+id).addClass('hidden');
+	   		$('#'+id).removeClass('show-line');
+	   		$('#container-line'+value).addClass('show-line');
+	   		$('#container-line'+value).removeClass('hidden');
+	   		var func = 'showgraph' + value;
+	   		if(typeof(eval(func)) == "function") {  
+		        var fun = eval(func+"('day');");  
+		        fun;  
+		    }  
+	   		waitingDialog.hide();
+   		});
+   		
+   			$('.input-page-div button').on('click',function(){
+	   		var value = $('.input-page-div input').val();
+	   		var id = $('.show-line').attr('id');
+	   		$('#'+id).addClass('hidden');
+	   		$('#'+id).removeClass('show-line');
+	   		$('#container-line'+value).addClass('show-line');
+	   		$('#container-line'+value).removeClass('hidden');
+	   		var func = 'showgraph' + value;
+	   		if(typeof(eval(func)) == "function") {  
+		        var fun = eval(func+"('day');");  
+		        fun;  
+		    }  
+	   		waitingDialog.hide();
+   		});
+	</script>

@@ -1,8 +1,11 @@
 package com.wicloud.main.java.dao;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import org.hibernate.criterion.DetachedCriteria;
+import org.hibernate.criterion.ProjectionList;
 import org.hibernate.criterion.Projections;
 import org.hibernate.criterion.Restrictions;
 import org.slf4j.Logger;
@@ -10,6 +13,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.orm.hibernate3.HibernateTemplate;
 import org.springframework.stereotype.Repository;
+
+import com.wicloud.main.java.entity.Heatmap;
 import com.wicloud.main.java.entity.Visitrecord;
 
 /**
@@ -29,6 +34,7 @@ public class VisitrecordDAO extends BaseHibernateDAO {
 	private static final Logger log = LoggerFactory
 			.getLogger(VisitrecordDAO.class);
 	// property constants
+	public static final String ID = "id";
 	public static final String MAC = "mac";
 	public static final String IN_TIME = "inTime";
 	public static final String OFF_TIME = "offTime";
@@ -128,6 +134,23 @@ public class VisitrecordDAO extends BaseHibernateDAO {
 		}
 	}
 	
+	/**
+	 * 获取最后的diff个记录
+	 * @param diff
+	 * @return
+	 */
+	public List<Visitrecord> getLast(int num){
+		List<Visitrecord> visitList = new ArrayList<Visitrecord>();
+		int step = 0;
+		int maxId = maxId().get(0);
+		while (step < num) {
+			Visitrecord visitrecord = findById(maxId - step);
+			visitList.add(visitrecord);
+			step++;
+		}
+		return visitList;
+	}
+	
 	public List findCountMacAndAvgDwelltime(String monid, int inTime, int dwellTime) {
 		log.debug("finding count(mac), avg(dwellTime) from Visitrecord with monid: " + 
 				monid + ", inTime: " + inTime + ", dwellTime: " + dwellTime);
@@ -140,11 +163,11 @@ public class VisitrecordDAO extends BaseHibernateDAO {
 		}
 	}
 	
-	public List findDistinctMac(String monid, int start, int finish) {
+	public List<Visitrecord> findDistinctMac(String monid, int start, int finish) {
 		log.debug("finding distinct(mac) from Visitrecord with monid: " + 
 				monid + ", start inTime: " + start + ", finish inTime: " + finish);
 		try {
-			String queryString = "SELECT DISTINCT(mac) FROM Visitrecord where monid=? and inTime>=? and inTime<=?";
+			String queryString = "SELECT DISTINCT(mac) FROM Visitrecord where monid=? and (inTime BETWEEN ? AND ?)";
 			return hibernateTemplate.find(queryString, monid, start, finish);
 		} catch (RuntimeException re) {
 			log.error("find all failed", re);
@@ -158,7 +181,7 @@ public class VisitrecordDAO extends BaseHibernateDAO {
 		try {
 //			String queryString = "SELECT avg(f),max(f) FROM (SELECT COUNT(*) AS f,mac FROM Visitrecord where monid=? and inTime>=? and inTime<=? GROUP BY mac ORDER BY f DESC) as hh;";
 			// rewrite it after
-			String queryString = "SELECT COUNT(*) FROM Visitrecord where monid=? and inTime>=? and inTime<=? GROUP BY mac";
+			String queryString = "SELECT COUNT(*) FROM Visitrecord where monid=? and (inTime BETWEEN ? AND ?) GROUP BY mac";
 			return hibernateTemplate.find(queryString, monid, start, finish);
 		} catch (RuntimeException re) {
 			log.error("find all failed", re);
@@ -296,5 +319,17 @@ public class VisitrecordDAO extends BaseHibernateDAO {
 //			throw re;
 //		}
 //	}
+	public List<Integer> maxId() {
+		try {
+			DetachedCriteria criteria = DetachedCriteria.forClass(Visitrecord.class);
+			ProjectionList projection = Projections.projectionList();
+			projection.add(Projections.max("id"));
+			criteria.setProjection(projection);
+			return hibernateTemplate.findByCriteria(criteria);
+		} catch (RuntimeException re) {
+			log.error("find all failed", re);
+			throw re;
+		}
+	}
 
 }

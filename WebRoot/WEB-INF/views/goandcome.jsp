@@ -26,6 +26,7 @@
 	String kaishi7 = Wicloud.change(time, 7);
 	String kaishi30 = Wicloud.change(time, 30);
 	String kaishi90 = Wicloud.change(time, 90);
+	
  %>
 <!DOCTYPE html>
 <html>
@@ -244,8 +245,8 @@
    			showtotal('all');
    			showWeekGate();
 			showrealgate();
-			
-		}
+			setInterval(showrealgate,300000);
+		};
    		
    </script>
 	
@@ -401,6 +402,10 @@
 		function showtotal(str) {
 			if(str=='all'){
 				$("#btt1").removeClass("btn-info").addClass("btn-primary");
+				$("#btt2").removeClass("btn-primary").addClass("btn-info");
+				$("#btt3").removeClass("btn-primary").addClass("btn-info");
+				$("#btt4").removeClass("btn-primary").addClass("btn-info");
+				$("#btt5").removeClass("btn-primary").addClass("btn-info");
 			}else if(str=='west'){
 				$("#btt1").removeClass("btn-primary").addClass("btn-info");
 				$("#btt3").removeClass("btn-primary").addClass("btn-info");

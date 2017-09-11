@@ -12,7 +12,7 @@ public class AuthorizationInterceptor extends HandlerInterceptorAdapter {
 			HttpServletResponse response, Object handler) throws Exception {
 	
 		// urls not to be filtered
-		String[] noFilters = new String[] {"index","login","signin","reg","save","add","product","contacts","info","iframe","test" };
+		String[] noFilters = new String[] {"index","login","signin","reg","save","add","product","contacts", "traffic","info","iframe","test" };
 		String uri = request.getRequestURI();
 		boolean beFilter = true;
 		for (String s : noFilters) {

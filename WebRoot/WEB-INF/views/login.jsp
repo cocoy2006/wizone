@@ -10,7 +10,7 @@ String admintype="user";
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-		<title>WiBupt - 基于WiFi数据的北邮校园分析</title>
+		<title>Wizone - 基于WiFi数据的展厅分析</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="description" content="This is FU'S page">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
@@ -113,13 +113,13 @@ String admintype="user";
             			<span class="icon-bar"></span>
           			</button>
           			<a href="<%=basePath%>index">
-            			<img alt="Wibupt" src="<%=basePath%>wibupt/img/logo_wibupt-m.png" style="width:150px;height:60px;">
+            			<img alt="Wibupt" src="<%=basePath%>wibupt/img/logo.png" style="width:150px;height:60px;">
             		</a>
         		</div>
         		<div class="navbar-collapse collapse" role="navigation">
           			<ul id="myTab" class="nav navbar-nav navbar-right hidden-sm nav-tabs">
    						<li class="active">
-      						<a href="<%=basePath%>index" style="font-size: 18px">返回实时校园</a>
+      						<a href="<%=basePath%>index" style="font-size: 18px">返回实时展厅</a>
    						</li>
           			</ul>
         		</div>
