@@ -1,6 +1,5 @@
 package com.wicloud.main.java.entity;
 
-import java.util.Date;
 
 // default package
 
@@ -68,7 +67,8 @@ public class Heatmap  implements java.io.Serializable, Comparable<Heatmap> {
     public void setGroupid(Integer groupid){
     	this.groupid=groupid;
     }
-    public Groupindex getGroupindex(){
+
+	public Groupindex getGroupindex(){
     	return this.groupindex;
     }
     public void setGroupindex(Groupindex groupindex){

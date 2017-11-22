@@ -98,33 +98,42 @@ public class HeatmapDAO extends BaseHibernateDAO {
 	 * @param diff
 	 * @return
 	 */
+//	public List<Heatmap> getLast(int diff){
+//		List<Heatmap> heatmapList = new ArrayList<Heatmap>();
+//		int step = 0;
+//		int maxId = maxId().get(0);
+//		while (step < diff) {
+//			Heatmap heatmap = findById(maxId - step);
+//			heatmapList.add(heatmap);
+//			step++;
+//		}
+//		// 需要对heatmapList做monTime变量的排序，逆序
+//		Collections.sort(heatmapList);
+//		return heatmapList;
+//	}
+	
 	public List<Heatmap> getLast(int diff){
-		List<Heatmap> heatmapList = new ArrayList<Heatmap>();
-		int step = 0;
-		int maxId = maxId().get(0);
-		while (step < diff) {
-			Heatmap heatmap = findById(maxId - step);
-			heatmapList.add(heatmap);
-			step++;
+		try {
+			String queryString = "from Heatmap order by monTime desc limit 20";
+			return hibernateTemplate.find(queryString);
+		} catch (RuntimeException re) {
+			log.error("find all failed", re);
+			throw re;
 		}
-		// 需要对heatmapList做monTime变量的排序，逆序
-		Collections.sort(heatmapList);
-		return heatmapList;
+		
 	}
 	
-	public List findAll() {
+	public List<Heatmap> findAll() {
 		log.debug("finding all Heatmap instances");
 		try {
-			String queryString = "from Heatmap";
 			return hibernateTemplate.loadAll(Heatmap.class);
 		} catch (RuntimeException re) {
 			log.error("find all failed", re);
 			throw re;
 		}
 	}
+	
 	public List<Object> findAllHeat() {
-		log.debug("finding traffic from RealtimedataIn with monid: " + 
-				", monTime: ");
 		try {
 			String queryString = "from Heatmap order by cnt desc";
 			return hibernateTemplate.find(queryString);
@@ -133,28 +142,18 @@ public class HeatmapDAO extends BaseHibernateDAO {
 			throw re;
 		}
 	}
-	public List maxTime() {
-		log.debug("finding max(comein),avg(comein),min(comein) from Totalinfo with "+ " start: ");
-		try {
-			DetachedCriteria criteria = DetachedCriteria.forClass(Heatmap.class);
-			ProjectionList projection = Projections.projectionList();
-			projection.add(Projections.max("monTime"));
-			criteria.setProjection(projection);
-			return hibernateTemplate.findByCriteria(criteria);
-		} catch (RuntimeException re) {
-			log.error("find all failed", re);
-			throw re;
-		}
-	}
 	
-	public List<Integer> maxId() {
-		log.debug("finding max(comein),avg(comein),min(comein) from Totalinfo with "+ " start: ");
+	public Integer maxId() {
 		try {
 			DetachedCriteria criteria = DetachedCriteria.forClass(Heatmap.class);
 			ProjectionList projection = Projections.projectionList();
 			projection.add(Projections.max("id"));
 			criteria.setProjection(projection);
-			return hibernateTemplate.findByCriteria(criteria);
+			List<Integer> maxIdList = hibernateTemplate.findByCriteria(criteria);
+			if(maxIdList != null && maxIdList.size() > 0) {
+				return maxIdList.get(0);
+			}
+			return null;
 		} catch (RuntimeException re) {
 			log.error("find all failed", re);
 			throw re;

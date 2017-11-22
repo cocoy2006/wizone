@@ -55,9 +55,7 @@ public class AdminService {
 		}
 	}
 	public Groupindex findByGroupId(int groupid) {
-		List<Groupindex> list=groupindexDao.findByGroupId(groupid);
-		Groupindex group=list.get(0);
-		return group;
+		return groupindexDao.findByGroupid(groupid);
 	}
 	
 	public int updategroup(Groupindex group) {

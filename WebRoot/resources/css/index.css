@@ -21,7 +21,8 @@
 
 body {
 	font-family: "微软雅黑";
-	background: url(../../wibupt/img/blue-background-6.jpg)
+	background: url(../../wibupt/img/blue-background-6.jpg);
+	height: 1782px;
 }
 
 @media ( max-width :980px) {

@@ -70,16 +70,15 @@
 <link rel="stylesheet" href="<%=basePath%>resources/css/responsive.css"
 	media="screen" />
 
-<!--[if lt IE 9]>
+	<!--[if lt IE 9]>
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 			<script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
   			<script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
 
-<!-- Favicons
+	<!-- Favicons
 		================================================== -->
-<link rel="stylesheet" href="<%=basePath%>resources/css/index.css"
-	media="screen" />
+	<link rel="stylesheet" href="<%=basePath%>resources/css/index.css" media="screen" />
 	    <style>
         /* Tooltip */
         .tip + .tooltip > .tooltip-inner {
@@ -110,10 +109,13 @@
         .tip + .tooltip.right > .tooltip-arrow {
             border-right: 5px solid black;
         }
+        .tip {
+        	position: absolute; background: url('wibupt/img/049.png'); width: 40px; height: 40px; z-index: -7993648; user-select: none;
+        }
     </style>
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-static-top">
+  <div class="navbar navbar-inverse navbar-static-top">
 		<div class="container">
 			<div class="navbar-header">
 				<button class="navbar-toggle collapsed" type="button"
@@ -150,264 +152,207 @@
 			</div>
 		</div>
 	</div>
-	<div style="position:relative;margin-left: auto;margin-right:auto;width: 800px;height:600px">
-    <img src="wibupt/img/map.jpg" width="800" height="575">
-    <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 200;">
-        <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 700;">
-            <h3 style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; width: 40px; height: 40px; left: 20px; top: 100px; z-index: -7993648; user-select: none;">F1</h3>
-        <a href="<%=basePath%>realtime?id=1"><span id="1" data-placement="bottom" class="tip" data-tip="tip-1" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; background: url('wibupt/img/049.png'); width: 40px; height: 40px; left: 220px; top: 160px; z-index: -7993648; user-select: none;"
-              title="">
-               <div class="heatmap1"  style="position: absolute; padding: 0px; margin: 0; border: 0px; cursor: pointer; width: 880px; height: 460px; border-radius:90px;left: -120px; top: -120px; z-index: -7993648; user-select: none;"></div>
-        </span></a>
-       
-            <a href="<%=basePath%>realtime?id=2"><span data-placement="bottom" class="tip" data-tip="tip-2" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; background: url('wibupt/img/049.png'); width: 40px; height: 40px; left: 364px; top: 160px; z-index: -7993648; user-select: none;"
-                  title="">
-        </span></a>
-        
-            <a href="<%=basePath%>realtime?id=3"><span data-placement="bottom" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; background: url('wibupt/img/049.png'); width: 40px; height: 40px; left: 507px; top: 160px; z-index: -7993648; user-select: none;"
-                  title="">
-                   <div class="heatmap3 tip"  data-tip="tip-3" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; width: 80px; height: 80px; border-radius:30px;left: 0px; top: 0px; z-index: -7993648; user-select: none;"></div>
-        </span></a>
-       
-            <a href="<%=basePath%>realtime?id=4"><span data-placement="bottom"  style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; background: url('wibupt/img/049.png'); width: 40px; height: 40px; left: 220px; top: 305px; z-index: -7993648; user-select: none;"
-                  title="">
-                  <div class="heatmap4 tip" data-tip="tip-4" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; width: 80px; height: 80px; border-radius:30px;left: 0px; top: 0px; z-index: -7993648; user-select: none;"></div>
-        </span></a>
-        
-            <a href="<%=basePath%>realtime?id=5"><span data-placement="bottom"  style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; background: url('wibupt/img/049.png'); width: 40px; height: 40px; left: 364px; top: 305px; z-index: -7993648; user-select: none;"
-                  title="">
-                  <div class="heatmap5 tip" data-tip="tip-5" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; width: 80px; height: 80px; border-radius:30px;left: 0px; top: 0px; z-index: -7993648; user-select: none;"></div>
-        </span></a>
-        
-           <a href="<%=basePath%>realtime?id=6"> <span  data-placement="bottom"  style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; background: url('wibupt/img/049.png'); width: 40px; height: 40px; left: 507px; top: 305px; z-index: -7993648; user-select: none;"
-                  title="">
-                  <div class="heatmap6 tip" data-tip="tip-6" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; width: 80px; height: 80px; border-radius:30px;left: 0px; top: 0px; z-index: -7993648; user-select: none;"></div>
-        </span></a>
-        
-        </div>
-    </div>
-</div>
-
-<div style="position:relative;margin-left: auto;margin-right:auto;width: 800px;height:600px">
-    <img src="wibupt/img/map.jpg" width="800" height="575">
-    <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 200;">
-        <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 700;">
-            <h3 style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; width: 40px; height: 40px; left: 20px; top: 100px; z-index: -7993648; user-select: none;">F3</h3>
-        <a href="<%=basePath%>realtime?id=7"><span data-placement="bottom" class="tip" data-tip="tip-7" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; background: url('wibupt/img/049.png'); width: 40px; height: 40px; left: 220px; top: 160px; z-index: -7993648; user-select: none;"
-              title="">
-              <div class="heatmap7" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; width: 880px; height: 460px; border-radius:90px;left: -120px; top: -120px; z-index: -7993648; user-select: none;"></div>
-        </span></a>
-            <a href="<%=basePath%>realtime?id=8"><span data-placement="bottom"  style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; background: url('wibupt/img/049.png'); width: 40px; height: 40px; left: 364px; top: 160px; z-index: -7993648; user-select: none;"
-                  title="">
-                   <div class="heatmap8 tip" data-tip="tip-8" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; width: 80px; height: 80px; border-radius:30px;left: 0px; top: 0px; z-index: -7993648; user-select: none;"></div>
-        </span></a>
-       
-            <a href="<%=basePath%>realtime?id=9"><span data-placement="bottom"  style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; background: url('wibupt/img/049.png'); width: 40px; height: 40px; left: 507px; top: 160px; z-index: -7993648; user-select: none;"
-                  title="">
-                   <div class="heatmap9 tip" data-tip="tip-9" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; width: 80px; height: 80px; border-radius:30px;left: opx; top: 0px; z-index: -7993648; user-select: none;"></div>
-        </span></a>
-       
-            <a href="<%=basePath%>realtime?id=10"><span data-placement="bottom"  style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; background: url('wibupt/img/049.png'); width: 40px; height: 40px; left: 220px; top: 305px; z-index: -7993648; user-select: none;"
-                  title="">
-                   <div class="heatmap10 tip" data-tip="tip-10" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; width: 80px; height: 80px; border-radius:30px;left: 0px; top: 0px; z-index: -7993648; user-select: none;"></div>
-        </span></a>
-       
-            <a href="<%=basePath%>realtime?id=11"><span data-placement="bottom" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; background: url('wibupt/img/049.png'); width: 40px; height: 40px; left: 364px; top: 305px; z-index: -7993648; user-select: none;"
-                  title="">
-                   <div class="heatmap11 tip" data-tip="tip-11" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; width: 80px; height: 80px; border-radius:30px;left: 0px; top: 0px; z-index: -7993648; user-select: none;"></div>
-        </span></a>
-       
-            <a href="<%=basePath%>realtime?id=12"><span data-placement="bottom"  style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; background: url('wibupt/img/049.png'); width: 40px; height: 40px; left: 507px; top: 305px; z-index: -7993648; user-select: none;"
-                  title="">
-                  <div class="heatmap12 tip" data-tip="tip-12" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; width: 80px; height: 80px; border-radius:30px;left: 0px; top: 0px; z-index: -7993648; user-select: none;"></div>
-        </span></a>
-        
-        </div>
-    </div>
-</div>
-
-<div style="position:relative;margin-left: auto;margin-right:auto;width: 800px;height:600px">
-    <img src="wibupt/img/map.jpg" width="800" height="575">
-    <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 200;">
-        <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 700;">
-            <h3 style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; width: 40px; height: 40px; left: 20px; top: 100px; z-index: -7993648; user-select: none;">F5</h3>
-        <a href="<%=basePath%>realtime?id=13"><span data-placement="bottom" class="tip" data-tip="tip-13" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; background: url('wibupt/img/049.png'); width: 40px; height: 40px; left: 220px; top: 160px; z-index: -7993648; user-select: none;"
-              title="">
-              <div class="heatmap13" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; width: 880px; height: 460px; border-radius:90px;left: -120px; top: -120px; z-index: -7993648; user-select: none;"></div>
-        </span></a>
-            <a href="<%=basePath%>realtime?id=14"><span data-placement="bottom" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; background: url('wibupt/img/049.png'); width: 40px; height: 40px; left: 364px; top: 160px; z-index: -7993648; user-select: none;"
-                  title="">
-                  <div class="heatmap14 tip" data-tip="tip-14" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; width: 80px; height: 80px; border-radius:30px;left: 0px; top: 0px; z-index: -7993648; user-select: none;"></div>
-        </span></a>
-            <a href="<%=basePath%>realtime?id=15"><span data-placement="bottom" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; background: url('wibupt/img/049.png'); width: 40px; height: 40px; left: 507px; top: 160px; z-index: -7993648; user-select: none;"
-                  title="">
-                  <div class="heatmap15 tip" data-tip="tip-15" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; width: 80px; height: 80px; border-radius:30px;left: 0px; top: 0px; z-index: -7993648; user-select: none;"></div>
-        </span></a>
-            <a href="<%=basePath%>realtime?id=16"><span data-placement="bottom" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; background: url('wibupt/img/049.png'); width: 40px; height: 40px; left: 220px; top: 305px; z-index: -7993648; user-select: none;"
-                  title="">
-                  <div class="heatmap16 tip"  data-tip="tip-16" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; width: 80px; height: 80px; border-radius:30px;left: 0px; top: 0px; z-index: -7993648; user-select: none;"></div>
-        </span></a>
-            <a href="<%=basePath%>realtime?id=17"><span data-placement="bottom"  style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; background: url('wibupt/img/049.png'); width: 40px; height: 40px; left: 364px; top: 305px; z-index: -7993648; user-select: none;"
-                  title="">
-                  <div class="heatmap17 tip" data-tip="tip-17" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; width: 80px; height: 80px; border-radius:30px;left: 0px; top: 0px; z-index: -7993648; user-select: none;"></div>
-        </span></a> 
-            <a href="<%=basePath%>realtime?id=18"><span data-placement="bottom" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; background: url('wibupt/img/049.png'); width: 40px; height: 40px; left: 507px; top: 305px; z-index: -7993648; user-select: none;"
-                  title="">
-                  <div class="heatmap18 tip" data-tip="tip-18" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; width: 80px; height: 80px; border-radius:30px;left: 0px; top: 0px; z-index: -7993648; user-select: none;"></div>
-        </span></a>
-        </div>
-    </div>
-</div>
-	<!-- Copyright -->
-    <div class="copyright" style="filter: alpha(opacity=90);opacity: 0.9;">
-		<center>
-			<div style="height:20px;">
-				<p>
-<!-- 			<a href="<%=basePath%>index">WiBupt </a><span class="separator">|</span>北京邮电大学版权所有&copy;
-					2014~2015
--->
-				</p>
-			</div>
-		</center>
+	<div style="margin:0 auto; width: 974px; padding-top: 10px; position:relative;">
+	    <img src="wibupt/img/map.jpg" width="974px" height="1705px">
+	    
+	    <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 200;">
+	      <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 700;">
+					<div class="heatmap1" style="position: absolute; padding: 0px; margin: 0; border: 0px; width: 974px; height: 1705px; border-radius:90px; z-index: -7993648; user-select: none;"></div>
+			  	
+			  	<a href="<%=basePath%>realtime?id=1">
+					  <span data-placement="bottom" class="tip" data-tip="tip-1" style="left: 168px; top: 274px;" title="">
+					  </span>
+					</a>
+					<a href="<%=basePath%>realtime?id=2">
+					  <span data-placement="bottom" class="tip" data-tip="tip-2" style="left: 330px; top: 274px;" title="">
+					  </span>
+					</a>
+					<a href="<%=basePath%>realtime?id=3">
+					  <span data-placement="bottom" class="tip" data-tip="tip-3" style="left: 507px; top: 306px;" title="">
+					  </span>
+					</a>
+					<a href="<%=basePath%>realtime?id=4">
+					  <span data-placement="bottom" class="tip" data-tip="tip-4" style="left: 610px; top: 306px;" title="">
+					  </span>
+					</a>
+					<a href="<%=basePath%>realtime?id=5">
+					  <span data-placement="bottom" class="tip" data-tip="tip-5" style="left: 726px; top: 306px;" title="">
+					  </span>
+					</a>
+					<a href="<%=basePath%>realtime?id=6">
+					  <span data-placement="bottom" class="tip" data-tip="tip-6" style="left: 154px; top: 418px;" title="">
+					  </span>
+					</a>
+					<a href="<%=basePath%>realtime?id=7">
+					  <span data-placement="bottom" class="tip" data-tip="tip-7" style="left: 262px; top: 404px;" title="">
+					  </span>
+					</a>
+					<a href="<%=basePath%>realtime?id=8">
+					  <span data-placement="bottom" class="tip" data-tip="tip-8" style="left: 364px; top: 524px;" title="">
+					  </span>
+					</a>
+					<a href="<%=basePath%>realtime?id=9">
+					  <span data-placement="bottom" class="tip" data-tip="tip-9" style="left: 600px; top: 534px;" title="">
+					  </span>
+					</a>
+					<a href="<%=basePath%>realtime?id=10">
+					  <span data-placement="bottom" class="tip" data-tip="tip-10" style="left: 158px; top: 608px;" title="">
+					  </span>
+					</a>
+					<a href="<%=basePath%>realtime?id=11">
+					  <span data-placement="bottom" class="tip" data-tip="tip-11" style="left: 262px; top: 585px;" title="">
+					  </span>
+					</a>
+					<a href="<%=basePath%>realtime?id=12">
+					  <span data-placement="bottom" class="tip" data-tip="tip-12" style="left: 598px; top: 692px;" title="">
+					  </span>
+					</a>
+					<a href="<%=basePath%>realtime?id=13">
+					  <span data-placement="bottom" class="tip" data-tip="tip-13" style="left: 158px; top: 886px;" title="">
+					  </span>
+					</a>
+					<a href="<%=basePath%>realtime?id=14">
+					  <span data-placement="bottom" class="tip" data-tip="tip-14" style="left: 310px; top: 886px;" title="">
+					  </span>
+					</a>
+					<a href="<%=basePath%>realtime?id=15">
+					  <span data-placement="bottom" class="tip" data-tip="tip-15" style="left: 500px; top: 878px;" title="">
+					  </span>
+					</a>
+					<a href="<%=basePath%>realtime?id=16">
+					  <span data-placement="bottom" class="tip" data-tip="tip-16" style="left: 602px; top: 878px;" title="">
+					  </span>
+					</a>
+					<a href="<%=basePath%>realtime?id=17">
+					  <span data-placement="bottom" class="tip" data-tip="tip-17" style="left: 712px; top: 878px;" title="">
+					  </span>
+					</a>
+					<a href="<%=basePath%>realtime?id=18">
+					  <span data-placement="bottom" class="tip" data-tip="tip-18" style="left: 252px; top: 1054px;" title="">
+					  </span>
+					</a>
+					<a href="<%=basePath%>realtime?id=19">
+					  <span data-placement="bottom" class="tip" data-tip="tip-19" style="left: 598px; top: 1068px;" title="">
+					  </span>
+					</a>
+					<a href="<%=basePath%>realtime?id=20">
+					  <span data-placement="bottom" class="tip" data-tip="tip-20" style="left: 254px; top: 1286px;" title="">
+					  </span>
+					</a>
+					<a href="<%=basePath%>realtime?id=21">
+					  <span data-placement="bottom" class="tip" data-tip="tip-21" style="left: 554px; top: 1240px;" title="">
+					  </span>
+					</a>
+					<a href="<%=basePath%>realtime?id=22">
+					  <span data-placement="bottom" class="tip" data-tip="tip-22" style="left: 554px; top: 1338px;" title="">
+					  </span>
+					</a>
+					<a href="<%=basePath%>realtime?id=23">
+					  <span data-placement="bottom" class="tip" data-tip="tip-23" style="left: 724px; top: 1305px;" title="">
+					  </span>
+					</a>
+				</div>
+	    </div>
 	</div>
-	<!-- Tips content -->
-<div id="dataOfAll">
 
-</div>
+	<div id="dataOfAll"></div>
 </body>
-	<!-- /Copyright -->
-</body>
-<script src="<%=basePath%>wibupt/js/jquery.js"></script>
-<script src="<%=basePath%>wibupt/js/bootstrap.min.js"></script>
-<script src="<%=basePath%>wibupt/js/highstock.js"></script>
-<script src="<%=basePath%>wibupt/js/exporting1.js"
-	type="text/javascript" charset="utf-8"></script>
-<script src="<%=basePath%>wibupt/js/bootstrap-tab.js"></script>
-<script src="<%=basePath%>wibupt/js/bootstrap-modal.js"></script>
-<script src="<%=basePath%>wibupt/js/bootstrap-carousel.js"></script>
-<script type="text/javascript" src="<%=basePath%>wibupt/js/Function.js"></script>
-<script type="text/javascript" src="<%=basePath%>wibupt/js/index.js"></script>
-<script type="text/javascript" src="<%=basePath%>wibupt/js/heatmap.min.js"></script>
 
-<script>
-		$(function(){
-		waitingDialog.show();
-		showoverlay();
-            
-		    //waitingDialog.show();
-		
-			setInterval(showoverlay,300000);//每隔5分钟删除所有已添加覆盖物，重新获取热力图标注
-   	
-        	function showoverlay(){
-        	$('#dataOfAll').empty();
-        		$.ajax({
-					url:"<%=basePath%>heatmap/getAllHeat/",
-					dataType:"json",
-					type:"GET",
-					success:function(data){
-        				var  points=new Array();
-    					for(var i=0;i<data.heat.length;i++){
-    						var point={
-    							"groupid":data.heat[i].groupid,
-    							"count":data.heat[i].cnt,
-    							"groupname": data.heat[i].monidname
-    						};
-    						points[i]=point;
-    					}
-    					console.log(points);
-    					var dataStr='';
-    					for(var i= 0,len=points.length;i < len;i++ ){
-    					dataStr = "<div id='tip-"+points[i].groupid+"' class='tip-content hidden'><span>当前位置：<b>"+points[i].groupname+"</b></span><br/><span>热力指数：<b>"+points[i].count+"</b></span</div>";
-    					$('#dataOfAll').append(dataStr);
-    					}
-    					console.log(dataStr)
-    					 $('.tip').each(function () {
-		              		 $(this).tooltip(
-				                {
-				                    html: true,
-				                    title: $('#' + $(this).data('tip')).html()
-				                });
-		        		});
-    					
-    					//var max=data?data.heat[0].cnt:100;
-    
-    					var max = 1; // 以200作为人多的标准 
-    					for (var j = 0; j < 18; j++) {
-    						if (data.heat[j].cnt > max) {
-    							max = data.heat[j].cnt;
-    						}
-    					}
-						
-						var heatmap1 = h337.create({
-						  container: document.querySelector('.heatmap1'),
-						  maxOpacity: .5,
-						  minOpacity: 0,
-						  blur: .75,
-
-						});
-						
-						var data1 = {
-							max:max,
-							data:[
-								{ x: 140, y: 130, value: points[0].count,radius:150},
-								{ x: 300, y: 140, value: points[1].count,radius:150},
-								{ x: 430, y: 140, value: points[2].count,radius:150},
-								{ x: 140, y: 280, value: points[3].count,radius:150},
-								{ x: 300, y: 280, value: points[4].count,radius:150},
-								{ x: 430, y: 280, value: points[5].count,radius:150}  
-							]
-						};
-						
-						heatmap1.setData(data1);
-						
-						var heatmap7 = h337.create({
-						  container: document.querySelector('.heatmap7'),
-						  maxOpacity: .5,
-						  minOpacity: 0,
-						  blur: .75
-						});
-						
-						var data2 = {
-							max:max,
-							data:[
-								{ x: 140, y: 130, value: points[6].count,radius:150},
-								{ x: 300, y: 140, value: points[7].count,radius:150},
-								{ x: 430, y: 140, value: points[8].count,radius:150},
-								{ x: 140, y: 280, value: points[9].count,radius:150},
-								{ x: 300, y: 280, value: points[10].count,radius:150},
-								{ x: 430, y: 280, value: points[11].count,radius:150}  
-							]
-						};
-						
-						heatmap7.setData(data2);
-						
-						var heatmap13 = h337.create({
-						  container: document.querySelector('.heatmap13'),
-						  maxOpacity: .5,
-						  minOpacity: 0,
-						  blur: .75
-						});
-						
-						var data3 = {
-							max:max,
-							data:[
-								{ x: 140, y: 130, value: points[12].count,radius:150},
-								{ x: 300, y: 140, value: points[13].count,radius:150},
-								{ x: 430, y: 140, value: points[14].count,radius:150},
-								{ x: 140, y: 280, value: points[15].count,radius:150},
-								{ x: 300, y: 280, value: points[16].count,radius:150},
-								{ x: 430, y: 280, value: points[17].count,radius:150}  
-							]
-						};
-						
-						heatmap13.setData(data3);
-    					 
-						waitingDialog.hide();
-					}, error: function() {
-					
-				   }
-				});
-		}
- 	});
+	<script src="<%=basePath%>wibupt/js/jquery.js"></script>
+	<script src="<%=basePath%>wibupt/js/bootstrap.min.js"></script>
+	<script src="<%=basePath%>wibupt/js/highstock.js"></script>
+	<script src="<%=basePath%>wibupt/js/exporting1.js" type="text/javascript" charset="utf-8"></script>
+	<script src="<%=basePath%>wibupt/js/bootstrap-tab.js"></script>
+	<script src="<%=basePath%>wibupt/js/bootstrap-modal.js"></script>
+	<script src="<%=basePath%>wibupt/js/bootstrap-carousel.js"></script>
+	<script type="text/javascript" src="<%=basePath%>wibupt/js/Function.js"></script>
+	<script type="text/javascript" src="<%=basePath%>wibupt/js/index.js"></script>
+	<script type="text/javascript" src="<%=basePath%>wibupt/js/heatmap.min.js"></script>
 	
+	<script>
+	$(function() {
+	    waitingDialog.show();
+	    showoverlay();	
+	    setInterval(showoverlay, 300000); //每隔5分钟删除所有已添加覆盖物，重新获取热力图标注
+	});
+	
+	function showoverlay() {
+    $('#dataOfAll').empty();
+    $.ajax({
+    	async: false,
+      url: '<%=basePath%>heatmap/getAllHeat/',
+      dataType: 'json',
+      success: function(data) {
+        var points = new Array();
+        for (var i = 0; i < data.heat.length; i++) {
+            var point = {
+                'groupid': data.heat[i].groupid,
+                'count': data.heat[i].cnt,
+                'groupname': data.heat[i].monidname
+            };
+            points[i] = point;
+        }
+        var dataStr = '';
+        for (var i = 0,
+        len = points.length; i < len; i++) {
+            dataStr = '<div id="tip-' + points[i].groupid + '" class="tip-content hidden"><span>当前位置：<b>' + points[i].groupname + '</b></span><br/><span>热力指数：<b>' + points[i].count + '</b></span</div>';
+            $('#dataOfAll').append(dataStr);
+        }
+        $('.tip').each(function() {
+            $(this).tooltip({
+                html: true,
+                title: $('#' + $(this).data('tip')).html()
+            });
+        });
+
+        var max = 1; // 以200作为人多的标准 
+        for (var j = 0; j < 23; j++) {
+            if (data.heat[j].cnt > max) {
+                max = data.heat[j].cnt;
+            }
+        }
+        
+        var data1 = {
+            max: max,
+            data: [
+            	{x:168,y:274,value:points[0].count},
+            	{x:330,y:274,value:points[1].count},
+            	{x:507,y:306,value:points[2].count},
+            	{x:610,y:306,value:points[3].count},
+            	{x:726,y:306,value:points[4].count},
+            	{x:154,y:418,value:points[5].count},
+            	{x:262,y:404,value:points[6].count},
+            	{x:364,y:524,value:points[7].count},
+            	{x:600,y:534,value:points[8].count},
+            	{x:158,y:608,value:points[9].count},
+            	{x:262,y:585,value:points[10].count},
+            	{x:598,y:692,value:points[11].count},
+            	{x:158,y:886,value:points[12].count},
+            	{x:310,y:886,value:points[13].count},
+            	{x:500,y:878,value:points[14].count},
+            	{x:602,y:878,value:points[15].count},
+            	{x:712,y:878,value:points[16].count},
+            	{x:252,y:1054,value:points[17].count},
+            	{x:598,y:1068,value:points[18].count},
+            	{x:254,y:1286,value:points[19].count},
+            	{x:554,y:1240,value:points[20].count},
+            	{x:554,y:1338,value:points[21].count},
+            	{x:724,y:1305,value:points[22].count}
+            	]
+        };
+        
+        var heatmap1 = h337.create({
+            container: document.querySelector('.heatmap1'),
+            maxOpacity: .5,
+            minOpacity: 0,
+            blur: .75,
+            radius: 100 
+        });
+        heatmap1.setData(data1);
+      }
+    });
+    waitingDialog.hide();
+	}
 	</script>
+
+</html>

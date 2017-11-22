@@ -82,17 +82,16 @@ public class GroupindexDAO extends BaseHibernateDAO {
 		}
 	}
 	
-	public List<Groupindex> findByGroupId(java.lang.Integer groupid) {
-		log.debug("getting Monindex instance with id: " + groupid);
-		try {
-			String queryString = "from Groupindex where groupid=?";
-			return hibernateTemplate.find(queryString, groupid);
-		} catch (RuntimeException re) {
-			log.error("get failed", re);
-			throw re;
+	public Groupindex findByGroupid(Integer groupid) {
+		log.debug("getting Groupindex instance with groupid: " + groupid);
+		List<Groupindex> list = findByProperty("groupid", groupid);
+		if(list != null && list.size() > 0) {
+			return list.get(0);
 		}
+		return null;
 	}
-	public List findByProperty(String propertyName, Object value) {
+	
+	public List<Groupindex> findByProperty(String propertyName, Object value) {
 		log.debug("finding Groupindex instance with property: " + propertyName
 				+ ", value: " + value);
 		try {
@@ -104,6 +103,7 @@ public class GroupindexDAO extends BaseHibernateDAO {
 			throw re;
 		}
 	}
+	
 	public List findByUsername(Object value) {
 		log.debug("finding all Groupindex instances with username: " + value);
 		try {
