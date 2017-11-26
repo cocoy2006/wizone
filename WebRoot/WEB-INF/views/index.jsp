@@ -157,7 +157,8 @@
 	    
 	    <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 200;">
 	      <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 700;">
-					<div class="heatmap1" style="position: absolute; padding: 0px; margin: 0; border: 0px; width: 974px; height: 1705px; border-radius:90px; z-index: -7993648; user-select: none;"></div>
+					<div class="heatmap1" style="position: absolute; padding: 0px; margin: 0; border: 0px; 
+						width: 974px; height: 1705px; left: 20px; top: 20px; border-radius:90px; z-index: -7993648; user-select: none;"></div>
 			  	
 			  	<a href="<%=basePath%>realtime?id=1">
 					  <span data-placement="bottom" class="tip" data-tip="tip-1" style="left: 168px; top: 274px;" title="">
@@ -278,6 +279,7 @@
 	
 	function showoverlay() {
     $('#dataOfAll').empty();
+    $('.heatmap1').empty();
     $.ajax({
     	async: false,
       url: '<%=basePath%>heatmap/getAllHeat/',
@@ -295,7 +297,7 @@
         var dataStr = '';
         for (var i = 0,
         len = points.length; i < len; i++) {
-            dataStr = '<div id="tip-' + points[i].groupid + '" class="tip-content hidden"><span>当前位置：<b>' + points[i].groupname + '</b></span><br/><span>热力指数：<b>' + points[i].count + '</b></span</div>';
+            dataStr = '<div id="tip-' + points[i].groupid + '" class="tip-content hidden"><span>热力指数：<b>' + points[i].count + '</b></span</div>';
             $('#dataOfAll').append(dataStr);
         }
         $('.tip').each(function() {
@@ -305,7 +307,7 @@
             });
         });
 
-        var max = 1; // 以200作为人多的标准 
+        var max = 10; // 以200作为人多的标准 
         for (var j = 0; j < 23; j++) {
             if (data.heat[j].cnt > max) {
                 max = data.heat[j].cnt;
@@ -346,7 +348,7 @@
             maxOpacity: .5,
             minOpacity: 0,
             blur: .75,
-            radius: 100 
+            radius: 200 
         });
         heatmap1.setData(data1);
       }

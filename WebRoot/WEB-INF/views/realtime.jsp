@@ -900,7 +900,6 @@ function showgraph(period, i) {
   var bool, info;
   var xxxx = today;
 	var place = $('li[value=' + i + '] p').text();
-	console.log(place);
   var info, datainfo;
   var tab3 = i * 3;
   var tab2 = tab3 - 1;

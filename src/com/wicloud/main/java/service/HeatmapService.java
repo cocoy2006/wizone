@@ -21,7 +21,7 @@ public class HeatmapService {
 	@Autowired
 	private GroupindexDAO groupindexDAO;
 	
-	public static final int LIMIT = 25;
+	public static final int LIMIT = 50;
 	
 	private static final int MON_NUM = 23;
 	

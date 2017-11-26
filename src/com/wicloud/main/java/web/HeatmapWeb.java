@@ -20,14 +20,4 @@ public class HeatmapWeb {
 		return heatmapService.getAllHeat();
 	}
 
-	// @RequestMapping(value = "/getAllHeat/")
-	// public void avg(HttpServletRequest request,HttpServletResponse response)
-	// throws IOException {
-	// response.setContentType("text/html;charset=UTF-8");
-	// response.setCharacterEncoding("UTF-8");
-	// PrintWriter out = response.getWriter();
-	// String avg=heatmapService.getAllHeat();
-	// out.print(avg);
-	// out.close();
-	// }
 }
